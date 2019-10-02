@@ -1,0 +1,80 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "array",
+  "title": "The Root Schema",
+  "items": {
+    "$id": "#/items",
+    "type": "object",
+    "title": "The Items Schema",
+    "required": [
+      "conceptId",
+      "omopConceptId",
+      "code",
+      "name",
+      "vocabulary",
+      "isStandard"
+    ],
+    "properties": {
+      "conceptId": {
+        "$id": "#/items/properties/conceptId",
+        "type": "string",
+        "title": "The Conceptid Schema",
+        "default": "",
+        "examples": [
+          "10fd74e6-dd4a-53f4-9199-bf224d8e3e92"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "omopConceptId": {
+        "$id": "#/items/properties/omopConceptId",
+        "type": "integer",
+        "title": "The Omopconceptid Schema",
+        "default": 0,
+        "examples": [
+          2000007374
+        ]
+      },
+      "code": {
+        "$id": "#/items/properties/code",
+        "type": "string",
+        "title": "The Code Schema",
+        "default": "",
+        "examples": [
+          "GENETIC_SCREEN"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "name": {
+        "$id": "#/items/properties/name",
+        "type": "string",
+        "title": "The Name Schema",
+        "default": "",
+        "examples": [
+          "Genetic screen"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "vocabulary": {
+        "$id": "#/items/properties/vocabulary",
+        "type": "string",
+        "title": "The Vocabulary Schema",
+        "default": "",
+        "examples": [
+          "Visit"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "isStandard": {
+        "$id": "#/items/properties/isStandard",
+        "type": "boolean",
+        "title": "The Isstandard Schema",
+        "default": false,
+        "examples": [
+          false
+        ]
+      }
+    }
+  }
+}

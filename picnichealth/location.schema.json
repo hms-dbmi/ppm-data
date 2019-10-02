@@ -1,0 +1,49 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "array",
+  "title": "The Root Schema",
+  "items": {
+    "$id": "#/items",
+    "type": "object",
+    "title": "The Items Schema",
+    "required": [
+      "locationId",
+      "zipCode",
+      "state"
+    ],
+    "properties": {
+      "locationId": {
+        "$id": "#/items/properties/locationId",
+        "type": "string",
+        "title": "The Locationid Schema",
+        "default": "",
+        "examples": [
+          "106fc447-cd13-4d65-97f9-d1cf0917a7ec"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "zipCode": {
+        "$id": "#/items/properties/zipCode",
+        "type": "string",
+        "title": "The Zipcode Schema",
+        "default": "",
+        "examples": [
+          "022"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "state": {
+        "$id": "#/items/properties/state",
+        "type": "string",
+        "title": "The State Schema",
+        "default": "",
+        "examples": [
+          "MA"
+        ],
+        "pattern": "^(.*)$"
+      }
+    }
+  }
+}

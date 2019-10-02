@@ -1,0 +1,223 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "array",
+  "title": "The Root Schema",
+  "items": {
+    "$id": "#/items",
+    "type": "object",
+    "title": "The Items Schema",
+    "required": [
+      "measurementId",
+      "personId",
+      "visitId",
+      "conceptName",
+      "startDate",
+      "startDatePrecision",
+      "endDate",
+      "endDatePrecision",
+      "valueType",
+      "value",
+      "unitConceptName",
+      "referenceRangeType",
+      "referenceRange",
+      "typeConceptName",
+      "sourceValueType",
+      "sourceValue",
+      "sourceUnitConceptName",
+      "sourceReferenceRangeType",
+      "sourceReferenceRange"
+    ],
+    "properties": {
+      "measurementId": {
+        "$id": "#/items/properties/measurementId",
+        "type": "string",
+        "title": "The Measurementid Schema",
+        "default": "",
+        "examples": [
+          "0f32b10a-29b0-4c9a-acdf-2ed7823b0cd5"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "personId": {
+        "$id": "#/items/properties/personId",
+        "type": "string",
+        "title": "The Personid Schema",
+        "default": "",
+        "examples": [
+          "81163710-c2a2-4750-8e7f-8c7e18575695"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "visitId": {
+        "$id": "#/items/properties/visitId",
+        "type": "string",
+        "title": "The Visitid Schema",
+        "default": "",
+        "examples": [
+          "47ce8aaf-7069-4a6d-b5de-2fe8b74171f7"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "conceptName": {
+        "$id": "#/items/properties/conceptName",
+        "type": "string",
+        "title": "The Conceptname Schema",
+        "default": "",
+        "examples": [
+          "Glucose lab"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "startDate": {
+        "$id": "#/items/properties/startDate",
+        "type": "string",
+        "title": "The Startdate Schema",
+        "default": "",
+        "examples": [
+          ""
+        ],
+        "pattern": "^(.*)$"
+      },
+      "startDatePrecision": {
+        "$id": "#/items/properties/startDatePrecision",
+        "type": "string",
+        "title": "The Startdateprecision Schema",
+        "default": "",
+        "examples": [
+          ""
+        ],
+        "pattern": "^(.*)$"
+      },
+      "endDate": {
+        "$id": "#/items/properties/endDate",
+        "type": "string",
+        "title": "The Enddate Schema",
+        "default": "",
+        "examples": [
+          ""
+        ],
+        "pattern": "^(.*)$"
+      },
+      "endDatePrecision": {
+        "$id": "#/items/properties/endDatePrecision",
+        "type": "string",
+        "title": "The Enddateprecision Schema",
+        "default": "",
+        "examples": [
+          ""
+        ],
+        "pattern": "^(.*)$"
+      },
+      "valueType": {
+        "$id": "#/items/properties/valueType",
+        "type": "string",
+        "title": "The Valuetype Schema",
+        "default": "",
+        "examples": [
+          "number"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "value": {
+        "$id": "#/items/properties/value",
+        "type": "integer",
+        "title": "The Value Schema",
+        "default": 0,
+        "examples": [
+          86
+        ]
+      },
+      "unitConceptName": {
+        "$id": "#/items/properties/unitConceptName",
+        "type": "string",
+        "title": "The Unitconceptname Schema",
+        "default": "",
+        "examples": [
+          "mg/dL"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "referenceRangeType": {
+        "$id": "#/items/properties/referenceRangeType",
+        "type": "string",
+        "title": "The Referencerangetype Schema",
+        "default": "",
+        "examples": [
+          "range"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "referenceRange": {
+        "$id": "#/items/properties/referenceRange",
+        "type": "string",
+        "title": "The Referencerange Schema",
+        "default": "",
+        "examples": [
+          "65-105"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "typeConceptName": {
+        "$id": "#/items/properties/typeConceptName",
+        "type": "string",
+        "title": "The Typeconceptname Schema",
+        "default": "",
+        "examples": [
+          "Lab result"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "sourceValueType": {
+        "$id": "#/items/properties/sourceValueType",
+        "type": "string",
+        "title": "The Sourcevaluetype Schema",
+        "default": "",
+        "examples": [
+          "number"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "sourceValue": {
+        "$id": "#/items/properties/sourceValue",
+        "type": "integer",
+        "title": "The Sourcevalue Schema",
+        "default": 0,
+        "examples": [
+          86
+        ]
+      },
+      "sourceUnitConceptName": {
+        "$id": "#/items/properties/sourceUnitConceptName",
+        "type": "string",
+        "title": "The Sourceunitconceptname Schema",
+        "default": "",
+        "examples": [
+          "mg/dL"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "sourceReferenceRangeType": {
+        "$id": "#/items/properties/sourceReferenceRangeType",
+        "type": "string",
+        "title": "The Sourcereferencerangetype Schema",
+        "default": "",
+        "examples": [
+          "range"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "sourceReferenceRange": {
+        "$id": "#/items/properties/sourceReferenceRange",
+        "type": "string",
+        "title": "The Sourcereferencerange Schema",
+        "default": "",
+        "examples": [
+          "65-105"
+        ],
+        "pattern": "^(.*)$"
+      }
+    }
+  }
+}

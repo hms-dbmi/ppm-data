@@ -1,0 +1,1439 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/hms-dbmi/ppm-data/fitbit/schema.json",
+  "type": "object",
+  "title": "Fitbit",
+  "required": [
+    "activities/minutesVeryActive",
+    "activities/tracker/activityCalories",
+    "activities/floors",
+    "activities/tracker/calories",
+    "activities/minutesLightlyActive",
+    "foods/log/caloriesIn",
+    "activities/distance",
+    "activities/minutesFairlyActive",
+    "activities/tracker/minutesVeryActive",
+    "activities/tracker/floors",
+    "activities/tracker/steps",
+    "activities/tracker/distance",
+    "activities/tracker/elevation",
+    "activities/tracker/minutesFairlyActive",
+    "activities/tracker/minutesSedentary",
+    "activities/elevation",
+    "activities/steps",
+    "activities/activityCalories",
+    "activities/tracker/minutesLightlyActive",
+    "body/log/fat",
+    "body/log/weight",
+    "activities/minutesSedentary",
+    "activities/heart",
+    "sleep"
+  ],
+  "properties": {
+    "activities/minutesVeryActive": {
+      "$id": "#/properties/activities/minutesVeryActive",
+      "type": "array",
+      "title": "The Activities/minutesveryactive Schema",
+      "items": {
+        "$id": "#/properties/activities/minutesVeryActive/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "dateTime",
+          "value"
+        ],
+        "properties": {
+          "dateTime": {
+            "$id": "#/properties/activities/minutesVeryActive/items/properties/dateTime",
+            "type": "string",
+            "title": "The Datetime Schema",
+            "default": "",
+            "examples": [
+              "2018-09-09"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "value": {
+            "$id": "#/properties/activities/minutesVeryActive/items/properties/value",
+            "type": "string",
+            "title": "The Value Schema",
+            "default": "",
+            "examples": [
+              "7"
+            ],
+            "pattern": "^(.*)$"
+          }
+        }
+      }
+    },
+    "activities/tracker/activityCalories": {
+      "$id": "#/properties/activities/tracker/activityCalories",
+      "type": "array",
+      "title": "The Activities/tracker/activitycalories Schema",
+      "items": {
+        "$id": "#/properties/activities/tracker/activityCalories/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "dateTime",
+          "value"
+        ],
+        "properties": {
+          "dateTime": {
+            "$id": "#/properties/activities/tracker/activityCalories/items/properties/dateTime",
+            "type": "string",
+            "title": "The Datetime Schema",
+            "default": "",
+            "examples": [
+              "2018-09-09"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "value": {
+            "$id": "#/properties/activities/tracker/activityCalories/items/properties/value",
+            "type": "string",
+            "title": "The Value Schema",
+            "default": "",
+            "examples": [
+              "771"
+            ],
+            "pattern": "^(.*)$"
+          }
+        }
+      }
+    },
+    "activities/floors": {
+      "$id": "#/properties/activities/floors",
+      "type": "array",
+      "title": "The Activities/floors Schema",
+      "items": {
+        "$id": "#/properties/activities/floors/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "dateTime",
+          "value"
+        ],
+        "properties": {
+          "dateTime": {
+            "$id": "#/properties/activities/floors/items/properties/dateTime",
+            "type": "string",
+            "title": "The Datetime Schema",
+            "default": "",
+            "examples": [
+              "2018-09-10"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "value": {
+            "$id": "#/properties/activities/floors/items/properties/value",
+            "type": "string",
+            "title": "The Value Schema",
+            "default": "",
+            "examples": [
+              "19"
+            ],
+            "pattern": "^(.*)$"
+          }
+        }
+      }
+    },
+    "activities/tracker/calories": {
+      "$id": "#/properties/activities/tracker/calories",
+      "type": "array",
+      "title": "The Activities/tracker/calories Schema",
+      "items": {
+        "$id": "#/properties/activities/tracker/calories/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "dateTime",
+          "value"
+        ],
+        "properties": {
+          "dateTime": {
+            "$id": "#/properties/activities/tracker/calories/items/properties/dateTime",
+            "type": "string",
+            "title": "The Datetime Schema",
+            "default": "",
+            "examples": [
+              "2018-09-09"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "value": {
+            "$id": "#/properties/activities/tracker/calories/items/properties/value",
+            "type": "string",
+            "title": "The Value Schema",
+            "default": "",
+            "examples": [
+              "2114"
+            ],
+            "pattern": "^(.*)$"
+          }
+        }
+      }
+    },
+    "activities/minutesLightlyActive": {
+      "$id": "#/properties/activities/minutesLightlyActive",
+      "type": "array",
+      "title": "The Activities/minuteslightlyactive Schema",
+      "items": {
+        "$id": "#/properties/activities/minutesLightlyActive/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "dateTime",
+          "value"
+        ],
+        "properties": {
+          "dateTime": {
+            "$id": "#/properties/activities/minutesLightlyActive/items/properties/dateTime",
+            "type": "string",
+            "title": "The Datetime Schema",
+            "default": "",
+            "examples": [
+              "2018-09-09"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "value": {
+            "$id": "#/properties/activities/minutesLightlyActive/items/properties/value",
+            "type": "string",
+            "title": "The Value Schema",
+            "default": "",
+            "examples": [
+              "170"
+            ],
+            "pattern": "^(.*)$"
+          }
+        }
+      }
+    },
+    "foods/log/water": {
+      "$id": "#/properties/foods/log/water",
+      "type": "array",
+      "title": "The Foods/log/water Schema",
+      "items": {
+        "$id": "#/properties/foods/log/water/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "dateTime",
+          "value"
+        ],
+        "properties": {
+          "dateTime": {
+            "$id": "#/properties/foods/log/water/items/properties/dateTime",
+            "type": "string",
+            "title": "The Datetime Schema",
+            "default": "",
+            "examples": [
+              "2018-09-09"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "value": {
+            "$id": "#/properties/foods/log/water/items/properties/value",
+            "type": "string",
+            "title": "The Value Schema",
+            "default": "",
+            "examples": [
+              "473.1759948730469"
+            ],
+            "pattern": "^(.*)$"
+          }
+        }
+      }
+    },
+    "foods/log/caloriesIn": {
+      "$id": "#/properties/foods/log/caloriesIn",
+      "type": "array",
+      "title": "The Foods/log/caloriesin Schema",
+      "items": {
+        "$id": "#/properties/foods/log/caloriesIn/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "dateTime",
+          "value"
+        ],
+        "properties": {
+          "dateTime": {
+            "$id": "#/properties/foods/log/caloriesIn/items/properties/dateTime",
+            "type": "string",
+            "title": "The Datetime Schema",
+            "default": "",
+            "examples": [
+              "2018-09-09"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "value": {
+            "$id": "#/properties/foods/log/caloriesIn/items/properties/value",
+            "type": "string",
+            "title": "The Value Schema",
+            "default": "",
+            "examples": [
+              "2250"
+            ],
+            "pattern": "^(.*)$"
+          }
+        }
+      }
+    },
+    "activities/distance": {
+      "$id": "#/properties/activities/distance",
+      "type": "array",
+      "title": "The Activities/distance Schema",
+      "items": {
+        "$id": "#/properties/activities/distance/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "dateTime",
+          "value"
+        ],
+        "properties": {
+          "dateTime": {
+            "$id": "#/properties/activities/distance/items/properties/dateTime",
+            "type": "string",
+            "title": "The Datetime Schema",
+            "default": "",
+            "examples": [
+              "2018-09-09"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "value": {
+            "$id": "#/properties/activities/distance/items/properties/value",
+            "type": "string",
+            "title": "The Value Schema",
+            "default": "",
+            "examples": [
+              "3.86001"
+            ],
+            "pattern": "^(.*)$"
+          }
+        }
+      }
+    },
+    "activities/minutesFairlyActive": {
+      "$id": "#/properties/activities/minutesFairlyActive",
+      "type": "array",
+      "title": "The Activities/minutesfairlyactive Schema",
+      "items": {
+        "$id": "#/properties/activities/minutesFairlyActive/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "dateTime",
+          "value"
+        ],
+        "properties": {
+          "dateTime": {
+            "$id": "#/properties/activities/minutesFairlyActive/items/properties/dateTime",
+            "type": "string",
+            "title": "The Datetime Schema",
+            "default": "",
+            "examples": [
+              "2018-09-09"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "value": {
+            "$id": "#/properties/activities/minutesFairlyActive/items/properties/value",
+            "type": "string",
+            "title": "The Value Schema",
+            "default": "",
+            "examples": [
+              "17"
+            ],
+            "pattern": "^(.*)$"
+          }
+        }
+      }
+    },
+    "activities/tracker/minutesVeryActive": {
+      "$id": "#/properties/activities/tracker/minutesVeryActive",
+      "type": "array",
+      "title": "The Activities/tracker/minutesveryactive Schema",
+      "items": {
+        "$id": "#/properties/activities/tracker/minutesVeryActive/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "dateTime",
+          "value"
+        ],
+        "properties": {
+          "dateTime": {
+            "$id": "#/properties/activities/tracker/minutesVeryActive/items/properties/dateTime",
+            "type": "string",
+            "title": "The Datetime Schema",
+            "default": "",
+            "examples": [
+              "2018-09-09"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "value": {
+            "$id": "#/properties/activities/tracker/minutesVeryActive/items/properties/value",
+            "type": "string",
+            "title": "The Value Schema",
+            "default": "",
+            "examples": [
+              "7"
+            ],
+            "pattern": "^(.*)$"
+          }
+        }
+      }
+    },
+    "activities/tracker/floors": {
+      "$id": "#/properties/activities/tracker/floors",
+      "type": "array",
+      "title": "The Activities/tracker/floors Schema",
+      "items": {
+        "$id": "#/properties/activities/tracker/floors/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "dateTime",
+          "value"
+        ],
+        "properties": {
+          "dateTime": {
+            "$id": "#/properties/activities/tracker/floors/items/properties/dateTime",
+            "type": "string",
+            "title": "The Datetime Schema",
+            "default": "",
+            "examples": [
+              "2018-09-10"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "value": {
+            "$id": "#/properties/activities/tracker/floors/items/properties/value",
+            "type": "string",
+            "title": "The Value Schema",
+            "default": "",
+            "examples": [
+              "19"
+            ],
+            "pattern": "^(.*)$"
+          }
+        }
+      }
+    },
+    "activities/tracker/steps": {
+      "$id": "#/properties/activities/tracker/steps",
+      "type": "array",
+      "title": "The Activities/tracker/steps Schema",
+      "items": {
+        "$id": "#/properties/activities/tracker/steps/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "dateTime",
+          "value"
+        ],
+        "properties": {
+          "dateTime": {
+            "$id": "#/properties/activities/tracker/steps/items/properties/dateTime",
+            "type": "string",
+            "title": "The Datetime Schema",
+            "default": "",
+            "examples": [
+              "2018-09-09"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "value": {
+            "$id": "#/properties/activities/tracker/steps/items/properties/value",
+            "type": "string",
+            "title": "The Value Schema",
+            "default": "",
+            "examples": [
+              "5546"
+            ],
+            "pattern": "^(.*)$"
+          }
+        }
+      }
+    },
+    "activities/tracker/distance": {
+      "$id": "#/properties/activities/tracker/distance",
+      "type": "array",
+      "title": "The Activities/tracker/distance Schema",
+      "items": {
+        "$id": "#/properties/activities/tracker/distance/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "dateTime",
+          "value"
+        ],
+        "properties": {
+          "dateTime": {
+            "$id": "#/properties/activities/tracker/distance/items/properties/dateTime",
+            "type": "string",
+            "title": "The Datetime Schema",
+            "default": "",
+            "examples": [
+              "2018-09-09"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "value": {
+            "$id": "#/properties/activities/tracker/distance/items/properties/value",
+            "type": "string",
+            "title": "The Value Schema",
+            "default": "",
+            "examples": [
+              "3.86001"
+            ],
+            "pattern": "^(.*)$"
+          }
+        }
+      }
+    },
+    "activities/tracker/elevation": {
+      "$id": "#/properties/activities/tracker/elevation",
+      "type": "array",
+      "title": "The Activities/tracker/elevation Schema",
+      "items": {
+        "$id": "#/properties/activities/tracker/elevation/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "dateTime",
+          "value"
+        ],
+        "properties": {
+          "dateTime": {
+            "$id": "#/properties/activities/tracker/elevation/items/properties/dateTime",
+            "type": "string",
+            "title": "The Datetime Schema",
+            "default": "",
+            "examples": [
+              "2018-09-10"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "value": {
+            "$id": "#/properties/activities/tracker/elevation/items/properties/value",
+            "type": "string",
+            "title": "The Value Schema",
+            "default": "",
+            "examples": [
+              "57"
+            ],
+            "pattern": "^(.*)$"
+          }
+        }
+      }
+    },
+    "activities/tracker/minutesFairlyActive": {
+      "$id": "#/properties/activities/tracker/minutesFairlyActive",
+      "type": "array",
+      "title": "The Activities/tracker/minutesfairlyactive Schema",
+      "items": {
+        "$id": "#/properties/activities/tracker/minutesFairlyActive/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "dateTime",
+          "value"
+        ],
+        "properties": {
+          "dateTime": {
+            "$id": "#/properties/activities/tracker/minutesFairlyActive/items/properties/dateTime",
+            "type": "string",
+            "title": "The Datetime Schema",
+            "default": "",
+            "examples": [
+              "2018-09-09"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "value": {
+            "$id": "#/properties/activities/tracker/minutesFairlyActive/items/properties/value",
+            "type": "string",
+            "title": "The Value Schema",
+            "default": "",
+            "examples": [
+              "17"
+            ],
+            "pattern": "^(.*)$"
+          }
+        }
+      }
+    },
+    "activities/tracker/minutesSedentary": {
+      "$id": "#/properties/activities/tracker/minutesSedentary",
+      "type": "array",
+      "title": "The Activities/tracker/minutessedentary Schema",
+      "items": {
+        "$id": "#/properties/activities/tracker/minutesSedentary/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "dateTime",
+          "value"
+        ],
+        "properties": {
+          "dateTime": {
+            "$id": "#/properties/activities/tracker/minutesSedentary/items/properties/dateTime",
+            "type": "string",
+            "title": "The Datetime Schema",
+            "default": "",
+            "examples": [
+              "2018-09-09"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "value": {
+            "$id": "#/properties/activities/tracker/minutesSedentary/items/properties/value",
+            "type": "string",
+            "title": "The Value Schema",
+            "default": "",
+            "examples": [
+              "1246"
+            ],
+            "pattern": "^(.*)$"
+          }
+        }
+      }
+    },
+    "activities/elevation": {
+      "$id": "#/properties/activities/elevation",
+      "type": "array",
+      "title": "The Activities/elevation Schema",
+      "items": {
+        "$id": "#/properties/activities/elevation/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "dateTime",
+          "value"
+        ],
+        "properties": {
+          "dateTime": {
+            "$id": "#/properties/activities/elevation/items/properties/dateTime",
+            "type": "string",
+            "title": "The Datetime Schema",
+            "default": "",
+            "examples": [
+              "2018-09-10"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "value": {
+            "$id": "#/properties/activities/elevation/items/properties/value",
+            "type": "string",
+            "title": "The Value Schema",
+            "default": "",
+            "examples": [
+              "57"
+            ],
+            "pattern": "^(.*)$"
+          }
+        }
+      }
+    },
+    "activities/steps": {
+      "$id": "#/properties/activities/steps",
+      "type": "array",
+      "title": "The Activities/steps Schema",
+      "items": {
+        "$id": "#/properties/activities/steps/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "dateTime",
+          "value"
+        ],
+        "properties": {
+          "dateTime": {
+            "$id": "#/properties/activities/steps/items/properties/dateTime",
+            "type": "string",
+            "title": "The Datetime Schema",
+            "default": "",
+            "examples": [
+              "2018-09-09"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "value": {
+            "$id": "#/properties/activities/steps/items/properties/value",
+            "type": "string",
+            "title": "The Value Schema",
+            "default": "",
+            "examples": [
+              "5546"
+            ],
+            "pattern": "^(.*)$"
+          }
+        }
+      }
+    },
+    "activities/activityCalories": {
+      "$id": "#/properties/activities/activityCalories",
+      "type": "array",
+      "title": "The Activities/activitycalories Schema",
+      "items": {
+        "$id": "#/properties/activities/activityCalories/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "dateTime",
+          "value"
+        ],
+        "properties": {
+          "dateTime": {
+            "$id": "#/properties/activities/activityCalories/items/properties/dateTime",
+            "type": "string",
+            "title": "The Datetime Schema",
+            "default": "",
+            "examples": [
+              "2018-09-09"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "value": {
+            "$id": "#/properties/activities/activityCalories/items/properties/value",
+            "type": "string",
+            "title": "The Value Schema",
+            "default": "",
+            "examples": [
+              "771"
+            ],
+            "pattern": "^(.*)$"
+          }
+        }
+      }
+    },
+    "activities/tracker/minutesLightlyActive": {
+      "$id": "#/properties/activities/tracker/minutesLightlyActive",
+      "type": "array",
+      "title": "The Activities/tracker/minuteslightlyactive Schema",
+      "items": {
+        "$id": "#/properties/activities/tracker/minutesLightlyActive/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "dateTime",
+          "value"
+        ],
+        "properties": {
+          "dateTime": {
+            "$id": "#/properties/activities/tracker/minutesLightlyActive/items/properties/dateTime",
+            "type": "string",
+            "title": "The Datetime Schema",
+            "default": "",
+            "examples": [
+              "2018-09-09"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "value": {
+            "$id": "#/properties/activities/tracker/minutesLightlyActive/items/properties/value",
+            "type": "string",
+            "title": "The Value Schema",
+            "default": "",
+            "examples": [
+              "170"
+            ],
+            "pattern": "^(.*)$"
+          }
+        }
+      }
+    },
+    "body/log/fat": {
+      "$id": "#/properties/body/log/fat",
+      "type": "array",
+      "title": "The Body/log/fat Schema",
+      "items": {
+        "$id": "#/properties/body/log/fat/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "date",
+          "fat",
+          "logId",
+          "source",
+          "time"
+        ],
+        "properties": {
+          "date": {
+            "$id": "#/properties/body/log/fat/items/properties/date",
+            "type": "string",
+            "title": "The Date Schema",
+            "default": "",
+            "examples": [
+              "2016-07-28"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "fat": {
+            "$id": "#/properties/body/log/fat/items/properties/fat",
+            "type": "number",
+            "title": "The Fat Schema",
+            "default": 0.0,
+            "examples": [
+              15.6
+            ]
+          },
+          "logId": {
+            "$id": "#/properties/body/log/fat/items/properties/logId",
+            "type": "integer",
+            "title": "The Logid Schema",
+            "default": 0,
+            "examples": [
+              1469711622000
+            ]
+          },
+          "source": {
+            "$id": "#/properties/body/log/fat/items/properties/source",
+            "type": "string",
+            "title": "The Source Schema",
+            "default": "",
+            "examples": [
+              "Aria"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "time": {
+            "$id": "#/properties/body/log/fat/items/properties/time",
+            "type": "string",
+            "title": "The Time Schema",
+            "default": "",
+            "examples": [
+              "13:13:42"
+            ],
+            "pattern": "^(.*)$"
+          }
+        }
+      }
+    },
+    "body/log/weight": {
+      "$id": "#/properties/body/log/weight",
+      "type": "array",
+      "title": "The Body/log/weight Schema",
+      "items": {
+        "$id": "#/properties/body/log/weight/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "bmi",
+          "date",
+          "logId",
+          "source",
+          "time",
+          "weight"
+        ],
+        "properties": {
+          "bmi": {
+            "$id": "#/properties/body/log/weight/items/properties/bmi",
+            "type": "number",
+            "title": "The Bmi Schema",
+            "default": 0.0,
+            "examples": [
+              23.43
+            ]
+          },
+          "date": {
+            "$id": "#/properties/body/log/weight/items/properties/date",
+            "type": "string",
+            "title": "The Date Schema",
+            "default": "",
+            "examples": [
+              "2018-05-05"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "logId": {
+            "$id": "#/properties/body/log/weight/items/properties/logId",
+            "type": "integer",
+            "title": "The Logid Schema",
+            "default": 0,
+            "examples": [
+              1525531093000
+            ]
+          },
+          "source": {
+            "$id": "#/properties/body/log/weight/items/properties/source",
+            "type": "string",
+            "title": "The Source Schema",
+            "default": "",
+            "examples": [
+              "Aria"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "time": {
+            "$id": "#/properties/body/log/weight/items/properties/time",
+            "type": "string",
+            "title": "The Time Schema",
+            "default": "",
+            "examples": [
+              "14:38:13"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "weight": {
+            "$id": "#/properties/body/log/weight/items/properties/weight",
+            "type": "number",
+            "title": "The Weight Schema",
+            "default": 0.0,
+            "examples": [
+              65.8
+            ]
+          }
+        }
+      }
+    },
+    "activities/minutesSedentary": {
+      "$id": "#/properties/activities/minutesSedentary",
+      "type": "array",
+      "title": "The Activities/minutessedentary Schema",
+      "items": {
+        "$id": "#/properties/activities/minutesSedentary/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "dateTime",
+          "value"
+        ],
+        "properties": {
+          "dateTime": {
+            "$id": "#/properties/activities/minutesSedentary/items/properties/dateTime",
+            "type": "string",
+            "title": "The Datetime Schema",
+            "default": "",
+            "examples": [
+              "2018-09-09"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "value": {
+            "$id": "#/properties/activities/minutesSedentary/items/properties/value",
+            "type": "string",
+            "title": "The Value Schema",
+            "default": "",
+            "examples": [
+              "1246"
+            ],
+            "pattern": "^(.*)$"
+          }
+        }
+      }
+    },
+    "activities/heart": {
+      "$id": "#/properties/activities/heart",
+      "type": "array",
+      "title": "The Activities/heart Schema",
+      "items": {
+        "$id": "#/properties/activities/heart/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "dataset",
+          "datasetInterval",
+          "datasetType",
+          "dateTime"
+        ],
+        "properties": {
+          "dataset": {
+            "$id": "#/properties/activities/heart/items/properties/dataset",
+            "type": "array",
+            "title": "The Dataset Schema",
+            "items": {
+              "$id": "#/properties/activities/heart/items/properties/dataset/items",
+              "type": "object",
+              "title": "The Items Schema",
+              "required": [
+                "time",
+                "value"
+              ],
+              "properties": {
+                "time": {
+                  "$id": "#/properties/activities/heart/items/properties/dataset/items/properties/time",
+                  "type": "string",
+                  "title": "The Time Schema",
+                  "default": "",
+                  "examples": [
+                    "21:58:23"
+                  ],
+                  "pattern": "^(.*)$"
+                },
+                "value": {
+                  "$id": "#/properties/activities/heart/items/properties/dataset/items/properties/value",
+                  "type": "integer",
+                  "title": "The Value Schema",
+                  "default": 0,
+                  "examples": [
+                    111
+                  ]
+                }
+              }
+            }
+          },
+          "datasetInterval": {
+            "$id": "#/properties/activities/heart/items/properties/datasetInterval",
+            "type": "integer",
+            "title": "The Datasetinterval Schema",
+            "default": 0,
+            "examples": [
+              1
+            ]
+          },
+          "datasetType": {
+            "$id": "#/properties/activities/heart/items/properties/datasetType",
+            "type": "string",
+            "title": "The Datasettype Schema",
+            "default": "",
+            "examples": [
+              "second", "minute"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "dateTime": {
+            "$id": "#/properties/activities/heart/items/properties/dateTime",
+            "type": "string",
+            "title": "The Datetime Schema",
+            "default": "",
+            "examples": [
+              "2019-01-04"
+            ],
+            "pattern": "^(.*)$"
+          }
+        }
+      }
+    },
+    "sleep": {
+      "$id": "#/properties/sleep",
+      "type": "array",
+      "title": "The Sleep Schema",
+      "items": {
+        "$id": "#/properties/sleep/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "dateOfSleep",
+          "duration",
+          "efficiency",
+          "endTime",
+          "infoCode",
+          "levels",
+          "logId",
+          "minutesAfterWakeup",
+          "minutesAsleep",
+          "minutesAwake",
+          "minutesToFallAsleep",
+          "startTime",
+          "timeInBed",
+          "type"
+        ],
+        "properties": {
+          "dateOfSleep": {
+            "$id": "#/properties/sleep/items/properties/dateOfSleep",
+            "type": "string",
+            "title": "The Dateofsleep Schema",
+            "default": "",
+            "examples": [
+              "2018-11-15"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "duration": {
+            "$id": "#/properties/sleep/items/properties/duration",
+            "type": "integer",
+            "title": "The Duration Schema",
+            "default": 0,
+            "examples": [
+              22920000
+            ]
+          },
+          "efficiency": {
+            "$id": "#/properties/sleep/items/properties/efficiency",
+            "type": "integer",
+            "title": "The Efficiency Schema",
+            "default": 0,
+            "examples": [
+              98
+            ]
+          },
+          "endTime": {
+            "$id": "#/properties/sleep/items/properties/endTime",
+            "type": "string",
+            "title": "The Endtime Schema",
+            "default": "",
+            "examples": [
+              "2018-11-15T00:51:30.000"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "infoCode": {
+            "$id": "#/properties/sleep/items/properties/infoCode",
+            "type": "integer",
+            "title": "The Infocode Schema",
+            "default": 0,
+            "examples": [
+              0
+            ]
+          },
+          "levels": {
+            "$id": "#/properties/sleep/items/properties/levels",
+            "type": "object",
+            "title": "The Levels Schema",
+            "required": [
+              "data",
+              "shortData",
+              "summary"
+            ],
+            "properties": {
+              "data": {
+                "$id": "#/properties/sleep/items/properties/levels/properties/data",
+                "type": "array",
+                "title": "The Data Schema",
+                "items": {
+                  "$id": "#/properties/sleep/items/properties/levels/properties/data/items",
+                  "type": "object",
+                  "title": "The Items Schema",
+                  "required": [
+                    "dateTime",
+                    "level",
+                    "seconds"
+                  ],
+                  "properties": {
+                    "dateTime": {
+                      "$id": "#/properties/sleep/items/properties/levels/properties/data/items/properties/dateTime",
+                      "type": "string",
+                      "title": "The Datetime Schema",
+                      "default": "",
+                      "examples": [
+                        "2018-11-14T18:29:00.000"
+                      ],
+                      "pattern": "^(.*)$"
+                    },
+                    "level": {
+                      "$id": "#/properties/sleep/items/properties/levels/properties/data/items/properties/level",
+                      "type": "string",
+                      "title": "The Level Schema",
+                      "default": "",
+                      "examples": [
+                        "wake", "light", "deep", "rem"
+                      ],
+                      "pattern": "^(.*)$"
+                    },
+                    "seconds": {
+                      "$id": "#/properties/sleep/items/properties/levels/properties/data/items/properties/seconds",
+                      "type": "integer",
+                      "title": "The Seconds Schema",
+                      "default": 0,
+                      "examples": [
+                        990
+                      ]
+                    }
+                  }
+                }
+              },
+              "shortData": {
+                "$id": "#/properties/sleep/items/properties/levels/properties/shortData",
+                "type": "array",
+                "title": "The Shortdata Schema",
+                "items": {
+                  "$id": "#/properties/sleep/items/properties/levels/properties/shortData/items",
+                  "type": "object",
+                  "title": "The Items Schema",
+                  "required": [
+                    "dateTime",
+                    "level",
+                    "seconds"
+                  ],
+                  "properties": {
+                    "dateTime": {
+                      "$id": "#/properties/sleep/items/properties/levels/properties/shortData/items/properties/dateTime",
+                      "type": "string",
+                      "title": "The Datetime Schema",
+                      "default": "",
+                      "examples": [
+                        "2018-11-14T19:05:30.000"
+                      ],
+                      "pattern": "^(.*)$"
+                    },
+                    "level": {
+                      "$id": "#/properties/sleep/items/properties/levels/properties/shortData/items/properties/level",
+                      "type": "string",
+                      "title": "The Level Schema",
+                      "default": "",
+                      "examples": [
+                        "wake"
+                      ],
+                      "pattern": "^(.*)$"
+                    },
+                    "seconds": {
+                      "$id": "#/properties/sleep/items/properties/levels/properties/shortData/items/properties/seconds",
+                      "type": "integer",
+                      "title": "The Seconds Schema",
+                      "default": 0,
+                      "examples": [
+                        90
+                      ]
+                    }
+                  }
+                }
+              },
+              "summary": {
+                "$id": "#/properties/sleep/items/properties/levels/properties/summary",
+                "type": "object",
+                "title": "The Summary Schema",
+                "required": [
+                  "deep",
+                  "light",
+                  "rem",
+                  "wake"
+                ],
+                "properties": {
+                  "deep": {
+                    "$id": "#/properties/sleep/items/properties/levels/properties/summary/properties/deep",
+                    "type": "object",
+                    "title": "The Deep Schema",
+                    "required": [
+                      "count",
+                      "minutes",
+                      "thirtyDayAvgMinutes"
+                    ],
+                    "properties": {
+                      "count": {
+                        "$id": "#/properties/sleep/items/properties/levels/properties/summary/properties/deep/properties/count",
+                        "type": "integer",
+                        "title": "The Count Schema",
+                        "default": 0,
+                        "examples": [
+                          2
+                        ]
+                      },
+                      "minutes": {
+                        "$id": "#/properties/sleep/items/properties/levels/properties/summary/properties/deep/properties/minutes",
+                        "type": "integer",
+                        "title": "The Minutes Schema",
+                        "default": 0,
+                        "examples": [
+                          40
+                        ]
+                      },
+                      "thirtyDayAvgMinutes": {
+                        "$id": "#/properties/sleep/items/properties/levels/properties/summary/properties/deep/properties/thirtyDayAvgMinutes",
+                        "type": "integer",
+                        "title": "The Thirtydayavgminutes Schema",
+                        "default": 0,
+                        "examples": [
+                          21
+                        ]
+                      }
+                    }
+                  },
+                  "light": {
+                    "$id": "#/properties/sleep/items/properties/levels/properties/summary/properties/light",
+                    "type": "object",
+                    "title": "The Light Schema",
+                    "required": [
+                      "count",
+                      "minutes",
+                      "thirtyDayAvgMinutes"
+                    ],
+                    "properties": {
+                      "count": {
+                        "$id": "#/properties/sleep/items/properties/levels/properties/summary/properties/light/properties/count",
+                        "type": "integer",
+                        "title": "The Count Schema",
+                        "default": 0,
+                        "examples": [
+                          19
+                        ]
+                      },
+                      "minutes": {
+                        "$id": "#/properties/sleep/items/properties/levels/properties/summary/properties/light/properties/minutes",
+                        "type": "integer",
+                        "title": "The Minutes Schema",
+                        "default": 0,
+                        "examples": [
+                          199
+                        ]
+                      },
+                      "thirtyDayAvgMinutes": {
+                        "$id": "#/properties/sleep/items/properties/levels/properties/summary/properties/light/properties/thirtyDayAvgMinutes",
+                        "type": "integer",
+                        "title": "The Thirtydayavgminutes Schema",
+                        "default": 0,
+                        "examples": [
+                          239
+                        ]
+                      }
+                    }
+                  },
+                  "rem": {
+                    "$id": "#/properties/sleep/items/properties/levels/properties/summary/properties/rem",
+                    "type": "object",
+                    "title": "The Rem Schema",
+                    "required": [
+                      "count",
+                      "minutes",
+                      "thirtyDayAvgMinutes"
+                    ],
+                    "properties": {
+                      "count": {
+                        "$id": "#/properties/sleep/items/properties/levels/properties/summary/properties/rem/properties/count",
+                        "type": "integer",
+                        "title": "The Count Schema",
+                        "default": 0,
+                        "examples": [
+                          4
+                        ]
+                      },
+                      "minutes": {
+                        "$id": "#/properties/sleep/items/properties/levels/properties/summary/properties/rem/properties/minutes",
+                        "type": "integer",
+                        "title": "The Minutes Schema",
+                        "default": 0,
+                        "examples": [
+                          93
+                        ]
+                      },
+                      "thirtyDayAvgMinutes": {
+                        "$id": "#/properties/sleep/items/properties/levels/properties/summary/properties/rem/properties/thirtyDayAvgMinutes",
+                        "type": "integer",
+                        "title": "The Thirtydayavgminutes Schema",
+                        "default": 0,
+                        "examples": [
+                          71
+                        ]
+                      }
+                    }
+                  },
+                  "wake": {
+                    "$id": "#/properties/sleep/items/properties/levels/properties/summary/properties/wake",
+                    "type": "object",
+                    "title": "The Wake Schema",
+                    "required": [
+                      "count",
+                      "minutes",
+                      "thirtyDayAvgMinutes"
+                    ],
+                    "properties": {
+                      "count": {
+                        "$id": "#/properties/sleep/items/properties/levels/properties/summary/properties/wake/properties/count",
+                        "type": "integer",
+                        "title": "The Count Schema",
+                        "default": 0,
+                        "examples": [
+                          16
+                        ]
+                      },
+                      "minutes": {
+                        "$id": "#/properties/sleep/items/properties/levels/properties/summary/properties/wake/properties/minutes",
+                        "type": "integer",
+                        "title": "The Minutes Schema",
+                        "default": 0,
+                        "examples": [
+                          50
+                        ]
+                      },
+                      "thirtyDayAvgMinutes": {
+                        "$id": "#/properties/sleep/items/properties/levels/properties/summary/properties/wake/properties/thirtyDayAvgMinutes",
+                        "type": "integer",
+                        "title": "The Thirtydayavgminutes Schema",
+                        "default": 0,
+                        "examples": [
+                          53
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "logId": {
+            "$id": "#/properties/sleep/items/properties/logId",
+            "type": "integer",
+            "title": "The Logid Schema",
+            "default": 0,
+            "examples": [
+              20179668417
+            ]
+          },
+          "minutesAfterWakeup": {
+            "$id": "#/properties/sleep/items/properties/minutesAfterWakeup",
+            "type": "integer",
+            "title": "The Minutesafterwakeup Schema",
+            "default": 0,
+            "examples": [
+              0
+            ]
+          },
+          "minutesAsleep": {
+            "$id": "#/properties/sleep/items/properties/minutesAsleep",
+            "type": "integer",
+            "title": "The Minutesasleep Schema",
+            "default": 0,
+            "examples": [
+              332
+            ]
+          },
+          "minutesAwake": {
+            "$id": "#/properties/sleep/items/properties/minutesAwake",
+            "type": "integer",
+            "title": "The Minutesawake Schema",
+            "default": 0,
+            "examples": [
+              50
+            ]
+          },
+          "minutesToFallAsleep": {
+            "$id": "#/properties/sleep/items/properties/minutesToFallAsleep",
+            "type": "integer",
+            "title": "The Minutestofallasleep Schema",
+            "default": 0,
+            "examples": [
+              0
+            ]
+          },
+          "startTime": {
+            "$id": "#/properties/sleep/items/properties/startTime",
+            "type": "string",
+            "title": "The Starttime Schema",
+            "default": "",
+            "examples": [
+              "2018-11-14T18:29:00.000"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "timeInBed": {
+            "$id": "#/properties/sleep/items/properties/timeInBed",
+            "type": "integer",
+            "title": "The Timeinbed Schema",
+            "default": 0,
+            "examples": [
+              382
+            ]
+          },
+          "type": {
+            "$id": "#/properties/sleep/items/properties/type",
+            "type": "string",
+            "title": "The Type Schema",
+            "default": "",
+            "examples": [
+              "stages"
+            ],
+            "pattern": "^(.*)$"
+          }
+        }
+      }
+    }
+  }
+}

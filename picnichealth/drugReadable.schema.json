@@ -1,0 +1,236 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "array",
+  "title": "The Root Schema",
+  "items": {
+    "$id": "#/items",
+    "type": "object",
+    "title": "The Items Schema",
+    "required": [
+      "drugId",
+      "personId",
+      "visitId",
+      "conceptName",
+      "startDate",
+      "startDatePrecision",
+      "endDate",
+      "endDatePrecision",
+      "strength",
+      "doseFormConceptName",
+      "doseValue",
+      "doseUnitConceptName",
+      "numberOfTimes",
+      "intervalValue",
+      "intervalUnitConceptName",
+      "durationValue",
+      "durationUnitConceptName",
+      "timeOfDayConceptName",
+      "asNeeded",
+      "typeConceptName"
+    ],
+    "properties": {
+      "drugId": {
+        "$id": "#/items/properties/drugId",
+        "type": "string",
+        "title": "The Drugid Schema",
+        "default": "",
+        "examples": [
+          "e26e8847-dcac-4341-8e4e-30d5aaacf85e"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "personId": {
+        "$id": "#/items/properties/personId",
+        "type": "string",
+        "title": "The Personid Schema",
+        "default": "",
+        "examples": [
+          "81163710-c2a2-4750-8e7f-8c7e18575695"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "visitId": {
+        "$id": "#/items/properties/visitId",
+        "type": "string",
+        "title": "The Visitid Schema",
+        "default": "",
+        "examples": [
+          "9f974f15-5df4-4c05-9779-f24f500f9cc5"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "conceptName": {
+        "$id": "#/items/properties/conceptName",
+        "type": "string",
+        "title": "The Conceptname Schema",
+        "default": "",
+        "examples": [
+          "Fish Oils"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "startDate": {
+        "$id": "#/items/properties/startDate",
+        "type": "string",
+        "title": "The Startdate Schema",
+        "default": "",
+        "examples": [
+          ""
+        ],
+        "pattern": "^(.*)$"
+      },
+      "startDatePrecision": {
+        "$id": "#/items/properties/startDatePrecision",
+        "type": "string",
+        "title": "The Startdateprecision Schema",
+        "default": "",
+        "examples": [
+          ""
+        ],
+        "pattern": "^(.*)$"
+      },
+      "endDate": {
+        "$id": "#/items/properties/endDate",
+        "type": "string",
+        "title": "The Enddate Schema",
+        "default": "",
+        "examples": [
+          ""
+        ],
+        "pattern": "^(.*)$"
+      },
+      "endDatePrecision": {
+        "$id": "#/items/properties/endDatePrecision",
+        "type": "string",
+        "title": "The Enddateprecision Schema",
+        "default": "",
+        "examples": [
+          ""
+        ],
+        "pattern": "^(.*)$"
+      },
+      "strength": {
+        "$id": "#/items/properties/strength",
+        "type": "string",
+        "title": "The Strength Schema",
+        "default": "",
+        "examples": [
+          ""
+        ],
+        "pattern": "^(.*)$"
+      },
+      "doseFormConceptName": {
+        "$id": "#/items/properties/doseFormConceptName",
+        "type": "string",
+        "title": "The Doseformconceptname Schema",
+        "default": "",
+        "examples": [
+          ""
+        ],
+        "pattern": "^(.*)$"
+      },
+      "doseValue": {
+        "$id": "#/items/properties/doseValue",
+        "type": "string",
+        "title": "The Dosevalue Schema",
+        "default": "",
+        "examples": [
+          ""
+        ],
+        "pattern": "^(.*)$"
+      },
+      "doseUnitConceptName": {
+        "$id": "#/items/properties/doseUnitConceptName",
+        "type": "string",
+        "title": "The Doseunitconceptname Schema",
+        "default": "",
+        "examples": [
+          ""
+        ],
+        "pattern": "^(.*)$"
+      },
+      "numberOfTimes": {
+        "$id": "#/items/properties/numberOfTimes",
+        "type": "string",
+        "title": "The Numberoftimes Schema",
+        "default": "",
+        "examples": [
+          ""
+        ],
+        "pattern": "^(.*)$"
+      },
+      "intervalValue": {
+        "$id": "#/items/properties/intervalValue",
+        "type": "string",
+        "title": "The Intervalvalue Schema",
+        "default": "",
+        "examples": [
+          ""
+        ],
+        "pattern": "^(.*)$"
+      },
+      "intervalUnitConceptName": {
+        "$id": "#/items/properties/intervalUnitConceptName",
+        "type": "string",
+        "title": "The Intervalunitconceptname Schema",
+        "default": "",
+        "examples": [
+          ""
+        ],
+        "pattern": "^(.*)$"
+      },
+      "durationValue": {
+        "$id": "#/items/properties/durationValue",
+        "type": "string",
+        "title": "The Durationvalue Schema",
+        "default": "",
+        "examples": [
+          ""
+        ],
+        "pattern": "^(.*)$"
+      },
+      "durationUnitConceptName": {
+        "$id": "#/items/properties/durationUnitConceptName",
+        "type": "string",
+        "title": "The Durationunitconceptname Schema",
+        "default": "",
+        "examples": [
+          ""
+        ],
+        "pattern": "^(.*)$"
+      },
+      "timeOfDayConceptName": {
+        "$id": "#/items/properties/timeOfDayConceptName",
+        "type": "string",
+        "title": "The Timeofdayconceptname Schema",
+        "default": "",
+        "examples": [
+          ""
+        ],
+        "pattern": "^(.*)$"
+      },
+      "asNeeded": {
+        "$id": "#/items/properties/asNeeded",
+        "type": "string",
+        "title": "The Asneeded Schema",
+        "default": "",
+        "examples": [
+          ""
+        ],
+        "pattern": "^(.*)$"
+      },
+      "typeConceptName": {
+        "$id": "#/items/properties/typeConceptName",
+        "type": "string",
+        "title": "The Typeconceptname Schema",
+        "default": "",
+        "examples": [
+          "Medication list entry"
+        ],
+        "pattern": "^(.*)$"
+      }
+    }
+  }
+}

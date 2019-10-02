@@ -1,0 +1,38 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "array",
+  "title": "The Root Schema",
+  "items": {
+    "$id": "#/items",
+    "type": "object",
+    "title": "The Items Schema",
+    "required": [
+      "careSiteId",
+      "locationId"
+    ],
+    "properties": {
+      "careSiteId": {
+        "$id": "#/items/properties/careSiteId",
+        "type": "string",
+        "title": "The Caresiteid Schema",
+        "default": "",
+        "examples": [
+          "c3c32175-dd7a-477a-a69b-93bacf364eb1"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "locationId": {
+        "$id": "#/items/properties/locationId",
+        "type": "string",
+        "title": "The Locationid Schema",
+        "default": "",
+        "examples": [
+          "106fc447-cd13-4d65-97f9-d1cf0917a7ec"
+        ],
+        "pattern": "^(.*)$"
+      }
+    }
+  }
+}

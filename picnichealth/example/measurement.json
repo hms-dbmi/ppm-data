@@ -1,0 +1,5784 @@
+[
+  {
+    "measurementId": "0f32b10a-29b0-4c9a-acdf-2ed7823b0cd5",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "47ce8aaf-7069-4a6d-b5de-2fe8b74171f7",
+    "conceptId": "5e460116-aed8-58fc-a53b-c78bfa18f4de",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 86
+    },
+    "unitConceptId": "de7e3d74-dd78-5867-acb2-81c44342bda9",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 65,
+      "highValue": 105,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 86
+    },
+    "sourceUnitConceptId": "de7e3d74-dd78-5867-acb2-81c44342bda9",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 65,
+      "highValue": 105,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "a6e577ab-61dc-4b83-8183-30cbd0c8a5ea",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "1f886ee7-4f98-4d48-ae74-6d7be1a79126",
+    "conceptId": "a4223d06-d069-543b-88fa-320a73875d09",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 44
+    },
+    "unitConceptId": "3e09b22f-b4e9-52dc-b2db-7df8796f5222",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 38,
+      "highValue": 126,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 44
+    },
+    "sourceUnitConceptId": "3e09b22f-b4e9-52dc-b2db-7df8796f5222",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 38,
+      "highValue": 126,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "82284b36-33d8-4820-adbd-a1c6c07ad85f",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "1f886ee7-4f98-4d48-ae74-6d7be1a79126",
+    "conceptId": "348eeb30-a39a-52da-b6fd-84705989eac2",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 211
+    },
+    "unitConceptId": "2ba6fbab-2dba-5956-9813-bbe501c47322",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 150,
+      "highValue": 400,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 211
+    },
+    "sourceUnitConceptId": "2ba6fbab-2dba-5956-9813-bbe501c47322",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 150,
+      "highValue": 400,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "e830cb02-61f4-4e31-aeba-5bedd33c6c51",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "1f886ee7-4f98-4d48-ae74-6d7be1a79126",
+    "conceptId": "86107f1c-5497-50ab-a442-ba9813856b1a",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 4.7
+    },
+    "unitConceptId": "2909d48a-745b-5d89-90d6-b59588203962",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 3.5,
+      "highValue": 5,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 4.7
+    },
+    "sourceUnitConceptId": "2909d48a-745b-5d89-90d6-b59588203962",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 3.5,
+      "highValue": 5,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "415d28f3-13c0-475a-b5f2-9a71d9906915",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "1f886ee7-4f98-4d48-ae74-6d7be1a79126",
+    "conceptId": "2e17167f-078f-51f0-be86-c5e8c791ff33",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 0.2
+    },
+    "unitConceptId": "de7e3d74-dd78-5867-acb2-81c44342bda9",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 0.2,
+      "highValue": 1.3,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 0.2
+    },
+    "sourceUnitConceptId": "de7e3d74-dd78-5867-acb2-81c44342bda9",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 0.2,
+      "highValue": 1.3,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "b6078160-418c-424a-8f48-b1764896d653",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "1f886ee7-4f98-4d48-ae74-6d7be1a79126",
+    "conceptId": "8f6e1e3c-ef5a-5364-998b-244ce5906c12",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 1.6
+    },
+    "unitConceptId": "2ba6fbab-2dba-5956-9813-bbe501c47322",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 1.2,
+      "highValue": 3.7,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 1.6
+    },
+    "sourceUnitConceptId": "2ba6fbab-2dba-5956-9813-bbe501c47322",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 1.2,
+      "highValue": 3.7,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "84207f0c-660f-4524-824f-1552908d55e9",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "1f886ee7-4f98-4d48-ae74-6d7be1a79126",
+    "conceptId": "358675b7-4b75-5e67-b5fe-1082cf769f21",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 7.8
+    },
+    "unitConceptId": "2909d48a-745b-5d89-90d6-b59588203962",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 6.3,
+      "highValue": 8.2,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 7.8
+    },
+    "sourceUnitConceptId": "2909d48a-745b-5d89-90d6-b59588203962",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 6.3,
+      "highValue": 8.2,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "526fcfce-738a-4c1e-b799-d52e733d83cd",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "1f886ee7-4f98-4d48-ae74-6d7be1a79126",
+    "conceptId": "0a6b9974-c862-519f-b193-dbdadf05fab8",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 4.6
+    },
+    "unitConceptId": "47d67b06-9b56-57fa-bdfc-b8807527c5ae",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 3.5,
+      "highValue": 5,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 4.6
+    },
+    "sourceUnitConceptId": "47d67b06-9b56-57fa-bdfc-b8807527c5ae",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 3.5,
+      "highValue": 5,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "50362428-f0d1-4c47-8f51-2d2064de7d1c",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "1f886ee7-4f98-4d48-ae74-6d7be1a79126",
+    "conceptId": "795e4722-bc6a-5a1f-88ec-a0fded2fee1f",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 9.6
+    },
+    "unitConceptId": "de7e3d74-dd78-5867-acb2-81c44342bda9",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 8.5,
+      "highValue": 10.5,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 9.6
+    },
+    "sourceUnitConceptId": "de7e3d74-dd78-5867-acb2-81c44342bda9",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 8.5,
+      "highValue": 10.5,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "6a7e0555-655e-42d5-b0a3-b1c217e3925f",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "1f886ee7-4f98-4d48-ae74-6d7be1a79126",
+    "conceptId": "e82be6ec-61de-55d9-92a0-4de679e462b2",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 1.1
+    },
+    "unitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 0.1,
+      "highValue": 1.2,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 1.1
+    },
+    "sourceUnitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 0.1,
+      "highValue": 1.2,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "ad5550be-b192-4cc5-b58b-67246274f045",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "1f886ee7-4f98-4d48-ae74-6d7be1a79126",
+    "conceptId": "125e29f5-0ffd-54e6-afa4-4b5b9245590a",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 22
+    },
+    "unitConceptId": "3e09b22f-b4e9-52dc-b2db-7df8796f5222",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 14,
+      "highValue": 36,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 22
+    },
+    "sourceUnitConceptId": "3e09b22f-b4e9-52dc-b2db-7df8796f5222",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 14,
+      "highValue": 36,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "f9b386fb-4e6f-4021-b1fb-1e8f17925649",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "1f886ee7-4f98-4d48-ae74-6d7be1a79126",
+    "conceptId": "e8264248-64b8-5d6b-a1a7-05fc612f0e83",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 0.9
+    },
+    "unitConceptId": "de7e3d74-dd78-5867-acb2-81c44342bda9",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 0.6,
+      "highValue": 1,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 0.9
+    },
+    "sourceUnitConceptId": "de7e3d74-dd78-5867-acb2-81c44342bda9",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 0.6,
+      "highValue": 1,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "1c85b6be-2387-4b3e-9428-7f9801680ab8",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "1f886ee7-4f98-4d48-ae74-6d7be1a79126",
+    "conceptId": "a42cfd19-34d1-5dc1-82ce-df7871483298",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 400
+    },
+    "unitConceptId": "3e09b22f-b4e9-52dc-b2db-7df8796f5222",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 313,
+      "highValue": 618,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 400
+    },
+    "sourceUnitConceptId": "3e09b22f-b4e9-52dc-b2db-7df8796f5222",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 313,
+      "highValue": 618,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "251a6755-3c0a-4882-9968-c17641f4ee8e",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "1f886ee7-4f98-4d48-ae74-6d7be1a79126",
+    "conceptId": "06190aa4-7246-58b2-86a7-6e71ad202963",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 0
+    },
+    "unitConceptId": "190104ca-a614-51b0-8c10-a2e22faeb114",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 0,
+      "highValue": 0.2,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 0
+    },
+    "sourceUnitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 0,
+      "highValue": 0.2,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "51911d72-9adf-400a-8fb7-b8ed06a4b289",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "1f886ee7-4f98-4d48-ae74-6d7be1a79126",
+    "conceptId": "f3eda808-72ae-59e2-9306-e34aa3c7552f",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 14
+    },
+    "unitConceptId": "3e09b22f-b4e9-52dc-b2db-7df8796f5222",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 11,
+      "highValue": 50,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 14
+    },
+    "sourceUnitConceptId": "3e09b22f-b4e9-52dc-b2db-7df8796f5222",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 11,
+      "highValue": 50,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "40d19dbf-978d-46b9-8556-d6c9763e85cf",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "1f886ee7-4f98-4d48-ae74-6d7be1a79126",
+    "conceptId": "dbd575fb-bd1a-5d52-9f13-1a97ed5539ff",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 140
+    },
+    "unitConceptId": "47d67b06-9b56-57fa-bdfc-b8807527c5ae",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 135,
+      "highValue": 145,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 140
+    },
+    "sourceUnitConceptId": "47d67b06-9b56-57fa-bdfc-b8807527c5ae",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 135,
+      "highValue": 145,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "f742756d-0b13-4b86-a832-acb900d3c8d6",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "1f886ee7-4f98-4d48-ae74-6d7be1a79126",
+    "conceptId": "c46cde90-2560-53a4-8907-ccbc8e7e9aa0",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 4.5
+    },
+    "unitConceptId": "2ba6fbab-2dba-5956-9813-bbe501c47322",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 4,
+      "highValue": 10,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 4.5
+    },
+    "sourceUnitConceptId": "2ba6fbab-2dba-5956-9813-bbe501c47322",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 4,
+      "highValue": 10,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "80ded501-51e9-41cc-9c77-984a3c04c2ac",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "1f886ee7-4f98-4d48-ae74-6d7be1a79126",
+    "conceptId": "50197fb5-db56-5568-9537-249dca3a20de",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 2.4
+    },
+    "unitConceptId": "2ba6fbab-2dba-5956-9813-bbe501c47322",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 1.6,
+      "highValue": 6.1,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 2.4
+    },
+    "sourceUnitConceptId": "2ba6fbab-2dba-5956-9813-bbe501c47322",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 1.6,
+      "highValue": 6.1,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "64dc5c39-eeb2-4ed0-8e4f-c61ea61a396d",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "1f886ee7-4f98-4d48-ae74-6d7be1a79126",
+    "conceptId": "086743d8-5acd-51e7-a059-846268a0cff6",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 0.1
+    },
+    "unitConceptId": "2ba6fbab-2dba-5956-9813-bbe501c47322",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 0,
+      "highValue": 0.1,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 0.1
+    },
+    "sourceUnitConceptId": "2ba6fbab-2dba-5956-9813-bbe501c47322",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 0,
+      "highValue": 0.1,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "d3423ed3-4d49-4fbe-8e17-3e5a92698f95",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "1f886ee7-4f98-4d48-ae74-6d7be1a79126",
+    "conceptId": "841b0565-73e4-578b-bcd8-925c0aae4bb8",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 52.9
+    },
+    "unitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 34,
+      "highValue": 71.1,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 52.9
+    },
+    "sourceUnitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 34,
+      "highValue": 71.1,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "0d565e3d-cec4-40f2-8e84-a663eabb55d8",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "1f886ee7-4f98-4d48-ae74-6d7be1a79126",
+    "conceptId": "5ea19594-b3b5-5036-971e-dd1cabeb3548",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 104
+    },
+    "unitConceptId": "47d67b06-9b56-57fa-bdfc-b8807527c5ae",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 95,
+      "highValue": 107,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 104
+    },
+    "sourceUnitConceptId": "47d67b06-9b56-57fa-bdfc-b8807527c5ae",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 95,
+      "highValue": 107,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "08c1b64f-dcdd-4ff0-95ab-de4bcbe7f0ae",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "1f886ee7-4f98-4d48-ae74-6d7be1a79126",
+    "conceptId": "bfb14ac1-e835-5e12-984c-6e73339bfc2d",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 0.4
+    },
+    "unitConceptId": "2ba6fbab-2dba-5956-9813-bbe501c47322",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 0.2,
+      "highValue": 0.4,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 0.4
+    },
+    "sourceUnitConceptId": "2ba6fbab-2dba-5956-9813-bbe501c47322",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 0.2,
+      "highValue": 0.4,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "7451e7c0-7e55-4b52-af6f-38235b5a6b16",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "1f886ee7-4f98-4d48-ae74-6d7be1a79126",
+    "conceptId": "062f0113-270d-5a31-9ca5-8b1d3862fce9",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 4.35
+    },
+    "unitConceptId": "3d963205-2243-5034-8254-aa724bd4efae",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 3.93,
+      "highValue": 5.22,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 4.35
+    },
+    "sourceUnitConceptId": "3d963205-2243-5034-8254-aa724bd4efae",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 3.93,
+      "highValue": 5.22,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "0f98021c-e938-462b-9ac8-9ea665a9b550",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "1f886ee7-4f98-4d48-ae74-6d7be1a79126",
+    "conceptId": "29124cfe-a4a8-5939-8d36-3f43f0017600",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 12.4
+    },
+    "unitConceptId": "2909d48a-745b-5d89-90d6-b59588203962",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 11.2,
+      "highValue": 15.7,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 12.4
+    },
+    "sourceUnitConceptId": "2909d48a-745b-5d89-90d6-b59588203962",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 11.2,
+      "highValue": 15.7,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "9c42899f-cf4e-474a-9017-229a731d1501",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "1f886ee7-4f98-4d48-ae74-6d7be1a79126",
+    "conceptId": "b97c812b-40a9-53f7-80d4-d274ca96e961",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 34.4
+    },
+    "unitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 19.3,
+      "highValue": 51.7,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 34.4
+    },
+    "sourceUnitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 19.3,
+      "highValue": 51.7,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "6def32e0-f024-43bf-a1de-335e4a46cddb",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "1f886ee7-4f98-4d48-ae74-6d7be1a79126",
+    "conceptId": "7bc62a10-c50b-5669-a54c-24298882cfaa",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 3.6
+    },
+    "unitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 0.7,
+      "highValue": 5.7,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 3.6
+    },
+    "sourceUnitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 0.7,
+      "highValue": 5.7,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "fe1da3b8-7d1f-4ab3-ab98-2d1f529d3a74",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "1f886ee7-4f98-4d48-ae74-6d7be1a79126",
+    "conceptId": "a0546feb-bad8-52d4-ad7e-a023f2342aae",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 11.8
+    },
+    "unitConceptId": "ac5a285d-031d-58a5-a9a3-801b835708ab",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 9.4,
+      "highValue": 12.3,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 11.8
+    },
+    "sourceUnitConceptId": "ac5a285d-031d-58a5-a9a3-801b835708ab",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 9.4,
+      "highValue": 12.3,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "b2335be9-c285-43db-907a-fb31b66cd035",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "1f886ee7-4f98-4d48-ae74-6d7be1a79126",
+    "conceptId": "8c69544d-f264-5c02-9335-a9f93d18fc0e",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 0.2
+    },
+    "unitConceptId": "2ba6fbab-2dba-5956-9813-bbe501c47322",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 0,
+      "highValue": 0.4,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 0.2
+    },
+    "sourceUnitConceptId": "2ba6fbab-2dba-5956-9813-bbe501c47322",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 0,
+      "highValue": 0.4,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "eec2cd03-9e1b-440b-a8ed-dd0eae83c0f6",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "1f886ee7-4f98-4d48-ae74-6d7be1a79126",
+    "conceptId": "10f6b508-707b-5acf-ada4-2e1cc3bc7293",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 27
+    },
+    "unitConceptId": "47d67b06-9b56-57fa-bdfc-b8807527c5ae",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 25,
+      "highValue": 32,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 27
+    },
+    "sourceUnitConceptId": "47d67b06-9b56-57fa-bdfc-b8807527c5ae",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 25,
+      "highValue": 32,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "13ca24b5-5e9b-4c1b-a446-940165c167ec",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "1f886ee7-4f98-4d48-ae74-6d7be1a79126",
+    "conceptId": "a579332d-ec17-5abe-8740-7a2ee32ba235",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 12.7
+    },
+    "unitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 11.7,
+      "highValue": 14.4,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 12.7
+    },
+    "sourceUnitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 11.7,
+      "highValue": 14.4,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "b3de734d-3cc1-42c0-b33a-9f8a67063528",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "1f886ee7-4f98-4d48-ae74-6d7be1a79126",
+    "conceptId": "bc8e9754-7b6d-5278-8315-a72683e5519c",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 39.5
+    },
+    "unitConceptId": "ac5a285d-031d-58a5-a9a3-801b835708ab",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 36.4,
+      "highValue": 46.3,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 39.5
+    },
+    "sourceUnitConceptId": "ac5a285d-031d-58a5-a9a3-801b835708ab",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 36.4,
+      "highValue": 46.3,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "3e2c86a6-ada6-4b5b-8750-88b0553d5e5f",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "1f886ee7-4f98-4d48-ae74-6d7be1a79126",
+    "conceptId": "6337e3e4-7780-5ac2-bd57-78d3a39b1718",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 0
+    },
+    "unitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "lessThan",
+      "lowValue": null,
+      "highValue": null,
+      "borderValue": 1
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 0
+    },
+    "sourceUnitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "lessThan",
+      "lowValue": null,
+      "highValue": null,
+      "borderValue": 1
+    }
+  },
+  {
+    "measurementId": "a60e98b8-22aa-4c25-b248-04544f894a31",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "1f886ee7-4f98-4d48-ae74-6d7be1a79126",
+    "conceptId": "4a51b91e-8ecc-53d2-a87c-2cb716a62835",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 0
+    },
+    "unitConceptId": "2ba6fbab-2dba-5956-9813-bbe501c47322",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "lessThan",
+      "lowValue": null,
+      "highValue": null,
+      "borderValue": 0.1
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 0
+    },
+    "sourceUnitConceptId": "2ba6fbab-2dba-5956-9813-bbe501c47322",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "lessThan",
+      "lowValue": null,
+      "highValue": null,
+      "borderValue": 0.1
+    }
+  },
+  {
+    "measurementId": "d8bb8ed5-25c6-4caa-89f3-4c8910e11bd6",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "1f886ee7-4f98-4d48-ae74-6d7be1a79126",
+    "conceptId": "23c3e972-a5d1-5e6f-a134-a466c27c2c06",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 85
+    },
+    "unitConceptId": "ac5a285d-031d-58a5-a9a3-801b835708ab",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 75,
+      "highValue": 95,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 85
+    },
+    "sourceUnitConceptId": "ac5a285d-031d-58a5-a9a3-801b835708ab",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 75,
+      "highValue": 95,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "50b79095-54b3-4c2d-83a4-a148fe209979",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "1f886ee7-4f98-4d48-ae74-6d7be1a79126",
+    "conceptId": "a58472ce-482c-5816-90d8-8660641bc487",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 8
+    },
+    "unitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 4.7,
+      "highValue": 12.5,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 8
+    },
+    "sourceUnitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 4.7,
+      "highValue": 12.5,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "5dac3a49-0d7f-4d90-a5a7-3b5a471b111f",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "1f886ee7-4f98-4d48-ae74-6d7be1a79126",
+    "conceptId": "73301076-9895-50a0-b798-325e7d572a60",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 29
+    },
+    "unitConceptId": "982bbad5-4c20-5e23-98a6-8d19688875c5",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 26,
+      "highValue": 32,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 29
+    },
+    "sourceUnitConceptId": "982bbad5-4c20-5e23-98a6-8d19688875c5",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 26,
+      "highValue": 32,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "4fff6bb6-9703-43ee-990b-612ba3967ba8",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "1f886ee7-4f98-4d48-ae74-6d7be1a79126",
+    "conceptId": "bb386db7-931d-5180-9555-6b8d8f5815ea",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 33.4
+    },
+    "unitConceptId": "2909d48a-745b-5d89-90d6-b59588203962",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 32.2,
+      "highValue": 35.5,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 33.4
+    },
+    "sourceUnitConceptId": "2909d48a-745b-5d89-90d6-b59588203962",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 32.2,
+      "highValue": 35.5,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "1ded945b-5656-4ab7-b24b-d7606196fcfd",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "1f886ee7-4f98-4d48-ae74-6d7be1a79126",
+    "conceptId": "5e460116-aed8-58fc-a53b-c78bfa18f4de",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 82
+    },
+    "unitConceptId": "de7e3d74-dd78-5867-acb2-81c44342bda9",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 65,
+      "highValue": 105,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 82
+    },
+    "sourceUnitConceptId": "de7e3d74-dd78-5867-acb2-81c44342bda9",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 65,
+      "highValue": 105,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "a9644dbe-424c-48c6-8fa8-c5f8a15ac26d",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "1f886ee7-4f98-4d48-ae74-6d7be1a79126",
+    "conceptId": "99baf08c-ab69-5282-aca7-fd947286964d",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 37.1
+    },
+    "unitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 34.1,
+      "highValue": 44.9,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 37.1
+    },
+    "sourceUnitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 34.1,
+      "highValue": 44.9,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "ec037139-651a-4ee2-a837-da6a5bf0c0ab",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "1f886ee7-4f98-4d48-ae74-6d7be1a79126",
+    "conceptId": "f98a8f8b-0639-5ef5-ab3f-732cca73aa90",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 18
+    },
+    "unitConceptId": "de7e3d74-dd78-5867-acb2-81c44342bda9",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 7,
+      "highValue": 20,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 18
+    },
+    "sourceUnitConceptId": "de7e3d74-dd78-5867-acb2-81c44342bda9",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 7,
+      "highValue": 20,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "a5fc1dd5-7c42-406a-9063-9f96facb1627",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "32ab8511-2784-4d6c-a55d-2ba4d4e3116c",
+    "conceptId": "73768ee8-0da8-595a-9ef5-0d1297fd790c",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 80
+    },
+    "unitConceptId": "a4ac7469-f0f7-52c8-9f2c-ed1a92f2d99e",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 80
+    },
+    "sourceUnitConceptId": "a4ac7469-f0f7-52c8-9f2c-ed1a92f2d99e",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "48a8cb4f-0145-4eb2-b65e-1fc194ef0cd7",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "32ab8511-2784-4d6c-a55d-2ba4d4e3116c",
+    "conceptId": "55d40fb6-ade8-5274-8c5a-70cf36b040ad",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 36.8
+    },
+    "unitConceptId": "8997192f-aeb1-53de-bb42-10604aaeaad9",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 98.2
+    },
+    "sourceUnitConceptId": "c55f2a5b-e3b2-5fdc-974f-ebc840b233ba",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "3bd256a2-d24d-43ed-9985-ca22bc6c2a01",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "32ab8511-2784-4d6c-a55d-2ba4d4e3116c",
+    "conceptId": "bc60c9b5-9e4b-5f10-95d1-ae81a7761a0d",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 112
+    },
+    "unitConceptId": "af4683d4-a208-5752-ba6b-4809e1b77f21",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 112
+    },
+    "sourceUnitConceptId": "af4683d4-a208-5752-ba6b-4809e1b77f21",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "5b13dbc0-aaf4-47e6-bb65-4c0702459640",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "32ab8511-2784-4d6c-a55d-2ba4d4e3116c",
+    "conceptId": "46c8559d-0466-516d-adf8-21b9339f19ab",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 20
+    },
+    "unitConceptId": "a4ac7469-f0f7-52c8-9f2c-ed1a92f2d99e",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 20
+    },
+    "sourceUnitConceptId": "a4ac7469-f0f7-52c8-9f2c-ed1a92f2d99e",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "842485d9-5fd2-4365-b59d-7549abcb535d",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "32ab8511-2784-4d6c-a55d-2ba4d4e3116c",
+    "conceptId": "ac514ab6-f9d4-5d0c-8efa-17c6085d8990",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 77
+    },
+    "unitConceptId": "af4683d4-a208-5752-ba6b-4809e1b77f21",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 77
+    },
+    "sourceUnitConceptId": "af4683d4-a208-5752-ba6b-4809e1b77f21",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "a6ab6beb-0d58-4d2f-aae8-f25b2f8bf127",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "610a0536-3997-4c36-962e-c708193ea86d",
+    "conceptId": "46c8559d-0466-516d-adf8-21b9339f19ab",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 16
+    },
+    "unitConceptId": "a4ac7469-f0f7-52c8-9f2c-ed1a92f2d99e",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 16
+    },
+    "sourceUnitConceptId": "a4ac7469-f0f7-52c8-9f2c-ed1a92f2d99e",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "ad039d36-3d63-4fed-9cab-567ae541687c",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "610a0536-3997-4c36-962e-c708193ea86d",
+    "conceptId": "55d40fb6-ade8-5274-8c5a-70cf36b040ad",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 36.9
+    },
+    "unitConceptId": "8997192f-aeb1-53de-bb42-10604aaeaad9",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 98.4
+    },
+    "sourceUnitConceptId": "c55f2a5b-e3b2-5fdc-974f-ebc840b233ba",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "cd93f108-af57-4a6a-a643-aa9725fd9dba",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "610a0536-3997-4c36-962e-c708193ea86d",
+    "conceptId": "c72a372d-8648-5693-9cb2-e94f3c573f7e",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 100
+    },
+    "unitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 100
+    },
+    "sourceUnitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "eb1c5221-31ea-4287-85f3-9e95dc58b467",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "610a0536-3997-4c36-962e-c708193ea86d",
+    "conceptId": "bc60c9b5-9e4b-5f10-95d1-ae81a7761a0d",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 119
+    },
+    "unitConceptId": "af4683d4-a208-5752-ba6b-4809e1b77f21",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 119
+    },
+    "sourceUnitConceptId": "af4683d4-a208-5752-ba6b-4809e1b77f21",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "93b5c1cd-1faf-4101-8c72-46e929efead0",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "610a0536-3997-4c36-962e-c708193ea86d",
+    "conceptId": "ac514ab6-f9d4-5d0c-8efa-17c6085d8990",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 80
+    },
+    "unitConceptId": "af4683d4-a208-5752-ba6b-4809e1b77f21",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 80
+    },
+    "sourceUnitConceptId": "af4683d4-a208-5752-ba6b-4809e1b77f21",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "93f44c1b-0415-4793-861e-1f80514a46e3",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "610a0536-3997-4c36-962e-c708193ea86d",
+    "conceptId": "73768ee8-0da8-595a-9ef5-0d1297fd790c",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 72
+    },
+    "unitConceptId": "a4ac7469-f0f7-52c8-9f2c-ed1a92f2d99e",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 72
+    },
+    "sourceUnitConceptId": "a4ac7469-f0f7-52c8-9f2c-ed1a92f2d99e",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "98c6c3b7-a71c-449c-9fd6-d0a031bc74f5",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "77840519-0fb3-471e-adc9-6f7ead0e22d8",
+    "conceptId": "ac514ab6-f9d4-5d0c-8efa-17c6085d8990",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 72
+    },
+    "unitConceptId": "af4683d4-a208-5752-ba6b-4809e1b77f21",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 72
+    },
+    "sourceUnitConceptId": "af4683d4-a208-5752-ba6b-4809e1b77f21",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "0c534245-94f0-47fa-8845-65398b9cf522",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "77840519-0fb3-471e-adc9-6f7ead0e22d8",
+    "conceptId": "73768ee8-0da8-595a-9ef5-0d1297fd790c",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 70
+    },
+    "unitConceptId": "a4ac7469-f0f7-52c8-9f2c-ed1a92f2d99e",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 70
+    },
+    "sourceUnitConceptId": "a4ac7469-f0f7-52c8-9f2c-ed1a92f2d99e",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "4896d410-b834-47f5-9413-9cace7e21d38",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "77840519-0fb3-471e-adc9-6f7ead0e22d8",
+    "conceptId": "46c8559d-0466-516d-adf8-21b9339f19ab",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 20
+    },
+    "unitConceptId": "a4ac7469-f0f7-52c8-9f2c-ed1a92f2d99e",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 20
+    },
+    "sourceUnitConceptId": "a4ac7469-f0f7-52c8-9f2c-ed1a92f2d99e",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "9b625d35-3f95-4922-b72f-3a65524636e2",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "77840519-0fb3-471e-adc9-6f7ead0e22d8",
+    "conceptId": "c72a372d-8648-5693-9cb2-e94f3c573f7e",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 97
+    },
+    "unitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 97
+    },
+    "sourceUnitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "afbc49a2-1534-4c0c-b5a7-56b29b8db853",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "77840519-0fb3-471e-adc9-6f7ead0e22d8",
+    "conceptId": "bc60c9b5-9e4b-5f10-95d1-ae81a7761a0d",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 106
+    },
+    "unitConceptId": "af4683d4-a208-5752-ba6b-4809e1b77f21",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 106
+    },
+    "sourceUnitConceptId": "af4683d4-a208-5752-ba6b-4809e1b77f21",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "533e4009-826f-4ff4-8079-c5566807047a",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "77840519-0fb3-471e-adc9-6f7ead0e22d8",
+    "conceptId": "55d40fb6-ade8-5274-8c5a-70cf36b040ad",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 36.7
+    },
+    "unitConceptId": "8997192f-aeb1-53de-bb42-10604aaeaad9",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 98.1
+    },
+    "sourceUnitConceptId": "c55f2a5b-e3b2-5fdc-974f-ebc840b233ba",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "07dc39a9-099b-43fc-bdc0-fb121f2135c9",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "6a21415e-fae5-49f6-bebb-ef8b3a7b4ed1",
+    "conceptId": "73768ee8-0da8-595a-9ef5-0d1297fd790c",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 72
+    },
+    "unitConceptId": "a4ac7469-f0f7-52c8-9f2c-ed1a92f2d99e",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 72
+    },
+    "sourceUnitConceptId": "a4ac7469-f0f7-52c8-9f2c-ed1a92f2d99e",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "e7b8ca52-e989-4175-b150-03acc37bce82",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "6a21415e-fae5-49f6-bebb-ef8b3a7b4ed1",
+    "conceptId": "55d40fb6-ade8-5274-8c5a-70cf36b040ad",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 36.9
+    },
+    "unitConceptId": "8997192f-aeb1-53de-bb42-10604aaeaad9",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 98.4
+    },
+    "sourceUnitConceptId": "c55f2a5b-e3b2-5fdc-974f-ebc840b233ba",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "200d6295-0b77-4dfa-9244-b6bb6f2b8aff",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "6a21415e-fae5-49f6-bebb-ef8b3a7b4ed1",
+    "conceptId": "55dd9662-8be7-5a94-97a4-ae6316dd58d7",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 130
+    },
+    "unitConceptId": "eb0d94d5-5467-5757-bcbd-1089992fe3fe",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 130
+    },
+    "sourceUnitConceptId": "eb0d94d5-5467-5757-bcbd-1089992fe3fe",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "a8be5146-d595-4c4f-bd85-5753767919bc",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "6a21415e-fae5-49f6-bebb-ef8b3a7b4ed1",
+    "conceptId": "bc60c9b5-9e4b-5f10-95d1-ae81a7761a0d",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 108
+    },
+    "unitConceptId": "af4683d4-a208-5752-ba6b-4809e1b77f21",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 108
+    },
+    "sourceUnitConceptId": "af4683d4-a208-5752-ba6b-4809e1b77f21",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "6c88b554-8b75-4cb9-83cd-5e750d20b01d",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "6a21415e-fae5-49f6-bebb-ef8b3a7b4ed1",
+    "conceptId": "ac514ab6-f9d4-5d0c-8efa-17c6085d8990",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 70
+    },
+    "unitConceptId": "af4683d4-a208-5752-ba6b-4809e1b77f21",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 70
+    },
+    "sourceUnitConceptId": "af4683d4-a208-5752-ba6b-4809e1b77f21",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "95bd71f0-33ed-418c-b4ec-09ac921282a6",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "6a21415e-fae5-49f6-bebb-ef8b3a7b4ed1",
+    "conceptId": "c72a372d-8648-5693-9cb2-e94f3c573f7e",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 99
+    },
+    "unitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 99
+    },
+    "sourceUnitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "b9ce86b8-7f29-4b52-8745-3850ff313a68",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "9f974f15-5df4-4c05-9779-f24f500f9cc5",
+    "conceptId": "55d40fb6-ade8-5274-8c5a-70cf36b040ad",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 36.8
+    },
+    "unitConceptId": "8997192f-aeb1-53de-bb42-10604aaeaad9",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 98.2
+    },
+    "sourceUnitConceptId": "c55f2a5b-e3b2-5fdc-974f-ebc840b233ba",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "ef2a5c25-d7be-42e6-948d-584e9bfe73cb",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "9f974f15-5df4-4c05-9779-f24f500f9cc5",
+    "conceptId": "75645f7c-1afe-5a53-8c48-c0da7bc0b52f",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 64.41
+    },
+    "unitConceptId": "cd3c92cc-84c2-582d-9b55-1603c597f769",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 163.6
+    },
+    "sourceUnitConceptId": "ede0341b-2d50-506e-a9b7-ad854bef3aa6",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "d912a657-14ff-444c-87f9-0be014f66580",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "9f974f15-5df4-4c05-9779-f24f500f9cc5",
+    "conceptId": "73768ee8-0da8-595a-9ef5-0d1297fd790c",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 78
+    },
+    "unitConceptId": "a4ac7469-f0f7-52c8-9f2c-ed1a92f2d99e",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 78
+    },
+    "sourceUnitConceptId": "a4ac7469-f0f7-52c8-9f2c-ed1a92f2d99e",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "5e5c364c-3365-45e0-8297-10f04fdb6d6c",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "9f974f15-5df4-4c05-9779-f24f500f9cc5",
+    "conceptId": "55dd9662-8be7-5a94-97a4-ae6316dd58d7",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 129
+    },
+    "unitConceptId": "eb0d94d5-5467-5757-bcbd-1089992fe3fe",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 58.6
+    },
+    "sourceUnitConceptId": "a4bcb221-7eb3-5ba7-89ee-30870cf7c5c2",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "a57522c5-a8aa-4fa9-b6c7-8176267d19a4",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "9f974f15-5df4-4c05-9779-f24f500f9cc5",
+    "conceptId": "46c8559d-0466-516d-adf8-21b9339f19ab",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 18
+    },
+    "unitConceptId": "a4ac7469-f0f7-52c8-9f2c-ed1a92f2d99e",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 18
+    },
+    "sourceUnitConceptId": "a4ac7469-f0f7-52c8-9f2c-ed1a92f2d99e",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "dc065980-da8e-458e-94e7-0851f9b787b6",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "9f974f15-5df4-4c05-9779-f24f500f9cc5",
+    "conceptId": "ac514ab6-f9d4-5d0c-8efa-17c6085d8990",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 81
+    },
+    "unitConceptId": "af4683d4-a208-5752-ba6b-4809e1b77f21",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 81
+    },
+    "sourceUnitConceptId": "af4683d4-a208-5752-ba6b-4809e1b77f21",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "97f90f15-0d9a-457f-85c2-fb0e1953a48a",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "9f974f15-5df4-4c05-9779-f24f500f9cc5",
+    "conceptId": "bc60c9b5-9e4b-5f10-95d1-ae81a7761a0d",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 117
+    },
+    "unitConceptId": "af4683d4-a208-5752-ba6b-4809e1b77f21",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 117
+    },
+    "sourceUnitConceptId": "af4683d4-a208-5752-ba6b-4809e1b77f21",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "c9a36ac0-6730-4558-a467-5637d514eb56",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "26b44c21-8f54-4907-b35e-5f59d3c35fe5",
+    "conceptId": "5e460116-aed8-58fc-a53b-c78bfa18f4de",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 82
+    },
+    "unitConceptId": "de7e3d74-dd78-5867-acb2-81c44342bda9",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 65,
+      "highValue": 105,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 82
+    },
+    "sourceUnitConceptId": "de7e3d74-dd78-5867-acb2-81c44342bda9",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 65,
+      "highValue": 105,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "465ce5e0-1b5d-45bd-a305-e92dce42a3ac",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "bae6cbdf-0f3d-49f7-bba6-c53153bf40c5",
+    "conceptId": "ac514ab6-f9d4-5d0c-8efa-17c6085d8990",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 69
+    },
+    "unitConceptId": "af4683d4-a208-5752-ba6b-4809e1b77f21",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 69
+    },
+    "sourceUnitConceptId": "af4683d4-a208-5752-ba6b-4809e1b77f21",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "8ed2625f-bfa1-42ed-9bc5-cc26d8b06b5b",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "bae6cbdf-0f3d-49f7-bba6-c53153bf40c5",
+    "conceptId": "bc60c9b5-9e4b-5f10-95d1-ae81a7761a0d",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 105
+    },
+    "unitConceptId": "af4683d4-a208-5752-ba6b-4809e1b77f21",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 105
+    },
+    "sourceUnitConceptId": "af4683d4-a208-5752-ba6b-4809e1b77f21",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "cc6f5d1c-3751-4273-a7fe-ac24c4483ac3",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "bae6cbdf-0f3d-49f7-bba6-c53153bf40c5",
+    "conceptId": "c72a372d-8648-5693-9cb2-e94f3c573f7e",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 100
+    },
+    "unitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 100
+    },
+    "sourceUnitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "8da51631-7710-4995-bd43-c46010c2f77c",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "bae6cbdf-0f3d-49f7-bba6-c53153bf40c5",
+    "conceptId": "46c8559d-0466-516d-adf8-21b9339f19ab",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 16
+    },
+    "unitConceptId": "a4ac7469-f0f7-52c8-9f2c-ed1a92f2d99e",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 16
+    },
+    "sourceUnitConceptId": "a4ac7469-f0f7-52c8-9f2c-ed1a92f2d99e",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "135644d6-89c9-44bd-a84f-d2a6e5c88182",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "c39fbe44-d686-4d3d-8227-5d420fee3c02",
+    "conceptId": "73768ee8-0da8-595a-9ef5-0d1297fd790c",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 82
+    },
+    "unitConceptId": "a4ac7469-f0f7-52c8-9f2c-ed1a92f2d99e",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 82
+    },
+    "sourceUnitConceptId": "a4ac7469-f0f7-52c8-9f2c-ed1a92f2d99e",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "b7877ae2-d81c-4a46-8c65-8739d4eb7d01",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "c39fbe44-d686-4d3d-8227-5d420fee3c02",
+    "conceptId": "b497d917-0749-51bb-a7b0-bf4ee3dfc410",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 78
+    },
+    "unitConceptId": "af4683d4-a208-5752-ba6b-4809e1b77f21",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 78
+    },
+    "sourceUnitConceptId": "af4683d4-a208-5752-ba6b-4809e1b77f21",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "80156e1f-c49f-4453-bf06-b4ef2c9b8258",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "c39fbe44-d686-4d3d-8227-5d420fee3c02",
+    "conceptId": "a6189148-dac3-525e-8e5f-e96c84a781a0",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 122
+    },
+    "unitConceptId": "af4683d4-a208-5752-ba6b-4809e1b77f21",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 122
+    },
+    "sourceUnitConceptId": "af4683d4-a208-5752-ba6b-4809e1b77f21",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "80fe1ac7-ae8d-4344-b36e-18c0996631fe",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "9d876ab4-6443-4cd3-88fe-285d22f007b0",
+    "conceptId": "bc60c9b5-9e4b-5f10-95d1-ae81a7761a0d",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 112
+    },
+    "unitConceptId": "af4683d4-a208-5752-ba6b-4809e1b77f21",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 112
+    },
+    "sourceUnitConceptId": "af4683d4-a208-5752-ba6b-4809e1b77f21",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "ef7bd8ed-524b-4701-9a35-8b46259f4714",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "9d876ab4-6443-4cd3-88fe-285d22f007b0",
+    "conceptId": "73768ee8-0da8-595a-9ef5-0d1297fd790c",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 67
+    },
+    "unitConceptId": "a4ac7469-f0f7-52c8-9f2c-ed1a92f2d99e",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 67
+    },
+    "sourceUnitConceptId": "a4ac7469-f0f7-52c8-9f2c-ed1a92f2d99e",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "334d6056-ecfa-447d-8f1c-2ebf83230980",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "9d876ab4-6443-4cd3-88fe-285d22f007b0",
+    "conceptId": "55d40fb6-ade8-5274-8c5a-70cf36b040ad",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 37.2
+    },
+    "unitConceptId": "8997192f-aeb1-53de-bb42-10604aaeaad9",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 98.9
+    },
+    "sourceUnitConceptId": "c55f2a5b-e3b2-5fdc-974f-ebc840b233ba",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "cff36fe5-4ea8-412b-b15c-d6ad99acf4a6",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "9d876ab4-6443-4cd3-88fe-285d22f007b0",
+    "conceptId": "c72a372d-8648-5693-9cb2-e94f3c573f7e",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 99
+    },
+    "unitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 99
+    },
+    "sourceUnitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "360e90e9-04d9-4521-a8cd-29101fcfbe6b",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "9d876ab4-6443-4cd3-88fe-285d22f007b0",
+    "conceptId": "46c8559d-0466-516d-adf8-21b9339f19ab",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 16
+    },
+    "unitConceptId": "a4ac7469-f0f7-52c8-9f2c-ed1a92f2d99e",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 16
+    },
+    "sourceUnitConceptId": "a4ac7469-f0f7-52c8-9f2c-ed1a92f2d99e",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "fbdffef2-1944-4e05-8e9d-2666b2671c28",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "9d876ab4-6443-4cd3-88fe-285d22f007b0",
+    "conceptId": "ac514ab6-f9d4-5d0c-8efa-17c6085d8990",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 74
+    },
+    "unitConceptId": "af4683d4-a208-5752-ba6b-4809e1b77f21",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 74
+    },
+    "sourceUnitConceptId": "af4683d4-a208-5752-ba6b-4809e1b77f21",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "5410be14-fe5d-456e-8691-cbd93435948a",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "bae6cbdf-0f3d-49f7-bba6-c53153bf40c5",
+    "conceptId": "73768ee8-0da8-595a-9ef5-0d1297fd790c",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 57
+    },
+    "unitConceptId": "a4ac7469-f0f7-52c8-9f2c-ed1a92f2d99e",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 57
+    },
+    "sourceUnitConceptId": "a4ac7469-f0f7-52c8-9f2c-ed1a92f2d99e",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "3ee78b1e-3ac4-40d9-94fa-29fc95e75ba1",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "bae6cbdf-0f3d-49f7-bba6-c53153bf40c5",
+    "conceptId": "55d40fb6-ade8-5274-8c5a-70cf36b040ad",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 36.9
+    },
+    "unitConceptId": "8997192f-aeb1-53de-bb42-10604aaeaad9",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 98.5
+    },
+    "sourceUnitConceptId": "c55f2a5b-e3b2-5fdc-974f-ebc840b233ba",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "608f378b-6879-493b-94fc-3cb2153971e4",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "c39fbe44-d686-4d3d-8227-5d420fee3c02",
+    "conceptId": "75645f7c-1afe-5a53-8c48-c0da7bc0b52f",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 65
+    },
+    "unitConceptId": "cd3c92cc-84c2-582d-9b55-1603c597f769",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 65
+    },
+    "sourceUnitConceptId": "cd3c92cc-84c2-582d-9b55-1603c597f769",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "7ac913f4-3bb1-4b73-b1ef-ec86bcf3c77f",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "c39fbe44-d686-4d3d-8227-5d420fee3c02",
+    "conceptId": "55dd9662-8be7-5a94-97a4-ae6316dd58d7",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 135
+    },
+    "unitConceptId": "eb0d94d5-5467-5757-bcbd-1089992fe3fe",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 135
+    },
+    "sourceUnitConceptId": "eb0d94d5-5467-5757-bcbd-1089992fe3fe",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "a8039e8c-60ff-43b5-b8c2-cffcc299cb97",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "c39fbe44-d686-4d3d-8227-5d420fee3c02",
+    "conceptId": "55d40fb6-ade8-5274-8c5a-70cf36b040ad",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 37
+    },
+    "unitConceptId": "8997192f-aeb1-53de-bb42-10604aaeaad9",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 98.6
+    },
+    "sourceUnitConceptId": "c55f2a5b-e3b2-5fdc-974f-ebc840b233ba",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "cfc9ca63-25a5-4bc9-89dc-0785172fdbf4",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "5542d441-fe6e-41bf-b099-104bcbe0e912",
+    "conceptId": "55d40fb6-ade8-5274-8c5a-70cf36b040ad",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 37.2
+    },
+    "unitConceptId": "8997192f-aeb1-53de-bb42-10604aaeaad9",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 37.2
+    },
+    "sourceUnitConceptId": "8997192f-aeb1-53de-bb42-10604aaeaad9",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "7778187a-d307-43e9-bcfe-78e646ca52e4",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "8a13ae8b-95d5-4070-862f-8b407d872a96",
+    "conceptId": "a4223d06-d069-543b-88fa-320a73875d09",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 42
+    },
+    "unitConceptId": "3e09b22f-b4e9-52dc-b2db-7df8796f5222",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 33,
+      "highValue": 97,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 42
+    },
+    "sourceUnitConceptId": "3e09b22f-b4e9-52dc-b2db-7df8796f5222",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 33,
+      "highValue": 97,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "c35f5a58-876d-4fb1-bd87-dff9b1ae297e",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "8a13ae8b-95d5-4070-862f-8b407d872a96",
+    "conceptId": "6b5ca5a5-c7d3-562c-b5a8-bafafb039a26",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 0.1
+    },
+    "unitConceptId": "2ba6fbab-2dba-5956-9813-bbe501c47322",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 0,
+      "highValue": 0.6,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 0.1
+    },
+    "sourceUnitConceptId": "2ba6fbab-2dba-5956-9813-bbe501c47322",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 0,
+      "highValue": 0.6,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "5d074f4c-7eea-476a-9ed4-35e628baad1b",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "8a13ae8b-95d5-4070-862f-8b407d872a96",
+    "conceptId": "1974cb26-bce3-51ea-a7fb-312050286fe5",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 2.1
+    },
+    "unitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 0,
+      "highValue": 5,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 2.1
+    },
+    "sourceUnitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 0,
+      "highValue": 5,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "452166c4-1c70-42f2-9a98-324d6ba2b59e",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "440744f6-2f0a-46ef-8c2c-cee6b48dad68",
+    "conceptId": "a42cfd19-34d1-5dc1-82ce-df7871483298",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 133
+    },
+    "unitConceptId": "3e09b22f-b4e9-52dc-b2db-7df8796f5222",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 120,
+      "highValue": 246,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 133
+    },
+    "sourceUnitConceptId": "3e09b22f-b4e9-52dc-b2db-7df8796f5222",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 120,
+      "highValue": 246,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "1d207537-d4a3-4771-b60f-d0a3a6e1be7c",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "440744f6-2f0a-46ef-8c2c-cee6b48dad68",
+    "conceptId": "f3eda808-72ae-59e2-9306-e34aa3c7552f",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 10
+    },
+    "unitConceptId": "3e09b22f-b4e9-52dc-b2db-7df8796f5222",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 5,
+      "highValue": 37,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 10
+    },
+    "sourceUnitConceptId": "3e09b22f-b4e9-52dc-b2db-7df8796f5222",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 5,
+      "highValue": 37,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "7d93aa31-6d6e-471a-a585-c0e4a13aa65e",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "440744f6-2f0a-46ef-8c2c-cee6b48dad68",
+    "conceptId": "125e29f5-0ffd-54e6-afa4-4b5b9245590a",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 17
+    },
+    "unitConceptId": "3e09b22f-b4e9-52dc-b2db-7df8796f5222",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 10,
+      "highValue": 37,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 17
+    },
+    "sourceUnitConceptId": "3e09b22f-b4e9-52dc-b2db-7df8796f5222",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 10,
+      "highValue": 37,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "b421b1bc-d1ef-4948-aa83-8af5a5c50e05",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "440744f6-2f0a-46ef-8c2c-cee6b48dad68",
+    "conceptId": "5e460116-aed8-58fc-a53b-c78bfa18f4de",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 83
+    },
+    "unitConceptId": "de7e3d74-dd78-5867-acb2-81c44342bda9",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 70,
+      "highValue": 99,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 83
+    },
+    "sourceUnitConceptId": "de7e3d74-dd78-5867-acb2-81c44342bda9",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 70,
+      "highValue": 99,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "c158e623-879b-4eae-b952-fb4820df5560",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "440744f6-2f0a-46ef-8c2c-cee6b48dad68",
+    "conceptId": "795e4722-bc6a-5a1f-88ec-a0fded2fee1f",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 9.4
+    },
+    "unitConceptId": "de7e3d74-dd78-5867-acb2-81c44342bda9",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 8.5,
+      "highValue": 10.5,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 9.4
+    },
+    "sourceUnitConceptId": "de7e3d74-dd78-5867-acb2-81c44342bda9",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 8.5,
+      "highValue": 10.5,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "2ab8f97f-f3b3-4453-9e0f-a8e88e24408f",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "440744f6-2f0a-46ef-8c2c-cee6b48dad68",
+    "conceptId": "6b5ca5a5-c7d3-562c-b5a8-bafafb039a26",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 0.1
+    },
+    "unitConceptId": "2ba6fbab-2dba-5956-9813-bbe501c47322",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 0,
+      "highValue": 0.6,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 0.1
+    },
+    "sourceUnitConceptId": "2ba6fbab-2dba-5956-9813-bbe501c47322",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 0,
+      "highValue": 0.6,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "235bbc91-bba1-4e10-9aba-cdbe6c2a91f4",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "440744f6-2f0a-46ef-8c2c-cee6b48dad68",
+    "conceptId": "1974cb26-bce3-51ea-a7fb-312050286fe5",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 1.6
+    },
+    "unitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 0,
+      "highValue": 5,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 1.6
+    },
+    "sourceUnitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 0,
+      "highValue": 5,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "5e217c70-9e81-4ca2-94de-d05e0269a2a8",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "8a13ae8b-95d5-4070-862f-8b407d872a96",
+    "conceptId": "125e29f5-0ffd-54e6-afa4-4b5b9245590a",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 15
+    },
+    "unitConceptId": "3e09b22f-b4e9-52dc-b2db-7df8796f5222",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 10,
+      "highValue": 37,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 15
+    },
+    "sourceUnitConceptId": "3e09b22f-b4e9-52dc-b2db-7df8796f5222",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 10,
+      "highValue": 37,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "35870e4f-b6af-401b-be03-3df3991ac7ab",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "8a13ae8b-95d5-4070-862f-8b407d872a96",
+    "conceptId": "10f6b508-707b-5acf-ada4-2e1cc3bc7293",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 28
+    },
+    "unitConceptId": "47d67b06-9b56-57fa-bdfc-b8807527c5ae",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 24,
+      "highValue": 30,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 28
+    },
+    "sourceUnitConceptId": "ee7f0e08-146e-53c9-b7f9-4da843b83faa",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 24,
+      "highValue": 30,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "cde6c3d8-1142-477d-9a7a-9ddfb6c625b1",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "8a13ae8b-95d5-4070-862f-8b407d872a96",
+    "conceptId": "f98a8f8b-0639-5ef5-ab3f-732cca73aa90",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 7
+    },
+    "unitConceptId": "de7e3d74-dd78-5867-acb2-81c44342bda9",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 6,
+      "highValue": 20,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 7
+    },
+    "sourceUnitConceptId": "de7e3d74-dd78-5867-acb2-81c44342bda9",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 6,
+      "highValue": 20,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "f9a4bbe1-3668-42b9-8fca-006b18b849df",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "8a13ae8b-95d5-4070-862f-8b407d872a96",
+    "conceptId": "f3eda808-72ae-59e2-9306-e34aa3c7552f",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 9
+    },
+    "unitConceptId": "3e09b22f-b4e9-52dc-b2db-7df8796f5222",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 5,
+      "highValue": 37,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 9
+    },
+    "sourceUnitConceptId": "3e09b22f-b4e9-52dc-b2db-7df8796f5222",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 5,
+      "highValue": 37,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "bda285f3-5dda-4aa4-811b-ad89cd9377c6",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "8a13ae8b-95d5-4070-862f-8b407d872a96",
+    "conceptId": "e8264248-64b8-5d6b-a1a7-05fc612f0e83",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 0.7
+    },
+    "unitConceptId": "de7e3d74-dd78-5867-acb2-81c44342bda9",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 0.6,
+      "highValue": 1.3,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 0.7
+    },
+    "sourceUnitConceptId": "de7e3d74-dd78-5867-acb2-81c44342bda9",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 0.6,
+      "highValue": 1.3,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "33489259-0777-40e4-a2ac-b62d8fa2e955",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "8a13ae8b-95d5-4070-862f-8b407d872a96",
+    "conceptId": "358675b7-4b75-5e67-b5fe-1082cf769f21",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 7.4
+    },
+    "unitConceptId": "2909d48a-745b-5d89-90d6-b59588203962",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 6.3,
+      "highValue": 8.1,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 7.4
+    },
+    "sourceUnitConceptId": "2909d48a-745b-5d89-90d6-b59588203962",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 6.3,
+      "highValue": 8.1,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "77b4be2d-2636-43a5-9e30-90a8d16d2613",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "8a13ae8b-95d5-4070-862f-8b407d872a96",
+    "conceptId": "0a6b9974-c862-519f-b193-dbdadf05fab8",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 4.2
+    },
+    "unitConceptId": "47d67b06-9b56-57fa-bdfc-b8807527c5ae",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 3.5,
+      "highValue": 5.1,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 4.2
+    },
+    "sourceUnitConceptId": "ee7f0e08-146e-53c9-b7f9-4da843b83faa",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 3.5,
+      "highValue": 5.1,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "d02709fb-ff7e-4ef2-8003-744839982a1c",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "8a13ae8b-95d5-4070-862f-8b407d872a96",
+    "conceptId": "5ea19594-b3b5-5036-971e-dd1cabeb3548",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 101
+    },
+    "unitConceptId": "47d67b06-9b56-57fa-bdfc-b8807527c5ae",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 98,
+      "highValue": 109,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 101
+    },
+    "sourceUnitConceptId": "ee7f0e08-146e-53c9-b7f9-4da843b83faa",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 98,
+      "highValue": 109,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "99efb59a-9f0b-483c-ab34-61fd6e476cc5",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "8a13ae8b-95d5-4070-862f-8b407d872a96",
+    "conceptId": "2e17167f-078f-51f0-be86-c5e8c791ff33",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 0.2
+    },
+    "unitConceptId": "de7e3d74-dd78-5867-acb2-81c44342bda9",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 0,
+      "highValue": 1,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 0.2
+    },
+    "sourceUnitConceptId": "de7e3d74-dd78-5867-acb2-81c44342bda9",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 0,
+      "highValue": 1,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "1395c42f-b1f8-41d4-8ba5-735b685e4882",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "8a13ae8b-95d5-4070-862f-8b407d872a96",
+    "conceptId": "a42cfd19-34d1-5dc1-82ce-df7871483298",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 145
+    },
+    "unitConceptId": "3e09b22f-b4e9-52dc-b2db-7df8796f5222",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 120,
+      "highValue": 246,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 145
+    },
+    "sourceUnitConceptId": "3e09b22f-b4e9-52dc-b2db-7df8796f5222",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 120,
+      "highValue": 246,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "91ce6546-2410-43e1-b343-4539de787125",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "8a13ae8b-95d5-4070-862f-8b407d872a96",
+    "conceptId": "86107f1c-5497-50ab-a442-ba9813856b1a",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 4.8
+    },
+    "unitConceptId": "2909d48a-745b-5d89-90d6-b59588203962",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 4,
+      "highValue": 5.2,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 4.8
+    },
+    "sourceUnitConceptId": "2909d48a-745b-5d89-90d6-b59588203962",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 4,
+      "highValue": 5.2,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "c1325bfb-d1fa-4ed7-bdba-1cacec89e23d",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "8a13ae8b-95d5-4070-862f-8b407d872a96",
+    "conceptId": "5e460116-aed8-58fc-a53b-c78bfa18f4de",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 82
+    },
+    "unitConceptId": "de7e3d74-dd78-5867-acb2-81c44342bda9",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 70,
+      "highValue": 99,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 82
+    },
+    "sourceUnitConceptId": "de7e3d74-dd78-5867-acb2-81c44342bda9",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 70,
+      "highValue": 99,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "a669baba-173b-468c-9e67-b780c453af1c",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "8a13ae8b-95d5-4070-862f-8b407d872a96",
+    "conceptId": "dbd575fb-bd1a-5d52-9f13-1a97ed5539ff",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 141
+    },
+    "unitConceptId": "47d67b06-9b56-57fa-bdfc-b8807527c5ae",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 136,
+      "highValue": 144,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 141
+    },
+    "sourceUnitConceptId": "ee7f0e08-146e-53c9-b7f9-4da843b83faa",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 136,
+      "highValue": 144,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "6e7a2c12-305a-467c-ac46-7ca085c7dd50",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "8a13ae8b-95d5-4070-862f-8b407d872a96",
+    "conceptId": "795e4722-bc6a-5a1f-88ec-a0fded2fee1f",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 9.9
+    },
+    "unitConceptId": "de7e3d74-dd78-5867-acb2-81c44342bda9",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 8.5,
+      "highValue": 10.5,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 9.9
+    },
+    "sourceUnitConceptId": "de7e3d74-dd78-5867-acb2-81c44342bda9",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 8.5,
+      "highValue": 10.5,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "a14d7003-474b-425d-8392-57c61e17a7e4",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "8a13ae8b-95d5-4070-862f-8b407d872a96",
+    "conceptId": "d8f52320-7aeb-53a6-a288-d87ff5f6a47e",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 12
+    },
+    "unitConceptId": "47d67b06-9b56-57fa-bdfc-b8807527c5ae",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 8,
+      "highValue": 16,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 12
+    },
+    "sourceUnitConceptId": "ee7f0e08-146e-53c9-b7f9-4da843b83faa",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 8,
+      "highValue": 16,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "1bf8f17e-6700-4c3c-9c20-3e5ff2e83db6",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "8a13ae8b-95d5-4070-862f-8b407d872a96",
+    "conceptId": "841b0565-73e4-578b-bcd8-925c0aae4bb8",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 66.1
+    },
+    "unitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 38,
+      "highValue": 80,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 66.1
+    },
+    "sourceUnitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 38,
+      "highValue": 80,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "15155960-71f0-4ad5-bb12-4f0c42a41644",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "8a13ae8b-95d5-4070-862f-8b407d872a96",
+    "conceptId": "8f6e1e3c-ef5a-5364-998b-244ce5906c12",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 1.5
+    },
+    "unitConceptId": "2ba6fbab-2dba-5956-9813-bbe501c47322",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 0.5,
+      "highValue": 5.3,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 1.5
+    },
+    "sourceUnitConceptId": "2ba6fbab-2dba-5956-9813-bbe501c47322",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 0.5,
+      "highValue": 5.3,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "e3efda2d-a783-40e7-99e2-c40a8d9cedb1",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "8a13ae8b-95d5-4070-862f-8b407d872a96",
+    "conceptId": "73301076-9895-50a0-b798-325e7d572a60",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 28.2
+    },
+    "unitConceptId": "982bbad5-4c20-5e23-98a6-8d19688875c5",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 27,
+      "highValue": 33,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 28.2
+    },
+    "sourceUnitConceptId": "982bbad5-4c20-5e23-98a6-8d19688875c5",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 27,
+      "highValue": 33,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "6ab9b80b-eb12-4d84-a91d-ef31cc5b543e",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "8a13ae8b-95d5-4070-862f-8b407d872a96",
+    "conceptId": "e82be6ec-61de-55d9-92a0-4de679e462b2",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 0.9
+    },
+    "unitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 0,
+      "highValue": 1.5,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 0.9
+    },
+    "sourceUnitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 0,
+      "highValue": 1.5,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "e298db9b-1c0b-40eb-a19c-f897727ae7f4",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "8a13ae8b-95d5-4070-862f-8b407d872a96",
+    "conceptId": "086743d8-5acd-51e7-a059-846268a0cff6",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 0.1
+    },
+    "unitConceptId": "2ba6fbab-2dba-5956-9813-bbe501c47322",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 0,
+      "highValue": 0.16,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 0.1
+    },
+    "sourceUnitConceptId": "2ba6fbab-2dba-5956-9813-bbe501c47322",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 0,
+      "highValue": 0.16,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "f5986567-075b-4593-9e99-231df2b02ce3",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "8a13ae8b-95d5-4070-862f-8b407d872a96",
+    "conceptId": "29124cfe-a4a8-5939-8d36-3f43f0017600",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 11.9
+    },
+    "unitConceptId": "2909d48a-745b-5d89-90d6-b59588203962",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 11.5,
+      "highValue": 16,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 11.9
+    },
+    "sourceUnitConceptId": "2909d48a-745b-5d89-90d6-b59588203962",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 11.5,
+      "highValue": 16,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "e9756287-046e-430a-9752-d311eaf09c90",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "8a13ae8b-95d5-4070-862f-8b407d872a96",
+    "conceptId": "bb386db7-931d-5180-9555-6b8d8f5815ea",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 32.9
+    },
+    "unitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 31,
+      "highValue": 36.5,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 32.9
+    },
+    "sourceUnitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 31,
+      "highValue": 36.5,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "78cca4d4-c0f6-4137-ad8d-00a376dd45b3",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "8a13ae8b-95d5-4070-862f-8b407d872a96",
+    "conceptId": "23c3e972-a5d1-5e6f-a134-a466c27c2c06",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 86
+    },
+    "unitConceptId": "ac5a285d-031d-58a5-a9a3-801b835708ab",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 82,
+      "highValue": 98,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 86
+    },
+    "sourceUnitConceptId": "ac5a285d-031d-58a5-a9a3-801b835708ab",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 82,
+      "highValue": 98,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "0aa6ee1b-ac43-4eba-ad50-adbbcabd694f",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "8a13ae8b-95d5-4070-862f-8b407d872a96",
+    "conceptId": "a58472ce-482c-5816-90d8-8660641bc487",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 3.9
+    },
+    "unitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 0,
+      "highValue": 12,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 3.9
+    },
+    "sourceUnitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 0,
+      "highValue": 12,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "ee63e81f-0fe3-4727-b425-f38c0b034bc9",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "8a13ae8b-95d5-4070-862f-8b407d872a96",
+    "conceptId": "bfb14ac1-e835-5e12-984c-6e73339bfc2d",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 0.2
+    },
+    "unitConceptId": "2ba6fbab-2dba-5956-9813-bbe501c47322",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 0,
+      "highValue": 1.3,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 0.2
+    },
+    "sourceUnitConceptId": "2ba6fbab-2dba-5956-9813-bbe501c47322",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 0,
+      "highValue": 1.3,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "3706be3b-7288-48f8-8483-fe7cbc184daf",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "8a13ae8b-95d5-4070-862f-8b407d872a96",
+    "conceptId": "062f0113-270d-5a31-9ca5-8b1d3862fce9",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 4.22
+    },
+    "unitConceptId": "3d963205-2243-5034-8254-aa724bd4efae",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 4,
+      "highValue": 5.2,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 4.22
+    },
+    "sourceUnitConceptId": "3d963205-2243-5034-8254-aa724bd4efae",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 4,
+      "highValue": 5.2,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "320835b5-1c58-43f8-8705-6de02e871a8e",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "8a13ae8b-95d5-4070-862f-8b407d872a96",
+    "conceptId": "348eeb30-a39a-52da-b6fd-84705989eac2",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 346
+    },
+    "unitConceptId": "2ba6fbab-2dba-5956-9813-bbe501c47322",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 160,
+      "highValue": 400,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 346
+    },
+    "sourceUnitConceptId": "2ba6fbab-2dba-5956-9813-bbe501c47322",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 160,
+      "highValue": 400,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "0b694ab4-174a-4089-8e36-56d254e7e37f",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "8a13ae8b-95d5-4070-862f-8b407d872a96",
+    "conceptId": "a579332d-ec17-5abe-8740-7a2ee32ba235",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 13.4
+    },
+    "unitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 11.5,
+      "highValue": 14.5,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 13.4
+    },
+    "sourceUnitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 11.5,
+      "highValue": 14.5,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "240cf58d-f94f-4261-b898-9132cd87f620",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "8a13ae8b-95d5-4070-862f-8b407d872a96",
+    "conceptId": "99baf08c-ab69-5282-aca7-fd947286964d",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 36.1
+    },
+    "unitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 34,
+      "highValue": 46,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 36.1
+    },
+    "sourceUnitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 34,
+      "highValue": 46,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "94410a1b-07aa-48ac-b5ef-15f1d6d793de",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "8a13ae8b-95d5-4070-862f-8b407d872a96",
+    "conceptId": "c46cde90-2560-53a4-8907-ccbc8e7e9aa0",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 6
+    },
+    "unitConceptId": "2ba6fbab-2dba-5956-9813-bbe501c47322",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 4,
+      "highValue": 11,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 6
+    },
+    "sourceUnitConceptId": "2ba6fbab-2dba-5956-9813-bbe501c47322",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 4,
+      "highValue": 11,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "168021c4-81b5-40c6-8dd8-490e144bd6aa",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "8a13ae8b-95d5-4070-862f-8b407d872a96",
+    "conceptId": "7bc62a10-c50b-5669-a54c-24298882cfaa",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 1.3
+    },
+    "unitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 0,
+      "highValue": 7,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 1.3
+    },
+    "sourceUnitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 0,
+      "highValue": 7,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "36a36dac-565b-4d14-aa4c-c8c997efebfe",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "8a13ae8b-95d5-4070-862f-8b407d872a96",
+    "conceptId": "b97c812b-40a9-53f7-80d4-d274ca96e961",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 25.7
+    },
+    "unitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 12,
+      "highValue": 48,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 25.7
+    },
+    "sourceUnitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 12,
+      "highValue": 48,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "3fe9136a-f88b-4c17-a8e2-9cd7207bab68",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "8a13ae8b-95d5-4070-862f-8b407d872a96",
+    "conceptId": "50197fb5-db56-5568-9537-249dca3a20de",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 4
+    },
+    "unitConceptId": "2ba6fbab-2dba-5956-9813-bbe501c47322",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 1.5,
+      "highValue": 8.8,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 4
+    },
+    "sourceUnitConceptId": "2ba6fbab-2dba-5956-9813-bbe501c47322",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 1.5,
+      "highValue": 8.8,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "9b309628-d5dd-45c9-8111-3c302f902fbc",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "8a13ae8b-95d5-4070-862f-8b407d872a96",
+    "conceptId": "8c69544d-f264-5c02-9335-a9f93d18fc0e",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 0.1
+    },
+    "unitConceptId": "2ba6fbab-2dba-5956-9813-bbe501c47322",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 0,
+      "highValue": 0.8,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 0.1
+    },
+    "sourceUnitConceptId": "2ba6fbab-2dba-5956-9813-bbe501c47322",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 0,
+      "highValue": 0.8,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "ae43ab5b-4c67-48ca-ac60-e70f731867c3",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "440744f6-2f0a-46ef-8c2c-cee6b48dad68",
+    "conceptId": "0a6b9974-c862-519f-b193-dbdadf05fab8",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 4.1
+    },
+    "unitConceptId": "47d67b06-9b56-57fa-bdfc-b8807527c5ae",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 3.3,
+      "highValue": 4.8,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 4.1
+    },
+    "sourceUnitConceptId": "ee7f0e08-146e-53c9-b7f9-4da843b83faa",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 3.3,
+      "highValue": 4.8,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "8d1cf4d2-fe96-4516-a1fb-cb3439c10552",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "440744f6-2f0a-46ef-8c2c-cee6b48dad68",
+    "conceptId": "a4223d06-d069-543b-88fa-320a73875d09",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 39
+    },
+    "unitConceptId": "3e09b22f-b4e9-52dc-b2db-7df8796f5222",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 33,
+      "highValue": 97,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 39
+    },
+    "sourceUnitConceptId": "3e09b22f-b4e9-52dc-b2db-7df8796f5222",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 33,
+      "highValue": 97,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "b3b202b5-aee6-4ebd-97e8-d3a761803df0",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "440744f6-2f0a-46ef-8c2c-cee6b48dad68",
+    "conceptId": "2e17167f-078f-51f0-be86-c5e8c791ff33",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 0.1
+    },
+    "unitConceptId": "de7e3d74-dd78-5867-acb2-81c44342bda9",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 0,
+      "highValue": 1,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 0.1
+    },
+    "sourceUnitConceptId": "de7e3d74-dd78-5867-acb2-81c44342bda9",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 0,
+      "highValue": 1,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "a6eb0b0f-1e8c-4c1a-8b98-1fcbe2c7285c",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "440744f6-2f0a-46ef-8c2c-cee6b48dad68",
+    "conceptId": "dbd575fb-bd1a-5d52-9f13-1a97ed5539ff",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 141
+    },
+    "unitConceptId": "47d67b06-9b56-57fa-bdfc-b8807527c5ae",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 136,
+      "highValue": 144,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 141
+    },
+    "sourceUnitConceptId": "ee7f0e08-146e-53c9-b7f9-4da843b83faa",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 136,
+      "highValue": 144,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "d8ccb2e1-8718-44bc-83ce-8dbbb6d4bb30",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "440744f6-2f0a-46ef-8c2c-cee6b48dad68",
+    "conceptId": "358675b7-4b75-5e67-b5fe-1082cf769f21",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 7.3
+    },
+    "unitConceptId": "2909d48a-745b-5d89-90d6-b59588203962",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 6.5,
+      "highValue": 8.5,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 7.3
+    },
+    "sourceUnitConceptId": "2909d48a-745b-5d89-90d6-b59588203962",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 6.5,
+      "highValue": 8.5,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "bef74028-bf97-4009-a4b3-e0d08f535359",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "440744f6-2f0a-46ef-8c2c-cee6b48dad68",
+    "conceptId": "716fd3c7-10ce-5910-a98e-268167ca3391",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "range",
+    "value": {
+      "type": "greaterThan",
+      "lowValue": null,
+      "highValue": null,
+      "borderValue": 60
+    },
+    "unitConceptId": "d7194274-51e6-5605-b957-5b0105249cc0",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "greaterThan",
+      "lowValue": null,
+      "highValue": null,
+      "borderValue": 60
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "range",
+    "sourceValue": {
+      "type": "greaterThan",
+      "lowValue": null,
+      "highValue": null,
+      "borderValue": 60
+    },
+    "sourceUnitConceptId": "d7194274-51e6-5605-b957-5b0105249cc0",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "greaterThan",
+      "lowValue": null,
+      "highValue": null,
+      "borderValue": 60
+    }
+  },
+  {
+    "measurementId": "0c35d6a5-a9a7-479c-a43e-1b9b4fb3023b",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "440744f6-2f0a-46ef-8c2c-cee6b48dad68",
+    "conceptId": "86107f1c-5497-50ab-a442-ba9813856b1a",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 4.8
+    },
+    "unitConceptId": "2909d48a-745b-5d89-90d6-b59588203962",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 4,
+      "highValue": 5.2,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 4.8
+    },
+    "sourceUnitConceptId": "2909d48a-745b-5d89-90d6-b59588203962",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 4,
+      "highValue": 5.2,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "2af0ac88-f63d-4992-b0aa-c796af76d828",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "440744f6-2f0a-46ef-8c2c-cee6b48dad68",
+    "conceptId": "0fd7ee52-d7dc-5fe2-a11a-9ded7b9e4093",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "range",
+    "value": {
+      "type": "greaterThan",
+      "lowValue": null,
+      "highValue": null,
+      "borderValue": 60
+    },
+    "unitConceptId": "d7194274-51e6-5605-b957-5b0105249cc0",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "greaterThan",
+      "lowValue": null,
+      "highValue": null,
+      "borderValue": 60
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "range",
+    "sourceValue": {
+      "type": "greaterThan",
+      "lowValue": null,
+      "highValue": null,
+      "borderValue": 60
+    },
+    "sourceUnitConceptId": "d7194274-51e6-5605-b957-5b0105249cc0",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "greaterThan",
+      "lowValue": null,
+      "highValue": null,
+      "borderValue": 60
+    }
+  },
+  {
+    "measurementId": "d28f13c9-b469-4e9b-a980-a06119ab94d4",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "440744f6-2f0a-46ef-8c2c-cee6b48dad68",
+    "conceptId": "d8f52320-7aeb-53a6-a288-d87ff5f6a47e",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 8
+    },
+    "unitConceptId": "47d67b06-9b56-57fa-bdfc-b8807527c5ae",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 8,
+      "highValue": 16,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 8
+    },
+    "sourceUnitConceptId": "ee7f0e08-146e-53c9-b7f9-4da843b83faa",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 8,
+      "highValue": 16,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "488574c0-2c3f-49a4-ad61-74e60a7af2f9",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "440744f6-2f0a-46ef-8c2c-cee6b48dad68",
+    "conceptId": "10f6b508-707b-5acf-ada4-2e1cc3bc7293",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 29
+    },
+    "unitConceptId": "47d67b06-9b56-57fa-bdfc-b8807527c5ae",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 24,
+      "highValue": 30,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 29
+    },
+    "sourceUnitConceptId": "ee7f0e08-146e-53c9-b7f9-4da843b83faa",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 24,
+      "highValue": 30,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "0e4b59b3-d008-4501-8193-39096483080c",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "440744f6-2f0a-46ef-8c2c-cee6b48dad68",
+    "conceptId": "e8264248-64b8-5d6b-a1a7-05fc612f0e83",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 0.7
+    },
+    "unitConceptId": "de7e3d74-dd78-5867-acb2-81c44342bda9",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 0.6,
+      "highValue": 1.3,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 0.7
+    },
+    "sourceUnitConceptId": "de7e3d74-dd78-5867-acb2-81c44342bda9",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 0.6,
+      "highValue": 1.3,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "4a608eb1-7b70-4211-99c0-b352bbca203c",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "440744f6-2f0a-46ef-8c2c-cee6b48dad68",
+    "conceptId": "5ea19594-b3b5-5036-971e-dd1cabeb3548",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 104
+    },
+    "unitConceptId": "47d67b06-9b56-57fa-bdfc-b8807527c5ae",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 98,
+      "highValue": 109,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 104
+    },
+    "sourceUnitConceptId": "ee7f0e08-146e-53c9-b7f9-4da843b83faa",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 98,
+      "highValue": 109,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "834a204e-4b3e-4ad4-ac2c-cf051719bb33",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "440744f6-2f0a-46ef-8c2c-cee6b48dad68",
+    "conceptId": "f98a8f8b-0639-5ef5-ab3f-732cca73aa90",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 6
+    },
+    "unitConceptId": "de7e3d74-dd78-5867-acb2-81c44342bda9",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 6,
+      "highValue": 20,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 6
+    },
+    "sourceUnitConceptId": "de7e3d74-dd78-5867-acb2-81c44342bda9",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 6,
+      "highValue": 20,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "3b2dabc7-5f94-4fa9-94a9-995af60efc49",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "440744f6-2f0a-46ef-8c2c-cee6b48dad68",
+    "conceptId": "841b0565-73e4-578b-bcd8-925c0aae4bb8",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 48.1
+    },
+    "unitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 38,
+      "highValue": 80,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 48.1
+    },
+    "sourceUnitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 38,
+      "highValue": 80,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "6d22d24f-0d6f-42de-92ca-eb6ffab761c8",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "440744f6-2f0a-46ef-8c2c-cee6b48dad68",
+    "conceptId": "99baf08c-ab69-5282-aca7-fd947286964d",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 36.3
+    },
+    "unitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 34,
+      "highValue": 46,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 36.3
+    },
+    "sourceUnitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 34,
+      "highValue": 46,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "51da7090-5a36-4d10-b6c2-46847e92b530",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "440744f6-2f0a-46ef-8c2c-cee6b48dad68",
+    "conceptId": "a58472ce-482c-5816-90d8-8660641bc487",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 5.3
+    },
+    "unitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 0,
+      "highValue": 12,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 5.3
+    },
+    "sourceUnitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 0,
+      "highValue": 12,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "2c22af3c-0c24-49a9-a1e0-0749027e419f",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "440744f6-2f0a-46ef-8c2c-cee6b48dad68",
+    "conceptId": "23c3e972-a5d1-5e6f-a134-a466c27c2c06",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 87
+    },
+    "unitConceptId": "ac5a285d-031d-58a5-a9a3-801b835708ab",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 82,
+      "highValue": 98,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 87
+    },
+    "sourceUnitConceptId": "ac5a285d-031d-58a5-a9a3-801b835708ab",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 82,
+      "highValue": 98,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "a552afaf-3514-4e88-8e94-e5aa3f5723ef",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "440744f6-2f0a-46ef-8c2c-cee6b48dad68",
+    "conceptId": "8c69544d-f264-5c02-9335-a9f93d18fc0e",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 0.1
+    },
+    "unitConceptId": "2ba6fbab-2dba-5956-9813-bbe501c47322",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 0,
+      "highValue": 0.8,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 0.1
+    },
+    "sourceUnitConceptId": "2ba6fbab-2dba-5956-9813-bbe501c47322",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 0,
+      "highValue": 0.8,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "43d353c3-ff3a-4a1e-a766-2dfdb9eb8c47",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "440744f6-2f0a-46ef-8c2c-cee6b48dad68",
+    "conceptId": "062f0113-270d-5a31-9ca5-8b1d3862fce9",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 4.19
+    },
+    "unitConceptId": "3d963205-2243-5034-8254-aa724bd4efae",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 4,
+      "highValue": 5.2,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 4.19
+    },
+    "sourceUnitConceptId": "3d963205-2243-5034-8254-aa724bd4efae",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 4,
+      "highValue": 5.2,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "d5b8cb83-ac72-4cb2-8bd4-960a158ee33b",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "440744f6-2f0a-46ef-8c2c-cee6b48dad68",
+    "conceptId": "73301076-9895-50a0-b798-325e7d572a60",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 28.1
+    },
+    "unitConceptId": "982bbad5-4c20-5e23-98a6-8d19688875c5",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 27,
+      "highValue": 33,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 28.1
+    },
+    "sourceUnitConceptId": "982bbad5-4c20-5e23-98a6-8d19688875c5",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 27,
+      "highValue": 33,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "773911f4-4904-4621-bb59-f41b877b38da",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "440744f6-2f0a-46ef-8c2c-cee6b48dad68",
+    "conceptId": "50197fb5-db56-5568-9537-249dca3a20de",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 2.3
+    },
+    "unitConceptId": "2ba6fbab-2dba-5956-9813-bbe501c47322",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 1.5,
+      "highValue": 8.8,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 2.3
+    },
+    "sourceUnitConceptId": "2ba6fbab-2dba-5956-9813-bbe501c47322",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 1.5,
+      "highValue": 8.8,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "5ba1fe59-3591-4c03-b20d-43eefe3abae6",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "440744f6-2f0a-46ef-8c2c-cee6b48dad68",
+    "conceptId": "348eeb30-a39a-52da-b6fd-84705989eac2",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 299
+    },
+    "unitConceptId": "2ba6fbab-2dba-5956-9813-bbe501c47322",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 160,
+      "highValue": 400,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 299
+    },
+    "sourceUnitConceptId": "2ba6fbab-2dba-5956-9813-bbe501c47322",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 160,
+      "highValue": 400,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "994e0458-5d62-4ae5-b6de-31779f585845",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "440744f6-2f0a-46ef-8c2c-cee6b48dad68",
+    "conceptId": "29124cfe-a4a8-5939-8d36-3f43f0017600",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 11.8
+    },
+    "unitConceptId": "2909d48a-745b-5d89-90d6-b59588203962",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 11.5,
+      "highValue": 16,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 11.8
+    },
+    "sourceUnitConceptId": "2909d48a-745b-5d89-90d6-b59588203962",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 11.5,
+      "highValue": 16,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "e947b597-f6aa-4759-beb1-5da6841569d9",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "440744f6-2f0a-46ef-8c2c-cee6b48dad68",
+    "conceptId": "b97c812b-40a9-53f7-80d4-d274ca96e961",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 41.1
+    },
+    "unitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 12,
+      "highValue": 48,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 41.1
+    },
+    "sourceUnitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 12,
+      "highValue": 48,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "af40a791-f886-4aa7-801c-166ea3e2f342",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "440744f6-2f0a-46ef-8c2c-cee6b48dad68",
+    "conceptId": "bfb14ac1-e835-5e12-984c-6e73339bfc2d",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 0.3
+    },
+    "unitConceptId": "2ba6fbab-2dba-5956-9813-bbe501c47322",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 0,
+      "highValue": 1.3,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 0.3
+    },
+    "sourceUnitConceptId": "2ba6fbab-2dba-5956-9813-bbe501c47322",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 0,
+      "highValue": 1.3,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "8b6aae39-05cc-4772-9419-9008af794431",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "440744f6-2f0a-46ef-8c2c-cee6b48dad68",
+    "conceptId": "8f6e1e3c-ef5a-5364-998b-244ce5906c12",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 2
+    },
+    "unitConceptId": "2ba6fbab-2dba-5956-9813-bbe501c47322",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 0.5,
+      "highValue": 5.3,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 2
+    },
+    "sourceUnitConceptId": "2ba6fbab-2dba-5956-9813-bbe501c47322",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 0.5,
+      "highValue": 5.3,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "77b1f569-4342-45ba-bbdf-56a4d9489d90",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "440744f6-2f0a-46ef-8c2c-cee6b48dad68",
+    "conceptId": "7bc62a10-c50b-5669-a54c-24298882cfaa",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 3
+    },
+    "unitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 0,
+      "highValue": 7,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 3
+    },
+    "sourceUnitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 0,
+      "highValue": 7,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "196397c6-a2a1-4702-888a-07cc152615dc",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "440744f6-2f0a-46ef-8c2c-cee6b48dad68",
+    "conceptId": "bb386db7-931d-5180-9555-6b8d8f5815ea",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 32.4
+    },
+    "unitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 31,
+      "highValue": 36.5,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 32.4
+    },
+    "sourceUnitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 31,
+      "highValue": 36.5,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "fd4e6be1-66fc-4d0b-b41a-9d951f14200c",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "440744f6-2f0a-46ef-8c2c-cee6b48dad68",
+    "conceptId": "e82be6ec-61de-55d9-92a0-4de679e462b2",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 0.9
+    },
+    "unitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 0,
+      "highValue": 1.5,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 0.9
+    },
+    "sourceUnitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 0,
+      "highValue": 1.5,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "2611ce74-20d6-46b6-b2f8-f63741aae946",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "440744f6-2f0a-46ef-8c2c-cee6b48dad68",
+    "conceptId": "086743d8-5acd-51e7-a059-846268a0cff6",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 0
+    },
+    "unitConceptId": "2ba6fbab-2dba-5956-9813-bbe501c47322",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 0,
+      "highValue": 0.16,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 0
+    },
+    "sourceUnitConceptId": "2ba6fbab-2dba-5956-9813-bbe501c47322",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 0,
+      "highValue": 0.16,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "09094e3e-1640-40b4-b89b-5874a63ea545",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "440744f6-2f0a-46ef-8c2c-cee6b48dad68",
+    "conceptId": "c46cde90-2560-53a4-8907-ccbc8e7e9aa0",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 4.8
+    },
+    "unitConceptId": "2ba6fbab-2dba-5956-9813-bbe501c47322",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 4,
+      "highValue": 11,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 4.8
+    },
+    "sourceUnitConceptId": "2ba6fbab-2dba-5956-9813-bbe501c47322",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 4,
+      "highValue": 11,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "ddf6e875-9796-446c-b768-1549052b12c0",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "440744f6-2f0a-46ef-8c2c-cee6b48dad68",
+    "conceptId": "a579332d-ec17-5abe-8740-7a2ee32ba235",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 13.8
+    },
+    "unitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "referenceRangeType": "range",
+    "referenceRange": {
+      "type": "between",
+      "lowValue": 11.5,
+      "highValue": 14.5,
+      "borderValue": null
+    },
+    "typeConceptId": "18bbcd5d-ec83-5858-8256-931c69cd4509",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 13.8
+    },
+    "sourceUnitConceptId": "8fc890b5-ff18-5500-be37-13ea2667b61d",
+    "sourceReferenceRangeType": "range",
+    "sourceReferenceRange": {
+      "type": "between",
+      "lowValue": 11.5,
+      "highValue": 14.5,
+      "borderValue": null
+    }
+  },
+  {
+    "measurementId": "e9400fe5-c805-49ce-8a38-8c61f67f67bc",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "a95e3f40-a5a1-45f9-93aa-eec09a35ced6",
+    "conceptId": "bc60c9b5-9e4b-5f10-95d1-ae81a7761a0d",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 110
+    },
+    "unitConceptId": "af4683d4-a208-5752-ba6b-4809e1b77f21",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 110
+    },
+    "sourceUnitConceptId": "af4683d4-a208-5752-ba6b-4809e1b77f21",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "ea2535f1-edb7-494d-8db1-2f44a07bc7d6",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "a95e3f40-a5a1-45f9-93aa-eec09a35ced6",
+    "conceptId": "73768ee8-0da8-595a-9ef5-0d1297fd790c",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 68
+    },
+    "unitConceptId": "a4ac7469-f0f7-52c8-9f2c-ed1a92f2d99e",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 68
+    },
+    "sourceUnitConceptId": "a4ac7469-f0f7-52c8-9f2c-ed1a92f2d99e",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "f7bf25a5-ed34-4269-9606-e3a2a3dabb32",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "a95e3f40-a5a1-45f9-93aa-eec09a35ced6",
+    "conceptId": "55d40fb6-ade8-5274-8c5a-70cf36b040ad",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 36.3
+    },
+    "unitConceptId": "8997192f-aeb1-53de-bb42-10604aaeaad9",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 36.3
+    },
+    "sourceUnitConceptId": "8997192f-aeb1-53de-bb42-10604aaeaad9",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "41ac80dd-6d19-4107-99a2-0c2a4efb5ecd",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "a95e3f40-a5a1-45f9-93aa-eec09a35ced6",
+    "conceptId": "ac514ab6-f9d4-5d0c-8efa-17c6085d8990",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 72
+    },
+    "unitConceptId": "af4683d4-a208-5752-ba6b-4809e1b77f21",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 72
+    },
+    "sourceUnitConceptId": "af4683d4-a208-5752-ba6b-4809e1b77f21",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "8c856720-e28e-4238-9f73-532896da573b",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "a95e3f40-a5a1-45f9-93aa-eec09a35ced6",
+    "conceptId": "46c8559d-0466-516d-adf8-21b9339f19ab",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 20
+    },
+    "unitConceptId": "a4ac7469-f0f7-52c8-9f2c-ed1a92f2d99e",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 20
+    },
+    "sourceUnitConceptId": "a4ac7469-f0f7-52c8-9f2c-ed1a92f2d99e",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "d44dde0f-872a-428b-afe0-f61a121facb2",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "a95e3f40-a5a1-45f9-93aa-eec09a35ced6",
+    "conceptId": "55dd9662-8be7-5a94-97a4-ae6316dd58d7",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 128
+    },
+    "unitConceptId": "eb0d94d5-5467-5757-bcbd-1089992fe3fe",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 57.9
+    },
+    "sourceUnitConceptId": "a4bcb221-7eb3-5ba7-89ee-30870cf7c5c2",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "2a4adc49-f419-403f-840e-7a6ed2134dfb",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "5542d441-fe6e-41bf-b099-104bcbe0e912",
+    "conceptId": "73768ee8-0da8-595a-9ef5-0d1297fd790c",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 73
+    },
+    "unitConceptId": "a4ac7469-f0f7-52c8-9f2c-ed1a92f2d99e",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 73
+    },
+    "sourceUnitConceptId": "a4ac7469-f0f7-52c8-9f2c-ed1a92f2d99e",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "9d141b59-22c1-4522-8843-0e490eb574ac",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "5542d441-fe6e-41bf-b099-104bcbe0e912",
+    "conceptId": "55dd9662-8be7-5a94-97a4-ae6316dd58d7",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 131
+    },
+    "unitConceptId": "eb0d94d5-5467-5757-bcbd-1089992fe3fe",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 59.3
+    },
+    "sourceUnitConceptId": "a4bcb221-7eb3-5ba7-89ee-30870cf7c5c2",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "5000b0f9-9bcd-4650-af13-99b807359bf7",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "5542d441-fe6e-41bf-b099-104bcbe0e912",
+    "conceptId": "ac514ab6-f9d4-5d0c-8efa-17c6085d8990",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 65
+    },
+    "unitConceptId": "af4683d4-a208-5752-ba6b-4809e1b77f21",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 65
+    },
+    "sourceUnitConceptId": "af4683d4-a208-5752-ba6b-4809e1b77f21",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "4cb16e1f-7a7e-4694-847c-7cc7cc3c60b5",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "5542d441-fe6e-41bf-b099-104bcbe0e912",
+    "conceptId": "46c8559d-0466-516d-adf8-21b9339f19ab",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 16
+    },
+    "unitConceptId": "a4ac7469-f0f7-52c8-9f2c-ed1a92f2d99e",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 16
+    },
+    "sourceUnitConceptId": "a4ac7469-f0f7-52c8-9f2c-ed1a92f2d99e",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "47402a1d-24f1-40cd-acb3-ab339e4fd788",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "5542d441-fe6e-41bf-b099-104bcbe0e912",
+    "conceptId": "bc60c9b5-9e4b-5f10-95d1-ae81a7761a0d",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 109
+    },
+    "unitConceptId": "af4683d4-a208-5752-ba6b-4809e1b77f21",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 109
+    },
+    "sourceUnitConceptId": "af4683d4-a208-5752-ba6b-4809e1b77f21",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "1c656c6c-1b32-4dba-b02d-ab54e9c772ee",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "f9129361-19bd-434a-932b-3976a5af5637",
+    "conceptId": "55d40fb6-ade8-5274-8c5a-70cf36b040ad",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 2.44
+    },
+    "unitConceptId": "8997192f-aeb1-53de-bb42-10604aaeaad9",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 36.4
+    },
+    "sourceUnitConceptId": "c55f2a5b-e3b2-5fdc-974f-ebc840b233ba",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "bd30cf5f-8ca1-4be8-8b93-01403e90146d",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "f9129361-19bd-434a-932b-3976a5af5637",
+    "conceptId": "75645f7c-1afe-5a53-8c48-c0da7bc0b52f",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 64.61
+    },
+    "unitConceptId": "cd3c92cc-84c2-582d-9b55-1603c597f769",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 164.1
+    },
+    "sourceUnitConceptId": "ede0341b-2d50-506e-a9b7-ad854bef3aa6",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "6639593f-9969-4282-8c94-02e915a94d54",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "f9129361-19bd-434a-932b-3976a5af5637",
+    "conceptId": "ac514ab6-f9d4-5d0c-8efa-17c6085d8990",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 74
+    },
+    "unitConceptId": "af4683d4-a208-5752-ba6b-4809e1b77f21",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 74
+    },
+    "sourceUnitConceptId": "af4683d4-a208-5752-ba6b-4809e1b77f21",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "cbfada9d-269f-4e69-a91a-5e743d7dc7d7",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "f9129361-19bd-434a-932b-3976a5af5637",
+    "conceptId": "73768ee8-0da8-595a-9ef5-0d1297fd790c",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 71
+    },
+    "unitConceptId": "a4ac7469-f0f7-52c8-9f2c-ed1a92f2d99e",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 71
+    },
+    "sourceUnitConceptId": "a4ac7469-f0f7-52c8-9f2c-ed1a92f2d99e",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "e5577ff9-7344-42b2-a14e-c25c916eef78",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "f9129361-19bd-434a-932b-3976a5af5637",
+    "conceptId": "bc60c9b5-9e4b-5f10-95d1-ae81a7761a0d",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 110
+    },
+    "unitConceptId": "af4683d4-a208-5752-ba6b-4809e1b77f21",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 110
+    },
+    "sourceUnitConceptId": "af4683d4-a208-5752-ba6b-4809e1b77f21",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "3f4d5a14-1bd3-4a19-8b91-05c44398613b",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "f9129361-19bd-434a-932b-3976a5af5637",
+    "conceptId": "46c8559d-0466-516d-adf8-21b9339f19ab",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 20
+    },
+    "unitConceptId": "a4ac7469-f0f7-52c8-9f2c-ed1a92f2d99e",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 20
+    },
+    "sourceUnitConceptId": "a4ac7469-f0f7-52c8-9f2c-ed1a92f2d99e",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  },
+  {
+    "measurementId": "0377635a-aa2d-4dfb-a4c1-6ff8e88b3da4",
+    "personId": "81163710-c2a2-4750-8e7f-8c7e18575695",
+    "visitId": "f9129361-19bd-434a-932b-3976a5af5637",
+    "conceptId": "55dd9662-8be7-5a94-97a4-ae6316dd58d7",
+    "startDate": "",
+    "startDatePrecision": "",
+    "endDate": "",
+    "endDatePrecision": "",
+    "valueType": "number",
+    "value": {
+      "number": 125
+    },
+    "unitConceptId": "eb0d94d5-5467-5757-bcbd-1089992fe3fe",
+    "referenceRangeType": "",
+    "referenceRange": "",
+    "typeConceptId": "7b055171-b1b4-59db-9772-ded1d34162a5",
+    "sourceValueType": "number",
+    "sourceValue": {
+      "number": 56.8
+    },
+    "sourceUnitConceptId": "a4bcb221-7eb3-5ba7-89ee-30870cf7c5c2",
+    "sourceReferenceRangeType": "",
+    "sourceReferenceRange": ""
+  }
+]

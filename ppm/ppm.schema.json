@@ -1,0 +1,786 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "object",
+  "title": "The Root Schema",
+  "required": [
+    "fhir_id",
+    "ppm_id",
+    "email",
+    "active",
+    "firstname",
+    "lastname",
+    "street_address1",
+    "street_address2",
+    "city",
+    "state",
+    "zip",
+    "phone",
+    "twitter_handle",
+    "contact_email",
+    "how_did_you_hear_about_us",
+    "uses_twitter",
+    "uses_fitbit",
+    "uses_facebook",
+    "uses_smart_on_fhir",
+    "picnichealth",
+    "project",
+    "study",
+    "date_registered",
+    "enrollment",
+    "enrollment_accepted_date",
+    "questionnaire",
+    "points_of_care",
+    "devices",
+    "research_studies"
+  ],
+  "properties": {
+    "fhir_id": {
+      "$id": "#/properties/fhir_id",
+      "type": "string",
+      "title": "The Fhir_id Schema",
+      "default": "",
+      "examples": [
+        "39"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "ppm_id": {
+      "$id": "#/properties/ppm_id",
+      "type": "string",
+      "title": "The Ppm_id Schema",
+      "default": "",
+      "examples": [
+        "39"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "email": {
+      "$id": "#/properties/email",
+      "type": "string",
+      "title": "The Email Schema",
+      "default": "",
+      "examples": [
+        "ppm-neer@dbmiauth.local"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "active": {
+      "$id": "#/properties/active",
+      "type": "boolean",
+      "title": "The Active Schema",
+      "default": false,
+      "examples": [
+        true
+      ]
+    },
+    "firstname": {
+      "$id": "#/properties/firstname",
+      "type": "string",
+      "title": "The Firstname Schema",
+      "default": "",
+      "examples": [
+        "Jessamine"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "lastname": {
+      "$id": "#/properties/lastname",
+      "type": "string",
+      "title": "The Lastname Schema",
+      "default": "",
+      "examples": [
+        "Walsh"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "street_address1": {
+      "$id": "#/properties/street_address1",
+      "type": "string",
+      "title": "The Street_address1 Schema",
+      "default": "",
+      "examples": [
+        "34 Nobel Drive"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "street_address2": {
+      "$id": "#/properties/street_address2",
+      "type": "string",
+      "title": "The Street_address2 Schema",
+      "default": "",
+      "examples": [
+        "In necessitatibus laboriosam veritatis saepe ipsam sed dolorem vel deserunt"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "city": {
+      "$id": "#/properties/city",
+      "type": "string",
+      "title": "The City Schema",
+      "default": "",
+      "examples": [
+        "Dolor ratione error explicabo Quos totam fugit maiores"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "state": {
+      "$id": "#/properties/state",
+      "type": "string",
+      "title": "The State Schema",
+      "default": "",
+      "examples": [
+        "Eaque deserunt ex dolorem sit dignissimos"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "zip": {
+      "$id": "#/properties/zip",
+      "type": "string",
+      "title": "The Zip Schema",
+      "default": "",
+      "examples": [
+        "98351"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "phone": {
+      "$id": "#/properties/phone",
+      "type": "string",
+      "title": "The Phone Schema",
+      "default": "",
+      "examples": [
+        "+1 (742) 545-5028"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "twitter_handle": {
+      "$id": "#/properties/twitter_handle",
+      "type": "string",
+      "title": "The Twitter_handle Schema",
+      "default": "",
+      "examples": [
+        "https://twitter.com/blhmsdbmi"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "contact_email": {
+      "$id": "#/properties/contact_email",
+      "type": "string",
+      "title": "The Contact_email Schema",
+      "default": "",
+      "examples": [
+        "pisivaso@mailinator.com"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "how_did_you_hear_about_us": {
+      "$id": "#/properties/how_did_you_hear_about_us",
+      "type": "string",
+      "title": "The How_did_you_hear_about_us Schema",
+      "default": "",
+      "examples": [
+        "Et animi iste cupiditate et ipsam excepturi tempora sit deleniti et sint amet ullamco aliquam voluptatum animi excepteur expedita fugiat"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "uses_twitter": {
+      "$id": "#/properties/uses_twitter",
+      "type": "boolean",
+      "title": "The Uses_twitter Schema",
+      "default": false,
+      "examples": [
+        true
+      ]
+    },
+    "uses_fitbit": {
+      "$id": "#/properties/uses_fitbit",
+      "type": "boolean",
+      "title": "The Uses_fitbit Schema",
+      "default": false,
+      "examples": [
+        true
+      ]
+    },
+    "uses_facebook": {
+      "$id": "#/properties/uses_facebook",
+      "type": "boolean",
+      "title": "The Uses_facebook Schema",
+      "default": false,
+      "examples": [
+        true
+      ]
+    },
+    "uses_smart_on_fhir": {
+      "$id": "#/properties/uses_smart_on_fhir",
+      "type": "boolean",
+      "title": "The Uses_smart_on_fhir Schema",
+      "default": false,
+      "examples": [
+        true
+      ]
+    },
+    "picnichealth": {
+      "$id": "#/properties/picnichealth",
+      "type": "boolean",
+      "title": "The Picnichealth Schema",
+      "default": false,
+      "examples": [
+        false
+      ]
+    },
+    "project": {
+      "$id": "#/properties/project",
+      "type": "string",
+      "title": "The Project Schema",
+      "default": "",
+      "examples": [
+        "neer"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "study": {
+      "$id": "#/properties/study",
+      "type": "string",
+      "title": "The Study Schema",
+      "default": "",
+      "examples": [
+        "neer"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "date_registered": {
+      "$id": "#/properties/date_registered",
+      "type": "string",
+      "title": "The Date_registered Schema",
+      "default": "",
+      "examples": [
+        "10/02/2019"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "enrollment": {
+      "$id": "#/properties/enrollment",
+      "type": "string",
+      "title": "The Enrollment Schema",
+      "default": "",
+      "examples": [
+        "accepted"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "enrollment_accepted_date": {
+      "$id": "#/properties/enrollment_accepted_date",
+      "type": "string",
+      "title": "The Enrollment_accepted_date Schema",
+      "default": "",
+      "examples": [
+        "10/02/2019"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "questionnaire": {
+      "$id": "#/properties/questionnaire",
+      "type": "object",
+      "title": "The Questionnaire Schema",
+      "required": [
+        "ppm_id",
+        "authored",
+        "responses"
+      ],
+      "properties": {
+        "ppm_id": {
+          "$id": "#/properties/questionnaire/properties/ppm_id",
+          "type": "string",
+          "title": "The Ppm_id Schema",
+          "default": "",
+          "examples": [
+            "39"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "authored": {
+          "$id": "#/properties/questionnaire/properties/authored",
+          "type": "string",
+          "title": "The Authored Schema",
+          "default": "",
+          "examples": [
+            "10/02/2019"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "responses": {
+          "$id": "#/properties/questionnaire/properties/responses",
+          "type": "object",
+          "title": "The Responses Schema",
+          "required": [
+            "1. Date of Birth",
+            "2. Are you currently pregnant?",
+            "3. Are you currently detained?",
+            "4. Gender",
+            "5. Family history of cancer?",
+            "6. Which relatives?",
+            "7. Which cancers?",
+            "8. Cancer Diagnosis",
+            "9. Institution (Hospital, clinic) where you were diagnosed",
+            "10. Date of Cancer Diagnosis",
+            "11. Clinical Trial (where)",
+            "12. Pre Clinical Trial (where)",
+            "13. Alternative Therapy (where)",
+            "14. Therapeutic Agent(s) used",
+            "15. Dates of Treatment",
+            "16. Are you still being treated?",
+            "17. If not, date of last imaging study",
+            "18. Why do you describe yourself as a “super” responder:",
+            "19. To your knowledge, has your genome been analyzed?",
+            "20. Who is your Primary Care Provider?",
+            "21. Who is your Oncologist?"
+          ],
+          "properties": {
+            "1. Date of Birth": {
+              "$id": "#/properties/questionnaire/properties/responses/properties/1. Date of Birth",
+              "type": "array",
+              "title": "The 1. date of birth Schema",
+              "items": {
+                "$id": "#/properties/questionnaire/properties/responses/properties/1. Date of Birth/items",
+                "type": "string",
+                "title": "The Items Schema",
+                "default": "",
+                "examples": [
+                  "28-Dec-2016"
+                ],
+                "pattern": "^(.*)$"
+              }
+            },
+            "2. Are you currently pregnant?": {
+              "$id": "#/properties/questionnaire/properties/responses/properties/2. Are you currently pregnant?",
+              "type": "array",
+              "title": "The 2. are you currently pregnant? Schema",
+              "items": {
+                "$id": "#/properties/questionnaire/properties/responses/properties/2. Are you currently pregnant?/items",
+                "type": "boolean",
+                "title": "The Items Schema",
+                "default": false,
+                "examples": [
+                  false
+                ]
+              }
+            },
+            "3. Are you currently detained?": {
+              "$id": "#/properties/questionnaire/properties/responses/properties/3. Are you currently detained?",
+              "type": "array",
+              "title": "The 3. are you currently detained? Schema",
+              "items": {
+                "$id": "#/properties/questionnaire/properties/responses/properties/3. Are you currently detained?/items",
+                "type": "boolean",
+                "title": "The Items Schema",
+                "default": false,
+                "examples": [
+                  true
+                ]
+              }
+            },
+            "4. Gender": {
+              "$id": "#/properties/questionnaire/properties/responses/properties/4. Gender",
+              "type": "array",
+              "title": "The 4. gender Schema",
+              "items": {
+                "$id": "#/properties/questionnaire/properties/responses/properties/4. Gender/items",
+                "type": "string",
+                "title": "The Items Schema",
+                "default": "",
+                "examples": [
+                  "Other"
+                ],
+                "pattern": "^(.*)$"
+              }
+            },
+            "5. Family history of cancer?": {
+              "$id": "#/properties/questionnaire/properties/responses/properties/5. Family history of cancer?",
+              "type": "array",
+              "title": "The 5. family history of cancer? Schema",
+              "items": {
+                "$id": "#/properties/questionnaire/properties/responses/properties/5. Family history of cancer?/items",
+                "type": "boolean",
+                "title": "The Items Schema",
+                "default": false,
+                "examples": [
+                  true
+                ]
+              }
+            },
+            "6. Which relatives?": {
+              "$id": "#/properties/questionnaire/properties/responses/properties/6. Which relatives?",
+              "type": "array",
+              "title": "The 6. which relatives? Schema",
+              "items": {
+                "$id": "#/properties/questionnaire/properties/responses/properties/6. Which relatives?/items",
+                "type": "string",
+                "title": "The Items Schema",
+                "default": "",
+                "examples": [
+                  "Aliquid sunt tempor"
+                ],
+                "pattern": "^(.*)$"
+              }
+            },
+            "7. Which cancers?": {
+              "$id": "#/properties/questionnaire/properties/responses/properties/7. Which cancers?",
+              "type": "array",
+              "title": "The 7. which cancers? Schema",
+              "items": {
+                "$id": "#/properties/questionnaire/properties/responses/properties/7. Which cancers?/items",
+                "type": "string",
+                "title": "The Items Schema",
+                "default": "",
+                "examples": [
+                  "Ipsum ex nostrum de"
+                ],
+                "pattern": "^(.*)$"
+              }
+            },
+            "8. Cancer Diagnosis": {
+              "$id": "#/properties/questionnaire/properties/responses/properties/8. Cancer Diagnosis",
+              "type": "array",
+              "title": "The 8. cancer diagnosis Schema",
+              "items": {
+                "$id": "#/properties/questionnaire/properties/responses/properties/8. Cancer Diagnosis/items",
+                "type": "string",
+                "title": "The Items Schema",
+                "default": "",
+                "examples": [
+                  "Qui voluptatum commo"
+                ],
+                "pattern": "^(.*)$"
+              }
+            },
+            "9. Institution (Hospital, clinic) where you were diagnosed": {
+              "$id": "#/properties/questionnaire/properties/responses/properties/9. Institution (Hospital, clinic) where you were diagnosed",
+              "type": "array",
+              "title": "The 9. institution (hospital, clinic) where you were diagnosed Schema",
+              "items": {
+                "$id": "#/properties/questionnaire/properties/responses/properties/9. Institution (Hospital, clinic) where you were diagnosed/items",
+                "type": "string",
+                "title": "The Items Schema",
+                "default": "",
+                "examples": [
+                  "Et reiciendis incidi"
+                ],
+                "pattern": "^(.*)$"
+              }
+            },
+            "10. Date of Cancer Diagnosis": {
+              "$id": "#/properties/questionnaire/properties/responses/properties/10. Date of Cancer Diagnosis",
+              "type": "array",
+              "title": "The 10. date of cancer diagnosis Schema",
+              "items": {
+                "$id": "#/properties/questionnaire/properties/responses/properties/10. Date of Cancer Diagnosis/items",
+                "type": "string",
+                "title": "The Items Schema",
+                "default": "",
+                "examples": [
+                  "19-Feb-2005"
+                ],
+                "pattern": "^(.*)$"
+              }
+            },
+            "11. Clinical Trial (where)": {
+              "$id": "#/properties/questionnaire/properties/responses/properties/11. Clinical Trial (where)",
+              "type": "array",
+              "title": "The 11. clinical trial (where) Schema",
+              "items": {
+                "$id": "#/properties/questionnaire/properties/responses/properties/11. Clinical Trial (where)/items",
+                "type": "string",
+                "title": "The Items Schema",
+                "default": "",
+                "examples": [
+                  "Dolore voluptates in"
+                ],
+                "pattern": "^(.*)$"
+              }
+            },
+            "12. Pre Clinical Trial (where)": {
+              "$id": "#/properties/questionnaire/properties/responses/properties/12. Pre Clinical Trial (where)",
+              "type": "array",
+              "title": "The 12. pre clinical trial (where) Schema",
+              "items": {
+                "$id": "#/properties/questionnaire/properties/responses/properties/12. Pre Clinical Trial (where)/items",
+                "type": "string",
+                "title": "The Items Schema",
+                "default": "",
+                "examples": [
+                  "Libero id anim velit"
+                ],
+                "pattern": "^(.*)$"
+              }
+            },
+            "13. Alternative Therapy (where)": {
+              "$id": "#/properties/questionnaire/properties/responses/properties/13. Alternative Therapy (where)",
+              "type": "array",
+              "title": "The 13. alternative therapy (where) Schema",
+              "items": {
+                "$id": "#/properties/questionnaire/properties/responses/properties/13. Alternative Therapy (where)/items",
+                "type": "string",
+                "title": "The Items Schema",
+                "default": "",
+                "examples": [
+                  "Voluptatum in sint l"
+                ],
+                "pattern": "^(.*)$"
+              }
+            },
+            "14. Therapeutic Agent(s) used": {
+              "$id": "#/properties/questionnaire/properties/responses/properties/14. Therapeutic Agent(s) used",
+              "type": "array",
+              "title": "The 14. therapeutic agent(s) used Schema",
+              "items": {
+                "$id": "#/properties/questionnaire/properties/responses/properties/14. Therapeutic Agent(s) used/items",
+                "type": "string",
+                "title": "The Items Schema",
+                "default": "",
+                "examples": [
+                  "Est minima illo off"
+                ],
+                "pattern": "^(.*)$"
+              }
+            },
+            "15. Dates of Treatment": {
+              "$id": "#/properties/questionnaire/properties/responses/properties/15. Dates of Treatment",
+              "type": "array",
+              "title": "The 15. dates of treatment Schema",
+              "items": {
+                "$id": "#/properties/questionnaire/properties/responses/properties/15. Dates of Treatment/items",
+                "type": "string",
+                "title": "The Items Schema",
+                "default": "",
+                "examples": [
+                  "27-Jul-2019"
+                ],
+                "pattern": "^(.*)$"
+              }
+            },
+            "16. Are you still being treated?": {
+              "$id": "#/properties/questionnaire/properties/responses/properties/16. Are you still being treated?",
+              "type": "array",
+              "title": "The 16. are you still being treated? Schema",
+              "items": {
+                "$id": "#/properties/questionnaire/properties/responses/properties/16. Are you still being treated?/items",
+                "type": "boolean",
+                "title": "The Items Schema",
+                "default": false,
+                "examples": [
+                  false
+                ]
+              }
+            },
+            "17. If not, date of last imaging study": {
+              "$id": "#/properties/questionnaire/properties/responses/properties/17. If not, date of last imaging study",
+              "type": "array",
+              "title": "The 17. if not, date of last imaging study Schema",
+              "items": {
+                "$id": "#/properties/questionnaire/properties/responses/properties/17. If not, date of last imaging study/items",
+                "type": "string",
+                "title": "The Items Schema",
+                "default": "",
+                "examples": [
+                  "18-Apr-1979"
+                ],
+                "pattern": "^(.*)$"
+              }
+            },
+            "18. Why do you describe yourself as a “super” responder:": {
+              "$id": "#/properties/questionnaire/properties/responses/properties/18. Why do you describe yourself as a “super” responder:",
+              "type": "array",
+              "title": "The 18. why do you describe yourself as a “super” responder: Schema",
+              "items": {
+                "$id": "#/properties/questionnaire/properties/responses/properties/18. Why do you describe yourself as a “super” responder:/items",
+                "type": "string",
+                "title": "The Items Schema",
+                "default": "",
+                "examples": [
+                  "Alias sequi id iure"
+                ],
+                "pattern": "^(.*)$"
+              }
+            },
+            "19. To your knowledge, has your genome been analyzed?": {
+              "$id": "#/properties/questionnaire/properties/responses/properties/19. To your knowledge, has your genome been analyzed?",
+              "type": "array",
+              "title": "The 19. to your knowledge, has your genome been analyzed? Schema",
+              "items": {
+                "$id": "#/properties/questionnaire/properties/responses/properties/19. To your knowledge, has your genome been analyzed?/items",
+                "type": "boolean",
+                "title": "The Items Schema",
+                "default": false,
+                "examples": [
+                  false
+                ]
+              }
+            },
+            "20. Who is your Primary Care Provider?": {
+              "$id": "#/properties/questionnaire/properties/responses/properties/20. Who is your Primary Care Provider?",
+              "type": "array",
+              "title": "The 20. who is your primary care provider? Schema",
+              "items": {
+                "$id": "#/properties/questionnaire/properties/responses/properties/20. Who is your Primary Care Provider?/items",
+                "type": "string",
+                "title": "The Items Schema",
+                "default": "",
+                "examples": [
+                  "Facere blanditiis as"
+                ],
+                "pattern": "^(.*)$"
+              }
+            },
+            "21. Who is your Oncologist?": {
+              "$id": "#/properties/questionnaire/properties/responses/properties/21. Who is your Oncologist?",
+              "type": "array",
+              "title": "The 21. who is your oncologist? Schema",
+              "items": {
+                "$id": "#/properties/questionnaire/properties/responses/properties/21. Who is your Oncologist?/items",
+                "type": "string",
+                "title": "The Items Schema",
+                "default": "",
+                "examples": [
+                  "Asperiores assumenda"
+                ],
+                "pattern": "^(.*)$"
+              }
+            }
+          }
+        }
+      }
+    },
+    "points_of_care": {
+      "$id": "#/properties/points_of_care",
+      "type": "array",
+      "title": "The Points_of_care Schema",
+      "items": {
+        "$id": "#/properties/points_of_care/items",
+        "type": "string",
+        "title": "The Items Schema",
+        "default": "",
+        "examples": [
+          "Nisi nihil molestias deserunt sunt nulla sit mollit sapiente lorem architecto quia deserunt molestias",
+          "Et quia sunt ut et asperiores maxime et sed voluptatibus incididunt voluptatem",
+          "Sint excepturi quaerat quod magna quis culpa deserunt et earum nisi earum saepe quaerat",
+          "Pariatur Ad quaerat possimus amet vel autem voluptas omnis et",
+          "Dolorem nihil unde facilis ipsa amet doloribus voluptatum minim ipsa dolorem incididunt est sed eum sunt exercitationem consectetur voluptate dolor"
+        ],
+        "pattern": "^(.*)$"
+      }
+    },
+    "devices": {
+      "$id": "#/properties/devices",
+      "type": "array",
+      "title": "The Devices Schema",
+      "items": {
+        "$id": "#/properties/devices/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "status",
+          "shipped",
+          "returned",
+          "identifier",
+          "type",
+          "name",
+          "ppm_id"
+        ],
+        "properties": {
+          "status": {
+            "$id": "#/properties/devices/items/properties/status",
+            "type": "string",
+            "title": "The Status Schema",
+            "default": "",
+            "examples": [
+              "active"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "shipped": {
+            "$id": "#/properties/devices/items/properties/shipped",
+            "type": "string",
+            "title": "The Shipped Schema",
+            "default": "",
+            "examples": [
+              "2019-10-01T00:00:00"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "returned": {
+            "$id": "#/properties/devices/items/properties/returned",
+            "type": "string",
+            "title": "The Returned Schema",
+            "default": "",
+            "examples": [
+              ""
+            ],
+            "pattern": "^(.*)$"
+          },
+          "identifier": {
+            "$id": "#/properties/devices/items/properties/identifier",
+            "type": "string",
+            "title": "The Identifier Schema",
+            "default": "",
+            "examples": [
+              "awudh37fwlij3"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "type": {
+            "$id": "#/properties/devices/items/properties/type",
+            "type": "string",
+            "title": "The Type Schema",
+            "default": "",
+            "examples": [
+              "fitbit"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "name": {
+            "$id": "#/properties/devices/items/properties/name",
+            "type": "string",
+            "title": "The Name Schema",
+            "default": "",
+            "examples": [
+              "FitBit"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "ppm_id": {
+            "$id": "#/properties/devices/items/properties/ppm_id",
+            "type": "string",
+            "title": "The Ppm_id Schema",
+            "default": "",
+            "examples": [
+              "39"
+            ],
+            "pattern": "^(.*)$"
+          }
+        }
+      }
+    },
+    "research_studies": {
+      "$id": "#/properties/research_studies",
+      "type": "array",
+      "title": "The Research_studies Schema",
+      "items": {
+        "$id": "#/properties/research_studies/items",
+        "type": "string",
+        "title": "The Items Schema",
+        "default": "",
+        "examples": [
+          "Similique voluptate possimus deserunt quas sed suscipit occaecat animi quia",
+          "Nulla exercitationem nemo et tempora aut sit iusto voluptatem Magni anim ut illum veniam",
+          "Praesentium rerum natus quae enim adipisci",
+          "Vero obcaecati tempora commodi ullam sunt magna magni",
+          "Et iusto voluptatem neque obcaecati",
+          "Ipsum aut inventore et enim"
+        ],
+        "pattern": "^(.*)$"
+      }
+    }
+  }
+}

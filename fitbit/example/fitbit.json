@@ -1,0 +1,318 @@
+{
+  "activities/minutesVeryActive": [
+    {
+      "dateTime": "2018-09-09",
+      "value": "7"
+    }
+  ],
+  "activities/tracker/activityCalories": [
+    {
+      "dateTime": "2018-09-09",
+      "value": "771"
+    }
+  ],
+  "activities/floors": [
+    {
+      "dateTime": "2018-09-10",
+      "value": "19"
+    }
+  ],
+  "activities/tracker/calories": [
+    {
+      "dateTime": "2018-09-09",
+      "value": "2114"
+    }
+  ],
+  "activities/minutesLightlyActive": [
+    {
+      "dateTime": "2018-09-09",
+      "value": "170"
+    }
+  ],
+  "foods/log/water": [
+    {
+      "dateTime": "2018-01-11",
+      "value": "473.1759948730469"
+    }
+  ],
+  "foods/log/caloriesIn": [
+    {
+      "dateTime": "2018-09-09",
+      "value": "2450"
+    }
+  ],
+  "activities/distance": [
+    {
+      "dateTime": "2018-09-09",
+      "value": "3.86001"
+    }
+  ],
+  "activities/minutesFairlyActive": [
+    {
+      "dateTime": "2018-09-09",
+      "value": "17"
+    }
+  ],
+  "activities/tracker/minutesVeryActive": [
+    {
+      "dateTime": "2018-09-09",
+      "value": "7"
+    }
+  ],
+  "activities/tracker/floors": [
+    {
+      "dateTime": "2018-09-10",
+      "value": "19"
+    }
+  ],
+  "activities/tracker/steps": [
+    {
+      "dateTime": "2018-09-09",
+      "value": "5546"
+    }
+  ],
+  "activities/tracker/distance": [
+    {
+      "dateTime": "2018-09-09",
+      "value": "3.86001"
+    }
+  ],
+  "activities/tracker/elevation": [
+    {
+      "dateTime": "2018-09-10",
+      "value": "57"
+    }
+  ],
+  "activities/tracker/minutesFairlyActive": [
+    {
+      "dateTime": "2018-09-09",
+      "value": "17"
+    }
+  ],
+  "activities/tracker/minutesSedentary": [
+    {
+      "dateTime": "2018-09-09",
+      "value": "1246"
+    }
+  ],
+  "activities/elevation": [
+    {
+      "dateTime": "2018-09-10",
+      "value": "57"
+    }
+  ],
+  "activities/steps": [
+    {
+      "dateTime": "2018-09-09",
+      "value": "5546"
+    }
+  ],
+  "activities/activityCalories": [
+    {
+      "dateTime": "2018-09-09",
+      "value": "771"
+    }
+  ],
+  "activities/tracker/minutesLightlyActive": [
+    {
+      "dateTime": "2018-09-09",
+      "value": "170"
+    }
+  ],
+  "body/log/fat": [
+    {
+      "date": "2016-07-28",
+      "fat": 15.6,
+      "logId": 1469711622000,
+      "source": "Aria",
+      "time": "13:13:42"
+    }
+  ],
+  "body/log/weight": [
+    {
+      "bmi": 23.43,
+      "date": "2018-05-05",
+      "logId": 1525531093000,
+      "source": "Aria",
+      "time": "14:38:13",
+      "weight": 65.8
+    }
+  ],
+  "activities/minutesSedentary": [
+    {
+      "dateTime": "2018-09-09",
+      "value": "1246"
+    }
+  ],
+  "activities/heart": [
+    {
+      "dataset": [
+        {
+          "time": "21:58:23",
+          "value": 111
+        },
+        {
+          "time": "21:58:26",
+          "value": 110
+        },
+        {
+          "time": "21:58:29",
+          "value": 110
+        }
+      ],
+      "datasetInterval": 1,
+      "datasetType": "second",
+      "dateTime": "2019-01-04"
+    }
+  ],
+  "sleep": [
+    {
+      "dateOfSleep": "2018-11-15",
+      "duration": 22920000,
+      "efficiency": 98,
+      "endTime": "2018-11-15T00:51:30.000",
+      "infoCode": 0,
+      "levels": {
+        "data": [
+          {
+            "dateTime": "2018-11-14T18:29:00.000",
+            "level": "wake",
+            "seconds": 990
+          },
+          {
+            "dateTime": "2018-11-14T18:45:30.000",
+            "level": "light",
+            "seconds": 210
+          },
+          {
+            "dateTime": "2018-11-14T18:49:00.000",
+            "level": "wake",
+            "seconds": 540
+          },
+          {
+            "dateTime": "2018-11-14T18:58:00.000",
+            "level": "light",
+            "seconds": 2820
+          },
+          {
+            "dateTime": "2018-11-14T19:45:00.000",
+            "level": "rem",
+            "seconds": 600
+          },
+          {
+            "dateTime": "2018-11-14T19:55:00.000",
+            "level": "light",
+            "seconds": 450
+          },
+          {
+            "dateTime": "2018-11-14T20:02:30.000",
+            "level": "deep",
+            "seconds": 300
+          },
+          {
+            "dateTime": "2018-11-14T20:07:30.000",
+            "level": "light",
+            "seconds": 1050
+          },
+          {
+            "dateTime": "2018-11-14T20:25:00.000",
+            "level": "rem",
+            "seconds": 960
+          },
+          {
+            "dateTime": "2018-11-14T20:41:00.000",
+            "level": "light",
+            "seconds": 2310
+          },
+          {
+            "dateTime": "2018-11-14T21:19:30.000",
+            "level": "rem",
+            "seconds": 2220
+          },
+          {
+            "dateTime": "2018-11-14T21:56:30.000",
+            "level": "light",
+            "seconds": 3690
+          },
+          {
+            "dateTime": "2018-11-14T22:58:00.000",
+            "level": "deep",
+            "seconds": 2130
+          },
+          {
+            "dateTime": "2018-11-14T23:33:30.000",
+            "level": "light",
+            "seconds": 60
+          },
+          {
+            "dateTime": "2018-11-14T23:34:30.000",
+            "level": "rem",
+            "seconds": 1830
+          },
+          {
+            "dateTime": "2018-11-15T00:05:00.000",
+            "level": "light",
+            "seconds": 210
+          },
+          {
+            "dateTime": "2018-11-15T00:08:30.000",
+            "level": "wake",
+            "seconds": 390
+          },
+          {
+            "dateTime": "2018-11-15T00:15:00.000",
+            "level": "light",
+            "seconds": 2190
+          }
+        ],
+        "shortData": [
+          {
+            "dateTime": "2018-11-14T19:05:30.000",
+            "level": "wake",
+            "seconds": 90
+          },
+          {
+            "dateTime": "2018-11-14T19:11:30.000",
+            "level": "wake",
+            "seconds": 30
+          },
+          {
+            "dateTime": "2018-11-14T19:27:00.000",
+            "level": "wake",
+            "seconds": 120
+          }
+        ],
+        "summary": {
+          "deep": {
+            "count": 2,
+            "minutes": 40,
+            "thirtyDayAvgMinutes": 21
+          },
+          "light": {
+            "count": 19,
+            "minutes": 199,
+            "thirtyDayAvgMinutes": 239
+          },
+          "rem": {
+            "count": 4,
+            "minutes": 93,
+            "thirtyDayAvgMinutes": 71
+          },
+          "wake": {
+            "count": 16,
+            "minutes": 50,
+            "thirtyDayAvgMinutes": 53
+          }
+        }
+      },
+      "logId": 20179668417,
+      "minutesAfterWakeup": 0,
+      "minutesAsleep": 332,
+      "minutesAwake": 50,
+      "minutesToFallAsleep": 0,
+      "startTime": "2018-11-14T18:29:00.000",
+      "timeInBed": 382,
+      "type": "stages"
+    }
+  ]
+}

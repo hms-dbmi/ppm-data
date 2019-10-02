@@ -1,0 +1,49 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "array",
+  "title": "The Root Schema",
+  "items": {
+    "$id": "#/items",
+    "type": "object",
+    "title": "The Items Schema",
+    "required": [
+      "providerId",
+      "credentials",
+      "specialty"
+    ],
+    "properties": {
+      "providerId": {
+        "$id": "#/items/properties/providerId",
+        "type": "string",
+        "title": "The Providerid Schema",
+        "default": "",
+        "examples": [
+          "c39b2081-23ae-489f-b1aa-9168926ae522"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "credentials": {
+        "$id": "#/items/properties/credentials",
+        "type": "string",
+        "title": "The Credentials Schema",
+        "default": "",
+        "examples": [
+          "MD"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "specialty": {
+        "$id": "#/items/properties/specialty",
+        "type": "string",
+        "title": "The Specialty Schema",
+        "default": "",
+        "examples": [
+          "Otolaryngology"
+        ],
+        "pattern": "^(.*)$"
+      }
+    }
+  }
+}

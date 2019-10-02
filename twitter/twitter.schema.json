@@ -1,0 +1,1804 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/hms-dbmi/ppm-data/twitter/schema.json",
+  "type": "object",
+  "title": "Twitter",
+  "items": {
+    "$id": "#/items",
+    "type": "object",
+    "title": "The Items Schema",
+    "required": [
+      "created_at",
+      "id",
+      "id_str",
+      "text",
+      "truncated",
+      "entities",
+      "source",
+      "in_reply_to_status_id",
+      "in_reply_to_status_id_str",
+      "in_reply_to_user_id",
+      "in_reply_to_user_id_str",
+      "in_reply_to_screen_name",
+      "user",
+      "geo",
+      "coordinates",
+      "place",
+      "contributors",
+      "retweeted_status",
+      "is_quote_status",
+      "retweet_count",
+      "favorite_count",
+      "favorited",
+      "retweeted",
+      "lang"
+    ],
+    "properties": {
+      "created_at": {
+        "$id": "#/items/properties/created_at",
+        "type": "string",
+        "title": "The Created_at Schema",
+        "default": "",
+        "examples": [
+          "Sat Sep 07 12:15:16 +0000 2019"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "id": {
+        "$id": "#/items/properties/id",
+        "type": "integer",
+        "title": "The Id Schema",
+        "default": 0,
+        "examples": [
+          1170309558016925700
+        ]
+      },
+      "id_str": {
+        "$id": "#/items/properties/id_str",
+        "type": "string",
+        "title": "The Id_str Schema",
+        "default": "",
+        "examples": [
+          "1170309558016925696"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "text": {
+        "$id": "#/items/properties/text",
+        "type": "string",
+        "title": "The Text Schema",
+        "default": "",
+        "examples": [
+          "RT @MahaFarhat: It was a fantastic retreat today @HarvardDBMI. Especially proud of @ejfresch and Jessica ElHalabi for winning best poster a…"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "truncated": {
+        "$id": "#/items/properties/truncated",
+        "type": "boolean",
+        "title": "The Truncated Schema",
+        "default": false,
+        "examples": [
+          false
+        ]
+      },
+      "entities": {
+        "$id": "#/items/properties/entities",
+        "type": "object",
+        "title": "The Entities Schema",
+        "required": [
+          "hashtags",
+          "symbols",
+          "user_mentions",
+          "urls"
+        ],
+        "properties": {
+          "hashtags": {
+            "$id": "#/items/properties/entities/properties/hashtags",
+            "type": "array",
+            "title": "The Hashtags Schema"
+          },
+          "symbols": {
+            "$id": "#/items/properties/entities/properties/symbols",
+            "type": "array",
+            "title": "The Symbols Schema"
+          },
+          "user_mentions": {
+            "$id": "#/items/properties/entities/properties/user_mentions",
+            "type": "array",
+            "title": "The User_mentions Schema",
+            "items": {
+              "$id": "#/items/properties/entities/properties/user_mentions/items",
+              "type": "object",
+              "title": "The Items Schema",
+              "required": [
+                "screen_name",
+                "name",
+                "id",
+                "id_str",
+                "indices"
+              ],
+              "properties": {
+                "screen_name": {
+                  "$id": "#/items/properties/entities/properties/user_mentions/items/properties/screen_name",
+                  "type": "string",
+                  "title": "The Screen_name Schema",
+                  "default": "",
+                  "examples": [
+                    "MahaFarhat"
+                  ],
+                  "pattern": "^(.*)$"
+                },
+                "name": {
+                  "$id": "#/items/properties/entities/properties/user_mentions/items/properties/name",
+                  "type": "string",
+                  "title": "The Name Schema",
+                  "default": "",
+                  "examples": [
+                    "Maha Farhat"
+                  ],
+                  "pattern": "^(.*)$"
+                },
+                "id": {
+                  "$id": "#/items/properties/entities/properties/user_mentions/items/properties/id",
+                  "type": "integer",
+                  "title": "The Id Schema",
+                  "default": 0,
+                  "examples": [
+                    49430405
+                  ]
+                },
+                "id_str": {
+                  "$id": "#/items/properties/entities/properties/user_mentions/items/properties/id_str",
+                  "type": "string",
+                  "title": "The Id_str Schema",
+                  "default": "",
+                  "examples": [
+                    "49430405"
+                  ],
+                  "pattern": "^(.*)$"
+                },
+                "indices": {
+                  "$id": "#/items/properties/entities/properties/user_mentions/items/properties/indices",
+                  "type": "array",
+                  "title": "The Indices Schema",
+                  "items": {
+                    "$id": "#/items/properties/entities/properties/user_mentions/items/properties/indices/items",
+                    "type": "integer",
+                    "title": "The Items Schema",
+                    "default": 0,
+                    "examples": [
+                      3,
+                      14
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "urls": {
+            "$id": "#/items/properties/entities/properties/urls",
+            "type": "array",
+            "title": "The Urls Schema"
+          }
+        }
+      },
+      "source": {
+        "$id": "#/items/properties/source",
+        "type": "string",
+        "title": "The Source Schema",
+        "default": "",
+        "examples": [
+          "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "in_reply_to_status_id": {
+        "$id": "#/items/properties/in_reply_to_status_id",
+        "type": "null",
+        "title": "The In_reply_to_status_id Schema",
+        "default": null,
+        "examples": [
+          null
+        ]
+      },
+      "in_reply_to_status_id_str": {
+        "$id": "#/items/properties/in_reply_to_status_id_str",
+        "type": "null",
+        "title": "The In_reply_to_status_id_str Schema",
+        "default": null,
+        "examples": [
+          null
+        ]
+      },
+      "in_reply_to_user_id": {
+        "$id": "#/items/properties/in_reply_to_user_id",
+        "type": "null",
+        "title": "The In_reply_to_user_id Schema",
+        "default": null,
+        "examples": [
+          null
+        ]
+      },
+      "in_reply_to_user_id_str": {
+        "$id": "#/items/properties/in_reply_to_user_id_str",
+        "type": "null",
+        "title": "The In_reply_to_user_id_str Schema",
+        "default": null,
+        "examples": [
+          null
+        ]
+      },
+      "in_reply_to_screen_name": {
+        "$id": "#/items/properties/in_reply_to_screen_name",
+        "type": "null",
+        "title": "The In_reply_to_screen_name Schema",
+        "default": null,
+        "examples": [
+          null
+        ]
+      },
+      "user": {
+        "$id": "#/items/properties/user",
+        "type": "object",
+        "title": "The User Schema",
+        "required": [
+          "id",
+          "id_str",
+          "name",
+          "screen_name",
+          "location",
+          "description",
+          "url",
+          "entities",
+          "protected",
+          "followers_count",
+          "friends_count",
+          "listed_count",
+          "created_at",
+          "favourites_count",
+          "utc_offset",
+          "time_zone",
+          "geo_enabled",
+          "verified",
+          "statuses_count",
+          "lang",
+          "contributors_enabled",
+          "is_translator",
+          "is_translation_enabled",
+          "profile_background_color",
+          "profile_background_image_url",
+          "profile_background_image_url_https",
+          "profile_background_tile",
+          "profile_image_url",
+          "profile_image_url_https",
+          "profile_banner_url",
+          "profile_link_color",
+          "profile_sidebar_border_color",
+          "profile_sidebar_fill_color",
+          "profile_text_color",
+          "profile_use_background_image",
+          "has_extended_profile",
+          "default_profile",
+          "default_profile_image",
+          "following",
+          "follow_request_sent",
+          "notifications",
+          "translator_type"
+        ],
+        "properties": {
+          "id": {
+            "$id": "#/items/properties/user/properties/id",
+            "type": "integer",
+            "title": "The Id Schema",
+            "default": 0,
+            "examples": [
+              2578833583
+            ]
+          },
+          "id_str": {
+            "$id": "#/items/properties/user/properties/id_str",
+            "type": "string",
+            "title": "The Id_str Schema",
+            "default": "",
+            "examples": [
+              "2578833583"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "name": {
+            "$id": "#/items/properties/user/properties/name",
+            "type": "string",
+            "title": "The Name Schema",
+            "default": "",
+            "examples": [
+              "DBMI at Harvard Med"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "screen_name": {
+            "$id": "#/items/properties/user/properties/screen_name",
+            "type": "string",
+            "title": "The Screen_name Schema",
+            "default": "",
+            "examples": [
+              "HarvardDBMI"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "location": {
+            "$id": "#/items/properties/user/properties/location",
+            "type": "string",
+            "title": "The Location Schema",
+            "default": "",
+            "examples": [
+              "Boston, MA"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "description": {
+            "$id": "#/items/properties/user/properties/description",
+            "type": "string",
+            "title": "The Description Schema",
+            "default": "",
+            "examples": [
+              "Dept of Biomedical Informatics at @Harvard/@harvardmed: #datascience and new models of care powered by innovative computational strategies. RT/Like≠endorse"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "url": {
+            "$id": "#/items/properties/user/properties/url",
+            "type": "string",
+            "title": "The Url Schema",
+            "default": "",
+            "examples": [
+              "https://t.co/CFAqZKNvO8"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "entities": {
+            "$id": "#/items/properties/user/properties/entities",
+            "type": "object",
+            "title": "The Entities Schema",
+            "required": [
+              "url",
+              "description"
+            ],
+            "properties": {
+              "url": {
+                "$id": "#/items/properties/user/properties/entities/properties/url",
+                "type": "object",
+                "title": "The Url Schema",
+                "required": [
+                  "urls"
+                ],
+                "properties": {
+                  "urls": {
+                    "$id": "#/items/properties/user/properties/entities/properties/url/properties/urls",
+                    "type": "array",
+                    "title": "The Urls Schema",
+                    "items": {
+                      "$id": "#/items/properties/user/properties/entities/properties/url/properties/urls/items",
+                      "type": "object",
+                      "title": "The Items Schema",
+                      "required": [
+                        "url",
+                        "expanded_url",
+                        "display_url",
+                        "indices"
+                      ],
+                      "properties": {
+                        "url": {
+                          "$id": "#/items/properties/user/properties/entities/properties/url/properties/urls/items/properties/url",
+                          "type": "string",
+                          "title": "The Url Schema",
+                          "default": "",
+                          "examples": [
+                            "https://t.co/CFAqZKNvO8"
+                          ],
+                          "pattern": "^(.*)$"
+                        },
+                        "expanded_url": {
+                          "$id": "#/items/properties/user/properties/entities/properties/url/properties/urls/items/properties/expanded_url",
+                          "type": "string",
+                          "title": "The Expanded_url Schema",
+                          "default": "",
+                          "examples": [
+                            "https://dbmi.hms.harvard.edu"
+                          ],
+                          "pattern": "^(.*)$"
+                        },
+                        "display_url": {
+                          "$id": "#/items/properties/user/properties/entities/properties/url/properties/urls/items/properties/display_url",
+                          "type": "string",
+                          "title": "The Display_url Schema",
+                          "default": "",
+                          "examples": [
+                            "dbmi.hms.harvard.edu"
+                          ],
+                          "pattern": "^(.*)$"
+                        },
+                        "indices": {
+                          "$id": "#/items/properties/user/properties/entities/properties/url/properties/urls/items/properties/indices",
+                          "type": "array",
+                          "title": "The Indices Schema",
+                          "items": {
+                            "$id": "#/items/properties/user/properties/entities/properties/url/properties/urls/items/properties/indices/items",
+                            "type": "integer",
+                            "title": "The Items Schema",
+                            "default": 0,
+                            "examples": [
+                              0,
+                              23
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "description": {
+                "$id": "#/items/properties/user/properties/entities/properties/description",
+                "type": "object",
+                "title": "The Description Schema",
+                "required": [
+                  "urls"
+                ],
+                "properties": {
+                  "urls": {
+                    "$id": "#/items/properties/user/properties/entities/properties/description/properties/urls",
+                    "type": "array",
+                    "title": "The Urls Schema"
+                  }
+                }
+              }
+            }
+          },
+          "protected": {
+            "$id": "#/items/properties/user/properties/protected",
+            "type": "boolean",
+            "title": "The Protected Schema",
+            "default": false,
+            "examples": [
+              false
+            ]
+          },
+          "followers_count": {
+            "$id": "#/items/properties/user/properties/followers_count",
+            "type": "integer",
+            "title": "The Followers_count Schema",
+            "default": 0,
+            "examples": [
+              3742
+            ]
+          },
+          "friends_count": {
+            "$id": "#/items/properties/user/properties/friends_count",
+            "type": "integer",
+            "title": "The Friends_count Schema",
+            "default": 0,
+            "examples": [
+              746
+            ]
+          },
+          "listed_count": {
+            "$id": "#/items/properties/user/properties/listed_count",
+            "type": "integer",
+            "title": "The Listed_count Schema",
+            "default": 0,
+            "examples": [
+              134
+            ]
+          },
+          "created_at": {
+            "$id": "#/items/properties/user/properties/created_at",
+            "type": "string",
+            "title": "The Created_at Schema",
+            "default": "",
+            "examples": [
+              "Fri Jun 20 15:03:41 +0000 2014"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "favourites_count": {
+            "$id": "#/items/properties/user/properties/favourites_count",
+            "type": "integer",
+            "title": "The Favourites_count Schema",
+            "default": 0,
+            "examples": [
+              1023
+            ]
+          },
+          "utc_offset": {
+            "$id": "#/items/properties/user/properties/utc_offset",
+            "type": "null",
+            "title": "The Utc_offset Schema",
+            "default": null,
+            "examples": [
+              null
+            ]
+          },
+          "time_zone": {
+            "$id": "#/items/properties/user/properties/time_zone",
+            "type": "null",
+            "title": "The Time_zone Schema",
+            "default": null,
+            "examples": [
+              null
+            ]
+          },
+          "geo_enabled": {
+            "$id": "#/items/properties/user/properties/geo_enabled",
+            "type": "boolean",
+            "title": "The Geo_enabled Schema",
+            "default": false,
+            "examples": [
+              true
+            ]
+          },
+          "verified": {
+            "$id": "#/items/properties/user/properties/verified",
+            "type": "boolean",
+            "title": "The Verified Schema",
+            "default": false,
+            "examples": [
+              false
+            ]
+          },
+          "statuses_count": {
+            "$id": "#/items/properties/user/properties/statuses_count",
+            "type": "integer",
+            "title": "The Statuses_count Schema",
+            "default": 0,
+            "examples": [
+              1278
+            ]
+          },
+          "lang": {
+            "$id": "#/items/properties/user/properties/lang",
+            "type": "null",
+            "title": "The Lang Schema",
+            "default": null,
+            "examples": [
+              null
+            ]
+          },
+          "contributors_enabled": {
+            "$id": "#/items/properties/user/properties/contributors_enabled",
+            "type": "boolean",
+            "title": "The Contributors_enabled Schema",
+            "default": false,
+            "examples": [
+              false
+            ]
+          },
+          "is_translator": {
+            "$id": "#/items/properties/user/properties/is_translator",
+            "type": "boolean",
+            "title": "The Is_translator Schema",
+            "default": false,
+            "examples": [
+              false
+            ]
+          },
+          "is_translation_enabled": {
+            "$id": "#/items/properties/user/properties/is_translation_enabled",
+            "type": "boolean",
+            "title": "The Is_translation_enabled Schema",
+            "default": false,
+            "examples": [
+              false
+            ]
+          },
+          "profile_background_color": {
+            "$id": "#/items/properties/user/properties/profile_background_color",
+            "type": "string",
+            "title": "The Profile_background_color Schema",
+            "default": "",
+            "examples": [
+              "000000"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "profile_background_image_url": {
+            "$id": "#/items/properties/user/properties/profile_background_image_url",
+            "type": "string",
+            "title": "The Profile_background_image_url Schema",
+            "default": "",
+            "examples": [
+              "http://abs.twimg.com/images/themes/theme1/bg.png"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "profile_background_image_url_https": {
+            "$id": "#/items/properties/user/properties/profile_background_image_url_https",
+            "type": "string",
+            "title": "The Profile_background_image_url_https Schema",
+            "default": "",
+            "examples": [
+              "https://abs.twimg.com/images/themes/theme1/bg.png"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "profile_background_tile": {
+            "$id": "#/items/properties/user/properties/profile_background_tile",
+            "type": "boolean",
+            "title": "The Profile_background_tile Schema",
+            "default": false,
+            "examples": [
+              false
+            ]
+          },
+          "profile_image_url": {
+            "$id": "#/items/properties/user/properties/profile_image_url",
+            "type": "string",
+            "title": "The Profile_image_url Schema",
+            "default": "",
+            "examples": [
+              "http://pbs.twimg.com/profile_images/997469790481530881/Da1WaBIn_normal.jpg"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "profile_image_url_https": {
+            "$id": "#/items/properties/user/properties/profile_image_url_https",
+            "type": "string",
+            "title": "The Profile_image_url_https Schema",
+            "default": "",
+            "examples": [
+              "https://pbs.twimg.com/profile_images/997469790481530881/Da1WaBIn_normal.jpg"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "profile_banner_url": {
+            "$id": "#/items/properties/user/properties/profile_banner_url",
+            "type": "string",
+            "title": "The Profile_banner_url Schema",
+            "default": "",
+            "examples": [
+              "https://pbs.twimg.com/profile_banners/2578833583/1560980247"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "profile_link_color": {
+            "$id": "#/items/properties/user/properties/profile_link_color",
+            "type": "string",
+            "title": "The Profile_link_color Schema",
+            "default": "",
+            "examples": [
+              "726658"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "profile_sidebar_border_color": {
+            "$id": "#/items/properties/user/properties/profile_sidebar_border_color",
+            "type": "string",
+            "title": "The Profile_sidebar_border_color Schema",
+            "default": "",
+            "examples": [
+              "000000"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "profile_sidebar_fill_color": {
+            "$id": "#/items/properties/user/properties/profile_sidebar_fill_color",
+            "type": "string",
+            "title": "The Profile_sidebar_fill_color Schema",
+            "default": "",
+            "examples": [
+              "000000"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "profile_text_color": {
+            "$id": "#/items/properties/user/properties/profile_text_color",
+            "type": "string",
+            "title": "The Profile_text_color Schema",
+            "default": "",
+            "examples": [
+              "000000"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "profile_use_background_image": {
+            "$id": "#/items/properties/user/properties/profile_use_background_image",
+            "type": "boolean",
+            "title": "The Profile_use_background_image Schema",
+            "default": false,
+            "examples": [
+              false
+            ]
+          },
+          "has_extended_profile": {
+            "$id": "#/items/properties/user/properties/has_extended_profile",
+            "type": "boolean",
+            "title": "The Has_extended_profile Schema",
+            "default": false,
+            "examples": [
+              false
+            ]
+          },
+          "default_profile": {
+            "$id": "#/items/properties/user/properties/default_profile",
+            "type": "boolean",
+            "title": "The Default_profile Schema",
+            "default": false,
+            "examples": [
+              false
+            ]
+          },
+          "default_profile_image": {
+            "$id": "#/items/properties/user/properties/default_profile_image",
+            "type": "boolean",
+            "title": "The Default_profile_image Schema",
+            "default": false,
+            "examples": [
+              false
+            ]
+          },
+          "following": {
+            "$id": "#/items/properties/user/properties/following",
+            "type": "null",
+            "title": "The Following Schema",
+            "default": null,
+            "examples": [
+              null
+            ]
+          },
+          "follow_request_sent": {
+            "$id": "#/items/properties/user/properties/follow_request_sent",
+            "type": "null",
+            "title": "The Follow_request_sent Schema",
+            "default": null,
+            "examples": [
+              null
+            ]
+          },
+          "notifications": {
+            "$id": "#/items/properties/user/properties/notifications",
+            "type": "null",
+            "title": "The Notifications Schema",
+            "default": null,
+            "examples": [
+              null
+            ]
+          },
+          "translator_type": {
+            "$id": "#/items/properties/user/properties/translator_type",
+            "type": "string",
+            "title": "The Translator_type Schema",
+            "default": "",
+            "examples": [
+              "none"
+            ],
+            "pattern": "^(.*)$"
+          }
+        }
+      },
+      "geo": {
+        "$id": "#/items/properties/geo",
+        "type": "null",
+        "title": "The Geo Schema",
+        "default": null,
+        "examples": [
+          null
+        ]
+      },
+      "coordinates": {
+        "$id": "#/items/properties/coordinates",
+        "type": "null",
+        "title": "The Coordinates Schema",
+        "default": null,
+        "examples": [
+          null
+        ]
+      },
+      "place": {
+        "$id": "#/items/properties/place",
+        "type": "null",
+        "title": "The Place Schema",
+        "default": null,
+        "examples": [
+          null
+        ]
+      },
+      "contributors": {
+        "$id": "#/items/properties/contributors",
+        "type": "null",
+        "title": "The Contributors Schema",
+        "default": null,
+        "examples": [
+          null
+        ]
+      },
+      "retweeted_status": {
+        "$id": "#/items/properties/retweeted_status",
+        "type": "object",
+        "title": "The Retweeted_status Schema",
+        "required": [
+          "created_at",
+          "id",
+          "id_str",
+          "text",
+          "truncated",
+          "entities",
+          "source",
+          "in_reply_to_status_id",
+          "in_reply_to_status_id_str",
+          "in_reply_to_user_id",
+          "in_reply_to_user_id_str",
+          "in_reply_to_screen_name",
+          "user",
+          "geo",
+          "coordinates",
+          "place",
+          "contributors",
+          "is_quote_status",
+          "retweet_count",
+          "favorite_count",
+          "favorited",
+          "retweeted",
+          "possibly_sensitive",
+          "lang"
+        ],
+        "properties": {
+          "created_at": {
+            "$id": "#/items/properties/retweeted_status/properties/created_at",
+            "type": "string",
+            "title": "The Created_at Schema",
+            "default": "",
+            "examples": [
+              "Fri Sep 06 21:43:02 +0000 2019"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "id": {
+            "$id": "#/items/properties/retweeted_status/properties/id",
+            "type": "integer",
+            "title": "The Id Schema",
+            "default": 0,
+            "examples": [
+              1170090055005872000
+            ]
+          },
+          "id_str": {
+            "$id": "#/items/properties/retweeted_status/properties/id_str",
+            "type": "string",
+            "title": "The Id_str Schema",
+            "default": "",
+            "examples": [
+              "1170090055005872128"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "text": {
+            "$id": "#/items/properties/retweeted_status/properties/text",
+            "type": "string",
+            "title": "The Text Schema",
+            "default": "",
+            "examples": [
+              "It was a fantastic retreat today @HarvardDBMI. Especially proud of @ejfresch and Jessica ElHalabi for winning best… https://t.co/uzNBF8qa7K"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "truncated": {
+            "$id": "#/items/properties/retweeted_status/properties/truncated",
+            "type": "boolean",
+            "title": "The Truncated Schema",
+            "default": false,
+            "examples": [
+              true
+            ]
+          },
+          "entities": {
+            "$id": "#/items/properties/retweeted_status/properties/entities",
+            "type": "object",
+            "title": "The Entities Schema",
+            "required": [
+              "hashtags",
+              "symbols",
+              "user_mentions",
+              "urls"
+            ],
+            "properties": {
+              "hashtags": {
+                "$id": "#/items/properties/retweeted_status/properties/entities/properties/hashtags",
+                "type": "array",
+                "title": "The Hashtags Schema"
+              },
+              "symbols": {
+                "$id": "#/items/properties/retweeted_status/properties/entities/properties/symbols",
+                "type": "array",
+                "title": "The Symbols Schema"
+              },
+              "user_mentions": {
+                "$id": "#/items/properties/retweeted_status/properties/entities/properties/user_mentions",
+                "type": "array",
+                "title": "The User_mentions Schema",
+                "items": {
+                  "$id": "#/items/properties/retweeted_status/properties/entities/properties/user_mentions/items",
+                  "type": "object",
+                  "title": "The Items Schema",
+                  "required": [
+                    "screen_name",
+                    "name",
+                    "id",
+                    "id_str",
+                    "indices"
+                  ],
+                  "properties": {
+                    "screen_name": {
+                      "$id": "#/items/properties/retweeted_status/properties/entities/properties/user_mentions/items/properties/screen_name",
+                      "type": "string",
+                      "title": "The Screen_name Schema",
+                      "default": "",
+                      "examples": [
+                        "HarvardDBMI"
+                      ],
+                      "pattern": "^(.*)$"
+                    },
+                    "name": {
+                      "$id": "#/items/properties/retweeted_status/properties/entities/properties/user_mentions/items/properties/name",
+                      "type": "string",
+                      "title": "The Name Schema",
+                      "default": "",
+                      "examples": [
+                        "DBMI at Harvard Med"
+                      ],
+                      "pattern": "^(.*)$"
+                    },
+                    "id": {
+                      "$id": "#/items/properties/retweeted_status/properties/entities/properties/user_mentions/items/properties/id",
+                      "type": "integer",
+                      "title": "The Id Schema",
+                      "default": 0,
+                      "examples": [
+                        2578833583
+                      ]
+                    },
+                    "id_str": {
+                      "$id": "#/items/properties/retweeted_status/properties/entities/properties/user_mentions/items/properties/id_str",
+                      "type": "string",
+                      "title": "The Id_str Schema",
+                      "default": "",
+                      "examples": [
+                        "2578833583"
+                      ],
+                      "pattern": "^(.*)$"
+                    },
+                    "indices": {
+                      "$id": "#/items/properties/retweeted_status/properties/entities/properties/user_mentions/items/properties/indices",
+                      "type": "array",
+                      "title": "The Indices Schema",
+                      "items": {
+                        "$id": "#/items/properties/retweeted_status/properties/entities/properties/user_mentions/items/properties/indices/items",
+                        "type": "integer",
+                        "title": "The Items Schema",
+                        "default": 0,
+                        "examples": [
+                          33,
+                          45
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              "urls": {
+                "$id": "#/items/properties/retweeted_status/properties/entities/properties/urls",
+                "type": "array",
+                "title": "The Urls Schema",
+                "items": {
+                  "$id": "#/items/properties/retweeted_status/properties/entities/properties/urls/items",
+                  "type": "object",
+                  "title": "The Items Schema",
+                  "required": [
+                    "url",
+                    "expanded_url",
+                    "display_url",
+                    "indices"
+                  ],
+                  "properties": {
+                    "url": {
+                      "$id": "#/items/properties/retweeted_status/properties/entities/properties/urls/items/properties/url",
+                      "type": "string",
+                      "title": "The Url Schema",
+                      "default": "",
+                      "examples": [
+                        "https://t.co/uzNBF8qa7K"
+                      ],
+                      "pattern": "^(.*)$"
+                    },
+                    "expanded_url": {
+                      "$id": "#/items/properties/retweeted_status/properties/entities/properties/urls/items/properties/expanded_url",
+                      "type": "string",
+                      "title": "The Expanded_url Schema",
+                      "default": "",
+                      "examples": [
+                        "https://twitter.com/i/web/status/1170090055005872128"
+                      ],
+                      "pattern": "^(.*)$"
+                    },
+                    "display_url": {
+                      "$id": "#/items/properties/retweeted_status/properties/entities/properties/urls/items/properties/display_url",
+                      "type": "string",
+                      "title": "The Display_url Schema",
+                      "default": "",
+                      "examples": [
+                        "twitter.com/i/web/status/1…"
+                      ],
+                      "pattern": "^(.*)$"
+                    },
+                    "indices": {
+                      "$id": "#/items/properties/retweeted_status/properties/entities/properties/urls/items/properties/indices",
+                      "type": "array",
+                      "title": "The Indices Schema",
+                      "items": {
+                        "$id": "#/items/properties/retweeted_status/properties/entities/properties/urls/items/properties/indices/items",
+                        "type": "integer",
+                        "title": "The Items Schema",
+                        "default": 0,
+                        "examples": [
+                          116,
+                          139
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "source": {
+            "$id": "#/items/properties/retweeted_status/properties/source",
+            "type": "string",
+            "title": "The Source Schema",
+            "default": "",
+            "examples": [
+              "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "in_reply_to_status_id": {
+            "$id": "#/items/properties/retweeted_status/properties/in_reply_to_status_id",
+            "type": "null",
+            "title": "The In_reply_to_status_id Schema",
+            "default": null,
+            "examples": [
+              null
+            ]
+          },
+          "in_reply_to_status_id_str": {
+            "$id": "#/items/properties/retweeted_status/properties/in_reply_to_status_id_str",
+            "type": "null",
+            "title": "The In_reply_to_status_id_str Schema",
+            "default": null,
+            "examples": [
+              null
+            ]
+          },
+          "in_reply_to_user_id": {
+            "$id": "#/items/properties/retweeted_status/properties/in_reply_to_user_id",
+            "type": "null",
+            "title": "The In_reply_to_user_id Schema",
+            "default": null,
+            "examples": [
+              null
+            ]
+          },
+          "in_reply_to_user_id_str": {
+            "$id": "#/items/properties/retweeted_status/properties/in_reply_to_user_id_str",
+            "type": "null",
+            "title": "The In_reply_to_user_id_str Schema",
+            "default": null,
+            "examples": [
+              null
+            ]
+          },
+          "in_reply_to_screen_name": {
+            "$id": "#/items/properties/retweeted_status/properties/in_reply_to_screen_name",
+            "type": "null",
+            "title": "The In_reply_to_screen_name Schema",
+            "default": null,
+            "examples": [
+              null
+            ]
+          },
+          "user": {
+            "$id": "#/items/properties/retweeted_status/properties/user",
+            "type": "object",
+            "title": "The User Schema",
+            "required": [
+              "id",
+              "id_str",
+              "name",
+              "screen_name",
+              "location",
+              "description",
+              "url",
+              "entities",
+              "protected",
+              "followers_count",
+              "friends_count",
+              "listed_count",
+              "created_at",
+              "favourites_count",
+              "utc_offset",
+              "time_zone",
+              "geo_enabled",
+              "verified",
+              "statuses_count",
+              "lang",
+              "contributors_enabled",
+              "is_translator",
+              "is_translation_enabled",
+              "profile_background_color",
+              "profile_background_image_url",
+              "profile_background_image_url_https",
+              "profile_background_tile",
+              "profile_image_url",
+              "profile_image_url_https",
+              "profile_banner_url",
+              "profile_link_color",
+              "profile_sidebar_border_color",
+              "profile_sidebar_fill_color",
+              "profile_text_color",
+              "profile_use_background_image",
+              "has_extended_profile",
+              "default_profile",
+              "default_profile_image",
+              "following",
+              "follow_request_sent",
+              "notifications",
+              "translator_type"
+            ],
+            "properties": {
+              "id": {
+                "$id": "#/items/properties/retweeted_status/properties/user/properties/id",
+                "type": "integer",
+                "title": "The Id Schema",
+                "default": 0,
+                "examples": [
+                  49430405
+                ]
+              },
+              "id_str": {
+                "$id": "#/items/properties/retweeted_status/properties/user/properties/id_str",
+                "type": "string",
+                "title": "The Id_str Schema",
+                "default": "",
+                "examples": [
+                  "49430405"
+                ],
+                "pattern": "^(.*)$"
+              },
+              "name": {
+                "$id": "#/items/properties/retweeted_status/properties/user/properties/name",
+                "type": "string",
+                "title": "The Name Schema",
+                "default": "",
+                "examples": [
+                  "Maha Farhat"
+                ],
+                "pattern": "^(.*)$"
+              },
+              "screen_name": {
+                "$id": "#/items/properties/retweeted_status/properties/user/properties/screen_name",
+                "type": "string",
+                "title": "The Screen_name Schema",
+                "default": "",
+                "examples": [
+                  "MahaFarhat"
+                ],
+                "pattern": "^(.*)$"
+              },
+              "location": {
+                "$id": "#/items/properties/retweeted_status/properties/user/properties/location",
+                "type": "string",
+                "title": "The Location Schema",
+                "default": "",
+                "examples": [
+                  "Boston, MA"
+                ],
+                "pattern": "^(.*)$"
+              },
+              "description": {
+                "$id": "#/items/properties/retweeted_status/properties/user/properties/description",
+                "type": "string",
+                "title": "The Description Schema",
+                "default": "",
+                "examples": [
+                  "Assist Prof @HarvardDBMI & pulmICU doc @MGHMedicine. Interested in how TB and human pathogens become more virulent & evade treatment using data science"
+                ],
+                "pattern": "^(.*)$"
+              },
+              "url": {
+                "$id": "#/items/properties/retweeted_status/properties/user/properties/url",
+                "type": "string",
+                "title": "The Url Schema",
+                "default": "",
+                "examples": [
+                  "https://t.co/xPk3FomJIG"
+                ],
+                "pattern": "^(.*)$"
+              },
+              "entities": {
+                "$id": "#/items/properties/retweeted_status/properties/user/properties/entities",
+                "type": "object",
+                "title": "The Entities Schema",
+                "required": [
+                  "url",
+                  "description"
+                ],
+                "properties": {
+                  "url": {
+                    "$id": "#/items/properties/retweeted_status/properties/user/properties/entities/properties/url",
+                    "type": "object",
+                    "title": "The Url Schema",
+                    "required": [
+                      "urls"
+                    ],
+                    "properties": {
+                      "urls": {
+                        "$id": "#/items/properties/retweeted_status/properties/user/properties/entities/properties/url/properties/urls",
+                        "type": "array",
+                        "title": "The Urls Schema",
+                        "items": {
+                          "$id": "#/items/properties/retweeted_status/properties/user/properties/entities/properties/url/properties/urls/items",
+                          "type": "object",
+                          "title": "The Items Schema",
+                          "required": [
+                            "url",
+                            "expanded_url",
+                            "display_url",
+                            "indices"
+                          ],
+                          "properties": {
+                            "url": {
+                              "$id": "#/items/properties/retweeted_status/properties/user/properties/entities/properties/url/properties/urls/items/properties/url",
+                              "type": "string",
+                              "title": "The Url Schema",
+                              "default": "",
+                              "examples": [
+                                "https://t.co/xPk3FomJIG"
+                              ],
+                              "pattern": "^(.*)$"
+                            },
+                            "expanded_url": {
+                              "$id": "#/items/properties/retweeted_status/properties/user/properties/entities/properties/url/properties/urls/items/properties/expanded_url",
+                              "type": "string",
+                              "title": "The Expanded_url Schema",
+                              "default": "",
+                              "examples": [
+                                "http://scholar.harvard.edu/mahafarhat"
+                              ],
+                              "pattern": "^(.*)$"
+                            },
+                            "display_url": {
+                              "$id": "#/items/properties/retweeted_status/properties/user/properties/entities/properties/url/properties/urls/items/properties/display_url",
+                              "type": "string",
+                              "title": "The Display_url Schema",
+                              "default": "",
+                              "examples": [
+                                "scholar.harvard.edu/mahafarhat"
+                              ],
+                              "pattern": "^(.*)$"
+                            },
+                            "indices": {
+                              "$id": "#/items/properties/retweeted_status/properties/user/properties/entities/properties/url/properties/urls/items/properties/indices",
+                              "type": "array",
+                              "title": "The Indices Schema",
+                              "items": {
+                                "$id": "#/items/properties/retweeted_status/properties/user/properties/entities/properties/url/properties/urls/items/properties/indices/items",
+                                "type": "integer",
+                                "title": "The Items Schema",
+                                "default": 0,
+                                "examples": [
+                                  0,
+                                  23
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "description": {
+                    "$id": "#/items/properties/retweeted_status/properties/user/properties/entities/properties/description",
+                    "type": "object",
+                    "title": "The Description Schema",
+                    "required": [
+                      "urls"
+                    ],
+                    "properties": {
+                      "urls": {
+                        "$id": "#/items/properties/retweeted_status/properties/user/properties/entities/properties/description/properties/urls",
+                        "type": "array",
+                        "title": "The Urls Schema"
+                      }
+                    }
+                  }
+                }
+              },
+              "protected": {
+                "$id": "#/items/properties/retweeted_status/properties/user/properties/protected",
+                "type": "boolean",
+                "title": "The Protected Schema",
+                "default": false,
+                "examples": [
+                  false
+                ]
+              },
+              "followers_count": {
+                "$id": "#/items/properties/retweeted_status/properties/user/properties/followers_count",
+                "type": "integer",
+                "title": "The Followers_count Schema",
+                "default": 0,
+                "examples": [
+                  731
+                ]
+              },
+              "friends_count": {
+                "$id": "#/items/properties/retweeted_status/properties/user/properties/friends_count",
+                "type": "integer",
+                "title": "The Friends_count Schema",
+                "default": 0,
+                "examples": [
+                  622
+                ]
+              },
+              "listed_count": {
+                "$id": "#/items/properties/retweeted_status/properties/user/properties/listed_count",
+                "type": "integer",
+                "title": "The Listed_count Schema",
+                "default": 0,
+                "examples": [
+                  15
+                ]
+              },
+              "created_at": {
+                "$id": "#/items/properties/retweeted_status/properties/user/properties/created_at",
+                "type": "string",
+                "title": "The Created_at Schema",
+                "default": "",
+                "examples": [
+                  "Sun Jun 21 21:16:22 +0000 2009"
+                ],
+                "pattern": "^(.*)$"
+              },
+              "favourites_count": {
+                "$id": "#/items/properties/retweeted_status/properties/user/properties/favourites_count",
+                "type": "integer",
+                "title": "The Favourites_count Schema",
+                "default": 0,
+                "examples": [
+                  1447
+                ]
+              },
+              "utc_offset": {
+                "$id": "#/items/properties/retweeted_status/properties/user/properties/utc_offset",
+                "type": "null",
+                "title": "The Utc_offset Schema",
+                "default": null,
+                "examples": [
+                  null
+                ]
+              },
+              "time_zone": {
+                "$id": "#/items/properties/retweeted_status/properties/user/properties/time_zone",
+                "type": "null",
+                "title": "The Time_zone Schema",
+                "default": null,
+                "examples": [
+                  null
+                ]
+              },
+              "geo_enabled": {
+                "$id": "#/items/properties/retweeted_status/properties/user/properties/geo_enabled",
+                "type": "boolean",
+                "title": "The Geo_enabled Schema",
+                "default": false,
+                "examples": [
+                  false
+                ]
+              },
+              "verified": {
+                "$id": "#/items/properties/retweeted_status/properties/user/properties/verified",
+                "type": "boolean",
+                "title": "The Verified Schema",
+                "default": false,
+                "examples": [
+                  false
+                ]
+              },
+              "statuses_count": {
+                "$id": "#/items/properties/retweeted_status/properties/user/properties/statuses_count",
+                "type": "integer",
+                "title": "The Statuses_count Schema",
+                "default": 0,
+                "examples": [
+                  884
+                ]
+              },
+              "lang": {
+                "$id": "#/items/properties/retweeted_status/properties/user/properties/lang",
+                "type": "null",
+                "title": "The Lang Schema",
+                "default": null,
+                "examples": [
+                  null
+                ]
+              },
+              "contributors_enabled": {
+                "$id": "#/items/properties/retweeted_status/properties/user/properties/contributors_enabled",
+                "type": "boolean",
+                "title": "The Contributors_enabled Schema",
+                "default": false,
+                "examples": [
+                  false
+                ]
+              },
+              "is_translator": {
+                "$id": "#/items/properties/retweeted_status/properties/user/properties/is_translator",
+                "type": "boolean",
+                "title": "The Is_translator Schema",
+                "default": false,
+                "examples": [
+                  false
+                ]
+              },
+              "is_translation_enabled": {
+                "$id": "#/items/properties/retweeted_status/properties/user/properties/is_translation_enabled",
+                "type": "boolean",
+                "title": "The Is_translation_enabled Schema",
+                "default": false,
+                "examples": [
+                  false
+                ]
+              },
+              "profile_background_color": {
+                "$id": "#/items/properties/retweeted_status/properties/user/properties/profile_background_color",
+                "type": "string",
+                "title": "The Profile_background_color Schema",
+                "default": "",
+                "examples": [
+                  "C0DEED"
+                ],
+                "pattern": "^(.*)$"
+              },
+              "profile_background_image_url": {
+                "$id": "#/items/properties/retweeted_status/properties/user/properties/profile_background_image_url",
+                "type": "string",
+                "title": "The Profile_background_image_url Schema",
+                "default": "",
+                "examples": [
+                  "http://abs.twimg.com/images/themes/theme1/bg.png"
+                ],
+                "pattern": "^(.*)$"
+              },
+              "profile_background_image_url_https": {
+                "$id": "#/items/properties/retweeted_status/properties/user/properties/profile_background_image_url_https",
+                "type": "string",
+                "title": "The Profile_background_image_url_https Schema",
+                "default": "",
+                "examples": [
+                  "https://abs.twimg.com/images/themes/theme1/bg.png"
+                ],
+                "pattern": "^(.*)$"
+              },
+              "profile_background_tile": {
+                "$id": "#/items/properties/retweeted_status/properties/user/properties/profile_background_tile",
+                "type": "boolean",
+                "title": "The Profile_background_tile Schema",
+                "default": false,
+                "examples": [
+                  false
+                ]
+              },
+              "profile_image_url": {
+                "$id": "#/items/properties/retweeted_status/properties/user/properties/profile_image_url",
+                "type": "string",
+                "title": "The Profile_image_url Schema",
+                "default": "",
+                "examples": [
+                  "http://pbs.twimg.com/profile_images/826149242779664384/HrCsufPF_normal.jpg"
+                ],
+                "pattern": "^(.*)$"
+              },
+              "profile_image_url_https": {
+                "$id": "#/items/properties/retweeted_status/properties/user/properties/profile_image_url_https",
+                "type": "string",
+                "title": "The Profile_image_url_https Schema",
+                "default": "",
+                "examples": [
+                  "https://pbs.twimg.com/profile_images/826149242779664384/HrCsufPF_normal.jpg"
+                ],
+                "pattern": "^(.*)$"
+              },
+              "profile_banner_url": {
+                "$id": "#/items/properties/retweeted_status/properties/user/properties/profile_banner_url",
+                "type": "string",
+                "title": "The Profile_banner_url Schema",
+                "default": "",
+                "examples": [
+                  "https://pbs.twimg.com/profile_banners/49430405/1485804340"
+                ],
+                "pattern": "^(.*)$"
+              },
+              "profile_link_color": {
+                "$id": "#/items/properties/retweeted_status/properties/user/properties/profile_link_color",
+                "type": "string",
+                "title": "The Profile_link_color Schema",
+                "default": "",
+                "examples": [
+                  "1DA1F2"
+                ],
+                "pattern": "^(.*)$"
+              },
+              "profile_sidebar_border_color": {
+                "$id": "#/items/properties/retweeted_status/properties/user/properties/profile_sidebar_border_color",
+                "type": "string",
+                "title": "The Profile_sidebar_border_color Schema",
+                "default": "",
+                "examples": [
+                  "C0DEED"
+                ],
+                "pattern": "^(.*)$"
+              },
+              "profile_sidebar_fill_color": {
+                "$id": "#/items/properties/retweeted_status/properties/user/properties/profile_sidebar_fill_color",
+                "type": "string",
+                "title": "The Profile_sidebar_fill_color Schema",
+                "default": "",
+                "examples": [
+                  "DDEEF6"
+                ],
+                "pattern": "^(.*)$"
+              },
+              "profile_text_color": {
+                "$id": "#/items/properties/retweeted_status/properties/user/properties/profile_text_color",
+                "type": "string",
+                "title": "The Profile_text_color Schema",
+                "default": "",
+                "examples": [
+                  "333333"
+                ],
+                "pattern": "^(.*)$"
+              },
+              "profile_use_background_image": {
+                "$id": "#/items/properties/retweeted_status/properties/user/properties/profile_use_background_image",
+                "type": "boolean",
+                "title": "The Profile_use_background_image Schema",
+                "default": false,
+                "examples": [
+                  true
+                ]
+              },
+              "has_extended_profile": {
+                "$id": "#/items/properties/retweeted_status/properties/user/properties/has_extended_profile",
+                "type": "boolean",
+                "title": "The Has_extended_profile Schema",
+                "default": false,
+                "examples": [
+                  false
+                ]
+              },
+              "default_profile": {
+                "$id": "#/items/properties/retweeted_status/properties/user/properties/default_profile",
+                "type": "boolean",
+                "title": "The Default_profile Schema",
+                "default": false,
+                "examples": [
+                  true
+                ]
+              },
+              "default_profile_image": {
+                "$id": "#/items/properties/retweeted_status/properties/user/properties/default_profile_image",
+                "type": "boolean",
+                "title": "The Default_profile_image Schema",
+                "default": false,
+                "examples": [
+                  false
+                ]
+              },
+              "following": {
+                "$id": "#/items/properties/retweeted_status/properties/user/properties/following",
+                "type": "null",
+                "title": "The Following Schema",
+                "default": null,
+                "examples": [
+                  null
+                ]
+              },
+              "follow_request_sent": {
+                "$id": "#/items/properties/retweeted_status/properties/user/properties/follow_request_sent",
+                "type": "null",
+                "title": "The Follow_request_sent Schema",
+                "default": null,
+                "examples": [
+                  null
+                ]
+              },
+              "notifications": {
+                "$id": "#/items/properties/retweeted_status/properties/user/properties/notifications",
+                "type": "null",
+                "title": "The Notifications Schema",
+                "default": null,
+                "examples": [
+                  null
+                ]
+              },
+              "translator_type": {
+                "$id": "#/items/properties/retweeted_status/properties/user/properties/translator_type",
+                "type": "string",
+                "title": "The Translator_type Schema",
+                "default": "",
+                "examples": [
+                  "none"
+                ],
+                "pattern": "^(.*)$"
+              }
+            }
+          },
+          "geo": {
+            "$id": "#/items/properties/retweeted_status/properties/geo",
+            "type": "null",
+            "title": "The Geo Schema",
+            "default": null,
+            "examples": [
+              null
+            ]
+          },
+          "coordinates": {
+            "$id": "#/items/properties/retweeted_status/properties/coordinates",
+            "type": "null",
+            "title": "The Coordinates Schema",
+            "default": null,
+            "examples": [
+              null
+            ]
+          },
+          "place": {
+            "$id": "#/items/properties/retweeted_status/properties/place",
+            "type": "null",
+            "title": "The Place Schema",
+            "default": null,
+            "examples": [
+              null
+            ]
+          },
+          "contributors": {
+            "$id": "#/items/properties/retweeted_status/properties/contributors",
+            "type": "null",
+            "title": "The Contributors Schema",
+            "default": null,
+            "examples": [
+              null
+            ]
+          },
+          "is_quote_status": {
+            "$id": "#/items/properties/retweeted_status/properties/is_quote_status",
+            "type": "boolean",
+            "title": "The Is_quote_status Schema",
+            "default": false,
+            "examples": [
+              false
+            ]
+          },
+          "retweet_count": {
+            "$id": "#/items/properties/retweeted_status/properties/retweet_count",
+            "type": "integer",
+            "title": "The Retweet_count Schema",
+            "default": 0,
+            "examples": [
+              5
+            ]
+          },
+          "favorite_count": {
+            "$id": "#/items/properties/retweeted_status/properties/favorite_count",
+            "type": "integer",
+            "title": "The Favorite_count Schema",
+            "default": 0,
+            "examples": [
+              42
+            ]
+          },
+          "favorited": {
+            "$id": "#/items/properties/retweeted_status/properties/favorited",
+            "type": "boolean",
+            "title": "The Favorited Schema",
+            "default": false,
+            "examples": [
+              false
+            ]
+          },
+          "retweeted": {
+            "$id": "#/items/properties/retweeted_status/properties/retweeted",
+            "type": "boolean",
+            "title": "The Retweeted Schema",
+            "default": false,
+            "examples": [
+              false
+            ]
+          },
+          "possibly_sensitive": {
+            "$id": "#/items/properties/retweeted_status/properties/possibly_sensitive",
+            "type": "boolean",
+            "title": "The Possibly_sensitive Schema",
+            "default": false,
+            "examples": [
+              false
+            ]
+          },
+          "lang": {
+            "$id": "#/items/properties/retweeted_status/properties/lang",
+            "type": "string",
+            "title": "The Lang Schema",
+            "default": "",
+            "examples": [
+              "en"
+            ],
+            "pattern": "^(.*)$"
+          }
+        }
+      },
+      "is_quote_status": {
+        "$id": "#/items/properties/is_quote_status",
+        "type": "boolean",
+        "title": "The Is_quote_status Schema",
+        "default": false,
+        "examples": [
+          false
+        ]
+      },
+      "retweet_count": {
+        "$id": "#/items/properties/retweet_count",
+        "type": "integer",
+        "title": "The Retweet_count Schema",
+        "default": 0,
+        "examples": [
+          5
+        ]
+      },
+      "favorite_count": {
+        "$id": "#/items/properties/favorite_count",
+        "type": "integer",
+        "title": "The Favorite_count Schema",
+        "default": 0,
+        "examples": [
+          0
+        ]
+      },
+      "favorited": {
+        "$id": "#/items/properties/favorited",
+        "type": "boolean",
+        "title": "The Favorited Schema",
+        "default": false,
+        "examples": [
+          false
+        ]
+      },
+      "retweeted": {
+        "$id": "#/items/properties/retweeted",
+        "type": "boolean",
+        "title": "The Retweeted Schema",
+        "default": false,
+        "examples": [
+          false
+        ]
+      },
+      "lang": {
+        "$id": "#/items/properties/lang",
+        "type": "string",
+        "title": "The Lang Schema",
+        "default": "",
+        "examples": [
+          "en"
+        ],
+        "pattern": "^(.*)$"
+      }
+    }
+  }
+}

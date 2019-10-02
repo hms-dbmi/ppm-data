@@ -1,0 +1,162 @@
+[
+  {
+    "providerId": "c39b2081-23ae-489f-b1aa-9168926ae522",
+    "credentials": "MD",
+    "specialty": "Otolaryngology"
+  },
+  {
+    "providerId": "580588c8-3e4b-4dac-8ba1-03b7c6194484",
+    "credentials": "MD",
+    "specialty": "Radiology"
+  },
+  {
+    "providerId": "3ec3f939-c40a-4506-91ec-1b2be47a4690",
+    "credentials": "MD",
+    "specialty": "Pathology"
+  },
+  {
+    "providerId": "f4a23aba-a5e9-438e-9b50-8ef9a1643438",
+    "credentials": "MD",
+    "specialty": "Pathology"
+  },
+  {
+    "providerId": "d12e9433-d227-4b3b-ad27-fff34f2a4b92",
+    "credentials": "DO",
+    "specialty": "Hematology/Oncology"
+  },
+  {
+    "providerId": "0846e325-8c2d-4765-9038-db6315aa3792",
+    "credentials": "MD",
+    "specialty": "Nuclear Medicine"
+  },
+  {
+    "providerId": "ccdf3066-581f-46c2-bb40-5e88f27f6d9d",
+    "credentials": "MD",
+    "specialty": "Dermatology"
+  },
+  {
+    "providerId": "d5d3f007-69a2-46ce-a6f8-080689a97b5f",
+    "credentials": "MD",
+    "specialty": "Pathology"
+  },
+  {
+    "providerId": "0bf29c3a-28bc-437d-ae25-ca99012062bc",
+    "credentials": "MD",
+    "specialty": "Radiology"
+  },
+  {
+    "providerId": "beb293c4-94d2-443a-ada9-97be26967f76",
+    "credentials": "MD",
+    "specialty": "Dermatology"
+  },
+  {
+    "providerId": "26322bec-d2ab-45ed-84c7-c1cd86b90b9c",
+    "credentials": "MD",
+    "specialty": "Hematology/Oncology"
+  },
+  {
+    "providerId": "d71ca47d-ad88-4abb-b86d-62963d1d31ef",
+    "credentials": "MD",
+    "specialty": "Radiology"
+  },
+  {
+    "providerId": "49fdf711-33a4-41f6-82cb-46c1d47e8544",
+    "credentials": "MD",
+    "specialty": "Hematology/Oncology"
+  },
+  {
+    "providerId": "5f53eb19-446d-49af-be75-42f63d070393",
+    "credentials": "MD",
+    "specialty": "Otolaryngology"
+  },
+  {
+    "providerId": "8d950e71-dfc0-4348-a3e4-de0b8adac598",
+    "credentials": "NP",
+    "specialty": "Family Medicine"
+  },
+  {
+    "providerId": "f290b569-03d0-480f-9f34-4b5d8e096f7e",
+    "credentials": "MD",
+    "specialty": "Radiation Oncology"
+  },
+  {
+    "providerId": "f9a68337-f026-42ae-abbb-c3c8e4e9bb42",
+    "credentials": "MD",
+    "specialty": "Radiation Oncology"
+  },
+  {
+    "providerId": "e2669cc2-307a-4de1-8297-fa8f9c13a33b",
+    "credentials": "MD",
+    "specialty": "Radiology"
+  },
+  {
+    "providerId": "0c1a77f2-01c4-4b98-95ba-c75000da7112",
+    "credentials": "MD",
+    "specialty": "Radiology"
+  },
+  {
+    "providerId": "865d73bc-df92-44f0-8390-59b00cc7a10e",
+    "credentials": "MD",
+    "specialty": "Radiology"
+  },
+  {
+    "providerId": "06647e57-5c3a-40ed-ad17-7eac883879e6",
+    "credentials": "MD",
+    "specialty": "Radiology"
+  },
+  {
+    "providerId": "05865b6e-7b50-4a47-a8d1-9a98794b3bb8",
+    "credentials": "MD",
+    "specialty": "Pathology"
+  },
+  {
+    "providerId": "d43ea629-16f0-48e3-95b6-5fca23a6d452",
+    "credentials": "MD",
+    "specialty": "Pathology"
+  },
+  {
+    "providerId": "b16a8060-2cf7-4f5a-8894-b537c40bf372",
+    "credentials": "MD PHD",
+    "specialty": "Pathology"
+  },
+  {
+    "providerId": "8fa6ab4c-4fbb-4baf-aa7d-b03936543ff7",
+    "credentials": "MD",
+    "specialty": "Radiology"
+  },
+  {
+    "providerId": "b5edbeb0-71b0-4bdb-8e6c-c1db5743b451",
+    "credentials": "MD",
+    "specialty": "Radiology"
+  },
+  {
+    "providerId": "183a145d-88ae-4d03-8fd6-c5fbd3c00e31",
+    "credentials": "MD",
+    "specialty": "Otolaryngology"
+  },
+  {
+    "providerId": "71282381-f404-4ccc-8f9b-138ca851e05e",
+    "credentials": "MD",
+    "specialty": "Pathology"
+  },
+  {
+    "providerId": "a978647f-96c9-4c65-b2d7-72783293709a",
+    "credentials": "MD",
+    "specialty": "Radiology"
+  },
+  {
+    "providerId": "76bdd1e5-a745-402a-ac54-29ebb81aa077",
+    "credentials": "MD",
+    "specialty": "Radiology"
+  },
+  {
+    "providerId": "5caa8287-c4a0-4ca6-8a64-1f73a0011d77",
+    "credentials": "MD",
+    "specialty": "Radiology"
+  },
+  {
+    "providerId": "593c9e72-f3fa-4840-8c75-fecea03bcd3d",
+    "credentials": "MD",
+    "specialty": "Radiology"
+  }
+]
