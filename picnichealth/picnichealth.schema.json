@@ -1,0 +1,1689 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "object",
+  "title": "The Root Schema",
+  "required": [
+    "ppm_id",
+    "dob",
+    "sex",
+    "condition",
+    "conditionReadable",
+    "measurement",
+    "measurementReadable",
+    "drug",
+    "drugReadable",
+    "record",
+    "visit",
+    "note",
+    "careSite",
+    "provider",
+    "location",
+    "concept",
+    "vocabulary"
+  ],
+  "properties": {
+    "ppm_id": {
+      "$id": "#/properties/ppm_id",
+      "type": "string",
+      "title": "The Ppm_id Schema",
+      "default": "",
+      "examples": [
+        "15"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "dob": {
+      "$id": "#/properties/dob",
+      "type": "string",
+      "title": "The Dob Schema",
+      "default": "",
+      "examples": [
+        "1964-05-16T12:00:00"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "sex": {
+      "$id": "#/properties/sex",
+      "type": "string",
+      "title": "The Sex Schema",
+      "default": "",
+      "examples": [
+        "male",
+        "female"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "condition": {
+      "$id": "#/properties/condition",
+      "type": "array",
+      "title": "The Condition Schema",
+      "items": {
+        "$id": "#/properties/condition/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "conditionId",
+          "personId",
+          "visitId",
+          "conceptId",
+          "additionalStandardConceptIds",
+          "startDate",
+          "startDatePrecision",
+          "endDate",
+          "endDatePrecision",
+          "typeConceptId",
+          "sourceConceptId",
+          "recordId"
+        ],
+        "properties": {
+          "conditionId": {
+            "$id": "#/properties/condition/items/properties/conditionId",
+            "type": "string",
+            "title": "The Conditionid Schema",
+            "default": "",
+            "examples": [
+              "35d91810-769c-4a08-a65f-6b512d26164d"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "personId": {
+            "$id": "#/properties/condition/items/properties/personId",
+            "type": "string",
+            "title": "The Personid Schema",
+            "default": "",
+            "examples": [
+              "6443e49a-5a7f-4fa3-a9c1-e9b809456810"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "visitId": {
+            "$id": "#/properties/condition/items/properties/visitId",
+            "type": "string",
+            "title": "The Visitid Schema",
+            "default": "",
+            "examples": [
+              "0d77dfe0-bb1e-4ad0-a060-63fdcd417a62"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "conceptId": {
+            "$id": "#/properties/condition/items/properties/conceptId",
+            "type": "string",
+            "title": "The Conceptid Schema",
+            "default": "",
+            "examples": [
+              "963226be-ff46-5fd8-93e1-257f00881976"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "additionalStandardConceptIds": {
+            "$id": "#/properties/condition/items/properties/additionalStandardConceptIds",
+            "type": "string",
+            "title": "The Additionalstandardconceptids Schema",
+            "default": "",
+            "examples": [
+              ""
+            ],
+            "pattern": "^(.*)$"
+          },
+          "startDate": {
+            "$id": "#/properties/condition/items/properties/startDate",
+            "type": "string",
+            "title": "The Startdate Schema",
+            "default": "",
+            "examples": [
+              ""
+            ],
+            "pattern": "^(.*)$"
+          },
+          "startDatePrecision": {
+            "$id": "#/properties/condition/items/properties/startDatePrecision",
+            "type": "string",
+            "title": "The Startdateprecision Schema",
+            "default": "",
+            "examples": [
+              ""
+            ],
+            "pattern": "^(.*)$"
+          },
+          "endDate": {
+            "$id": "#/properties/condition/items/properties/endDate",
+            "type": "string",
+            "title": "The Enddate Schema",
+            "default": "",
+            "examples": [
+              ""
+            ],
+            "pattern": "^(.*)$"
+          },
+          "endDatePrecision": {
+            "$id": "#/properties/condition/items/properties/endDatePrecision",
+            "type": "string",
+            "title": "The Enddateprecision Schema",
+            "default": "",
+            "examples": [
+              ""
+            ],
+            "pattern": "^(.*)$"
+          },
+          "typeConceptId": {
+            "$id": "#/properties/condition/items/properties/typeConceptId",
+            "type": "string",
+            "title": "The Typeconceptid Schema",
+            "default": "",
+            "examples": [
+              "f67d8cbc-98f8-5c90-9b03-155832f0d5cf"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "sourceConceptId": {
+            "$id": "#/properties/condition/items/properties/sourceConceptId",
+            "type": "string",
+            "title": "The Sourceconceptid Schema",
+            "default": "",
+            "examples": [
+              "69a935d4-5de5-5257-890f-ff85499eae74"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "recordId": {
+            "$id": "#/properties/condition/items/properties/recordId",
+            "type": "string",
+            "title": "The Recordid Schema",
+            "default": "",
+            "examples": [
+              "d91e2161-6b7a-4e4b-972d-1c08238a3bc2"
+            ],
+            "pattern": "^(.*)$"
+          }
+        }
+      }
+    },
+    "conditionReadable": {
+      "$id": "#/properties/conditionReadable",
+      "type": "array",
+      "title": "The Conditionreadable Schema",
+      "items": {
+        "$id": "#/properties/conditionReadable/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "conditionId",
+          "personId",
+          "visitId",
+          "conceptName",
+          "additionalStandardConceptNames",
+          "startDate",
+          "startDatePrecision",
+          "endDate",
+          "endDatePrecision",
+          "typeConceptName",
+          "sourceConceptName"
+        ],
+        "properties": {
+          "conditionId": {
+            "$id": "#/properties/conditionReadable/items/properties/conditionId",
+            "type": "string",
+            "title": "The Conditionid Schema",
+            "default": "",
+            "examples": [
+              "35d91810-769c-4a08-a65f-6b512d26164d"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "personId": {
+            "$id": "#/properties/conditionReadable/items/properties/personId",
+            "type": "string",
+            "title": "The Personid Schema",
+            "default": "",
+            "examples": [
+              "6443e49a-5a7f-4fa3-a9c1-e9b809456810"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "visitId": {
+            "$id": "#/properties/conditionReadable/items/properties/visitId",
+            "type": "string",
+            "title": "The Visitid Schema",
+            "default": "",
+            "examples": [
+              "0d77dfe0-bb1e-4ad0-a060-63fdcd417a62"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "conceptName": {
+            "$id": "#/properties/conditionReadable/items/properties/conceptName",
+            "type": "string",
+            "title": "The Conceptname Schema",
+            "default": "",
+            "examples": [
+              "Primary malignant neoplasm of kidney"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "additionalStandardConceptNames": {
+            "$id": "#/properties/conditionReadable/items/properties/additionalStandardConceptNames",
+            "type": "string",
+            "title": "The Additionalstandardconceptnames Schema",
+            "default": "",
+            "examples": [
+              ""
+            ],
+            "pattern": "^(.*)$"
+          },
+          "startDate": {
+            "$id": "#/properties/conditionReadable/items/properties/startDate",
+            "type": "string",
+            "title": "The Startdate Schema",
+            "default": "",
+            "examples": [
+              ""
+            ],
+            "pattern": "^(.*)$"
+          },
+          "startDatePrecision": {
+            "$id": "#/properties/conditionReadable/items/properties/startDatePrecision",
+            "type": "string",
+            "title": "The Startdateprecision Schema",
+            "default": "",
+            "examples": [
+              ""
+            ],
+            "pattern": "^(.*)$"
+          },
+          "endDate": {
+            "$id": "#/properties/conditionReadable/items/properties/endDate",
+            "type": "string",
+            "title": "The Enddate Schema",
+            "default": "",
+            "examples": [
+              ""
+            ],
+            "pattern": "^(.*)$"
+          },
+          "endDatePrecision": {
+            "$id": "#/properties/conditionReadable/items/properties/endDatePrecision",
+            "type": "string",
+            "title": "The Enddateprecision Schema",
+            "default": "",
+            "examples": [
+              ""
+            ],
+            "pattern": "^(.*)$"
+          },
+          "typeConceptName": {
+            "$id": "#/properties/conditionReadable/items/properties/typeConceptName",
+            "type": "string",
+            "title": "The Typeconceptname Schema",
+            "default": "",
+            "examples": [
+              "Primary Condition"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "sourceConceptName": {
+            "$id": "#/properties/conditionReadable/items/properties/sourceConceptName",
+            "type": "string",
+            "title": "The Sourceconceptname Schema",
+            "default": "",
+            "examples": [
+              "Malignant neoplasm of kidney, except pelvis"
+            ],
+            "pattern": "^(.*)$"
+          }
+        }
+      }
+    },
+    "measurement": {
+      "$id": "#/properties/measurement",
+      "type": "array",
+      "title": "The Measurement Schema",
+      "items": {
+        "$id": "#/properties/measurement/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "measurementId",
+          "personId",
+          "visitId",
+          "conceptId",
+          "startDate",
+          "startDatePrecision",
+          "endDate",
+          "endDatePrecision",
+          "valueType",
+          "value",
+          "unitConceptId",
+          "referenceRangeType",
+          "referenceRange",
+          "typeConceptId",
+          "sourceValueType",
+          "sourceValue",
+          "sourceUnitConceptId",
+          "sourceReferenceRangeType",
+          "sourceReferenceRange",
+          "isOutlierConfirmed",
+          "recordId"
+        ],
+        "properties": {
+          "measurementId": {
+            "$id": "#/properties/measurement/items/properties/measurementId",
+            "type": "string",
+            "title": "The Measurementid Schema",
+            "default": "",
+            "examples": [
+              "164afabf-6b79-42fa-ac09-60b41b023159"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "personId": {
+            "$id": "#/properties/measurement/items/properties/personId",
+            "type": "string",
+            "title": "The Personid Schema",
+            "default": "",
+            "examples": [
+              "6443e49a-5a7f-4fa3-a9c1-e9b809456810"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "visitId": {
+            "$id": "#/properties/measurement/items/properties/visitId",
+            "type": "string",
+            "title": "The Visitid Schema",
+            "default": "",
+            "examples": [
+              "24ccd988-45f1-480e-911d-9cd26f8efa90"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "conceptId": {
+            "$id": "#/properties/measurement/items/properties/conceptId",
+            "type": "string",
+            "title": "The Conceptid Schema",
+            "default": "",
+            "examples": [
+              "46c8559d-0466-516d-adf8-21b9339f19ab"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "startDate": {
+            "$id": "#/properties/measurement/items/properties/startDate",
+            "type": "string",
+            "title": "The Startdate Schema",
+            "default": "",
+            "examples": [
+              ""
+            ],
+            "pattern": "^(.*)$"
+          },
+          "startDatePrecision": {
+            "$id": "#/properties/measurement/items/properties/startDatePrecision",
+            "type": "string",
+            "title": "The Startdateprecision Schema",
+            "default": "",
+            "examples": [
+              ""
+            ],
+            "pattern": "^(.*)$"
+          },
+          "endDate": {
+            "$id": "#/properties/measurement/items/properties/endDate",
+            "type": "string",
+            "title": "The Enddate Schema",
+            "default": "",
+            "examples": [
+              ""
+            ],
+            "pattern": "^(.*)$"
+          },
+          "endDatePrecision": {
+            "$id": "#/properties/measurement/items/properties/endDatePrecision",
+            "type": "string",
+            "title": "The Enddateprecision Schema",
+            "default": "",
+            "examples": [
+              ""
+            ],
+            "pattern": "^(.*)$"
+          },
+          "valueType": {
+            "$id": "#/properties/measurement/items/properties/valueType",
+            "type": "string",
+            "title": "The Valuetype Schema",
+            "default": "",
+            "examples": [
+              "number"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "value": {
+            "$id": "#/properties/measurement/items/properties/value",
+            "type": "object",
+            "title": "The Value Schema",
+            "required": [
+              "number"
+            ],
+            "properties": {
+              "number": {
+                "$id": "#/properties/measurement/items/properties/value/properties/number",
+                "type": "integer",
+                "title": "The Number Schema",
+                "default": 0,
+                "examples": [
+                  14
+                ]
+              }
+            }
+          },
+          "unitConceptId": {
+            "$id": "#/properties/measurement/items/properties/unitConceptId",
+            "type": "string",
+            "title": "The Unitconceptid Schema",
+            "default": "",
+            "examples": [
+              "a4ac7469-f0f7-52c8-9f2c-ed1a92f2d99e"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "referenceRangeType": {
+            "$id": "#/properties/measurement/items/properties/referenceRangeType",
+            "type": "string",
+            "title": "The Referencerangetype Schema",
+            "default": "",
+            "examples": [
+              ""
+            ],
+            "pattern": "^(.*)$"
+          },
+          "referenceRange": {
+            "$id": "#/properties/measurement/items/properties/referenceRange",
+            "type": "string",
+            "title": "The Referencerange Schema",
+            "default": "",
+            "examples": [
+              ""
+            ],
+            "pattern": "^(.*)$"
+          },
+          "typeConceptId": {
+            "$id": "#/properties/measurement/items/properties/typeConceptId",
+            "type": "string",
+            "title": "The Typeconceptid Schema",
+            "default": "",
+            "examples": [
+              "7b055171-b1b4-59db-9772-ded1d34162a5"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "sourceValueType": {
+            "$id": "#/properties/measurement/items/properties/sourceValueType",
+            "type": "string",
+            "title": "The Sourcevaluetype Schema",
+            "default": "",
+            "examples": [
+              "number"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "sourceValue": {
+            "$id": "#/properties/measurement/items/properties/sourceValue",
+            "type": "object",
+            "title": "The Sourcevalue Schema",
+            "required": [
+              "number"
+            ],
+            "properties": {
+              "number": {
+                "$id": "#/properties/measurement/items/properties/sourceValue/properties/number",
+                "type": "integer",
+                "title": "The Number Schema",
+                "default": 0,
+                "examples": [
+                  14
+                ]
+              }
+            }
+          },
+          "sourceUnitConceptId": {
+            "$id": "#/properties/measurement/items/properties/sourceUnitConceptId",
+            "type": "string",
+            "title": "The Sourceunitconceptid Schema",
+            "default": "",
+            "examples": [
+              "a4ac7469-f0f7-52c8-9f2c-ed1a92f2d99e"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "sourceReferenceRangeType": {
+            "$id": "#/properties/measurement/items/properties/sourceReferenceRangeType",
+            "type": "string",
+            "title": "The Sourcereferencerangetype Schema",
+            "default": "",
+            "examples": [
+              ""
+            ],
+            "pattern": "^(.*)$"
+          },
+          "sourceReferenceRange": {
+            "$id": "#/properties/measurement/items/properties/sourceReferenceRange",
+            "type": "string",
+            "title": "The Sourcereferencerange Schema",
+            "default": "",
+            "examples": [
+              ""
+            ],
+            "pattern": "^(.*)$"
+          },
+          "isOutlierConfirmed": {
+            "$id": "#/properties/measurement/items/properties/isOutlierConfirmed",
+            "type": "string",
+            "title": "The Isoutlierconfirmed Schema",
+            "default": "",
+            "examples": [
+              ""
+            ],
+            "pattern": "^(.*)$"
+          },
+          "recordId": {
+            "$id": "#/properties/measurement/items/properties/recordId",
+            "type": "string",
+            "title": "The Recordid Schema",
+            "default": "",
+            "examples": [
+              "d91e2161-6b7a-4e4b-972d-1c08238a3bc2"
+            ],
+            "pattern": "^(.*)$"
+          }
+        }
+      }
+    },
+    "measurementReadable": {
+      "$id": "#/properties/measurementReadable",
+      "type": "array",
+      "title": "The Measurementreadable Schema",
+      "items": {
+        "$id": "#/properties/measurementReadable/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "measurementId",
+          "personId",
+          "visitId",
+          "conceptName",
+          "startDate",
+          "startDatePrecision",
+          "endDate",
+          "endDatePrecision",
+          "valueType",
+          "value",
+          "unitConceptName",
+          "referenceRangeType",
+          "referenceRange",
+          "typeConceptName",
+          "sourceValueType",
+          "sourceValue",
+          "sourceUnitConceptName",
+          "sourceReferenceRangeType",
+          "sourceReferenceRange",
+          "isOutlierConfirmed"
+        ],
+        "properties": {
+          "measurementId": {
+            "$id": "#/properties/measurementReadable/items/properties/measurementId",
+            "type": "string",
+            "title": "The Measurementid Schema",
+            "default": "",
+            "examples": [
+              "164afabf-6b79-42fa-ac09-60b41b023159"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "personId": {
+            "$id": "#/properties/measurementReadable/items/properties/personId",
+            "type": "string",
+            "title": "The Personid Schema",
+            "default": "",
+            "examples": [
+              "6443e49a-5a7f-4fa3-a9c1-e9b809456810"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "visitId": {
+            "$id": "#/properties/measurementReadable/items/properties/visitId",
+            "type": "string",
+            "title": "The Visitid Schema",
+            "default": "",
+            "examples": [
+              "24ccd988-45f1-480e-911d-9cd26f8efa90"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "conceptName": {
+            "$id": "#/properties/measurementReadable/items/properties/conceptName",
+            "type": "string",
+            "title": "The Conceptname Schema",
+            "default": "",
+            "examples": [
+              "Respiratory rate"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "startDate": {
+            "$id": "#/properties/measurementReadable/items/properties/startDate",
+            "type": "string",
+            "title": "The Startdate Schema",
+            "default": "",
+            "examples": [
+              ""
+            ],
+            "pattern": "^(.*)$"
+          },
+          "startDatePrecision": {
+            "$id": "#/properties/measurementReadable/items/properties/startDatePrecision",
+            "type": "string",
+            "title": "The Startdateprecision Schema",
+            "default": "",
+            "examples": [
+              ""
+            ],
+            "pattern": "^(.*)$"
+          },
+          "endDate": {
+            "$id": "#/properties/measurementReadable/items/properties/endDate",
+            "type": "string",
+            "title": "The Enddate Schema",
+            "default": "",
+            "examples": [
+              ""
+            ],
+            "pattern": "^(.*)$"
+          },
+          "endDatePrecision": {
+            "$id": "#/properties/measurementReadable/items/properties/endDatePrecision",
+            "type": "string",
+            "title": "The Enddateprecision Schema",
+            "default": "",
+            "examples": [
+              ""
+            ],
+            "pattern": "^(.*)$"
+          },
+          "valueType": {
+            "$id": "#/properties/measurementReadable/items/properties/valueType",
+            "type": "string",
+            "title": "The Valuetype Schema",
+            "default": "",
+            "examples": [
+              "number"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "value": {
+            "$id": "#/properties/measurementReadable/items/properties/value",
+            "type": "integer",
+            "title": "The Value Schema",
+            "default": 0,
+            "examples": [
+              14
+            ]
+          },
+          "unitConceptName": {
+            "$id": "#/properties/measurementReadable/items/properties/unitConceptName",
+            "type": "string",
+            "title": "The Unitconceptname Schema",
+            "default": "",
+            "examples": [
+              "/min"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "referenceRangeType": {
+            "$id": "#/properties/measurementReadable/items/properties/referenceRangeType",
+            "type": "string",
+            "title": "The Referencerangetype Schema",
+            "default": "",
+            "examples": [
+              ""
+            ],
+            "pattern": "^(.*)$"
+          },
+          "referenceRange": {
+            "$id": "#/properties/measurementReadable/items/properties/referenceRange",
+            "type": "string",
+            "title": "The Referencerange Schema",
+            "default": "",
+            "examples": [
+              ""
+            ],
+            "pattern": "^(.*)$"
+          },
+          "typeConceptName": {
+            "$id": "#/properties/measurementReadable/items/properties/typeConceptName",
+            "type": "string",
+            "title": "The Typeconceptname Schema",
+            "default": "",
+            "examples": [
+              "From physical examination"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "sourceValueType": {
+            "$id": "#/properties/measurementReadable/items/properties/sourceValueType",
+            "type": "string",
+            "title": "The Sourcevaluetype Schema",
+            "default": "",
+            "examples": [
+              "number"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "sourceValue": {
+            "$id": "#/properties/measurementReadable/items/properties/sourceValue",
+            "type": "integer",
+            "title": "The Sourcevalue Schema",
+            "default": 0,
+            "examples": [
+              14
+            ]
+          },
+          "sourceUnitConceptName": {
+            "$id": "#/properties/measurementReadable/items/properties/sourceUnitConceptName",
+            "type": "string",
+            "title": "The Sourceunitconceptname Schema",
+            "default": "",
+            "examples": [
+              "/min"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "sourceReferenceRangeType": {
+            "$id": "#/properties/measurementReadable/items/properties/sourceReferenceRangeType",
+            "type": "string",
+            "title": "The Sourcereferencerangetype Schema",
+            "default": "",
+            "examples": [
+              ""
+            ],
+            "pattern": "^(.*)$"
+          },
+          "sourceReferenceRange": {
+            "$id": "#/properties/measurementReadable/items/properties/sourceReferenceRange",
+            "type": "string",
+            "title": "The Sourcereferencerange Schema",
+            "default": "",
+            "examples": [
+              ""
+            ],
+            "pattern": "^(.*)$"
+          },
+          "isOutlierConfirmed": {
+            "$id": "#/properties/measurementReadable/items/properties/isOutlierConfirmed",
+            "type": "string",
+            "title": "The Isoutlierconfirmed Schema",
+            "default": "",
+            "examples": [
+              ""
+            ],
+            "pattern": "^(.*)$"
+          }
+        }
+      }
+    },
+    "drug": {
+      "$id": "#/properties/drug",
+      "type": "array",
+      "title": "The Drug Schema",
+      "items": {
+        "$id": "#/properties/drug/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "drugId",
+          "personId",
+          "visitId",
+          "conceptId",
+          "startDate",
+          "startDatePrecision",
+          "endDate",
+          "endDatePrecision",
+          "strength",
+          "doseFormConceptId",
+          "typeConceptId",
+          "recordId"
+        ],
+        "properties": {
+          "drugId": {
+            "$id": "#/properties/drug/items/properties/drugId",
+            "type": "string",
+            "title": "The Drugid Schema",
+            "default": "",
+            "examples": [
+              "cb60fe5e-556f-43cf-9b59-ed6e98a26d0c"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "personId": {
+            "$id": "#/properties/drug/items/properties/personId",
+            "type": "string",
+            "title": "The Personid Schema",
+            "default": "",
+            "examples": [
+              "6443e49a-5a7f-4fa3-a9c1-e9b809456810"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "visitId": {
+            "$id": "#/properties/drug/items/properties/visitId",
+            "type": "string",
+            "title": "The Visitid Schema",
+            "default": "",
+            "examples": [
+              "24ccd988-45f1-480e-911d-9cd26f8efa90"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "conceptId": {
+            "$id": "#/properties/drug/items/properties/conceptId",
+            "type": "string",
+            "title": "The Conceptid Schema",
+            "default": "",
+            "examples": [
+              "a4727b8b-e7cb-51fe-aa8c-679402c97a2b"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "startDate": {
+            "$id": "#/properties/drug/items/properties/startDate",
+            "type": "string",
+            "title": "The Startdate Schema",
+            "default": "",
+            "examples": [
+              ""
+            ],
+            "pattern": "^(.*)$"
+          },
+          "startDatePrecision": {
+            "$id": "#/properties/drug/items/properties/startDatePrecision",
+            "type": "string",
+            "title": "The Startdateprecision Schema",
+            "default": "",
+            "examples": [
+              ""
+            ],
+            "pattern": "^(.*)$"
+          },
+          "endDate": {
+            "$id": "#/properties/drug/items/properties/endDate",
+            "type": "string",
+            "title": "The Enddate Schema",
+            "default": "",
+            "examples": [
+              ""
+            ],
+            "pattern": "^(.*)$"
+          },
+          "endDatePrecision": {
+            "$id": "#/properties/drug/items/properties/endDatePrecision",
+            "type": "string",
+            "title": "The Enddateprecision Schema",
+            "default": "",
+            "examples": [
+              ""
+            ],
+            "pattern": "^(.*)$"
+          },
+          "strength": {
+            "$id": "#/properties/drug/items/properties/strength",
+            "type": "array",
+            "title": "The Strength Schema",
+            "items": {
+              "$id": "#/properties/drug/items/properties/strength/items",
+              "type": "object",
+              "title": "The Items Schema",
+              "required": [
+                "value",
+                "unitConceptId",
+                "ingredientConceptId"
+              ],
+              "properties": {
+                "value": {
+                  "$id": "#/properties/drug/items/properties/strength/items/properties/value",
+                  "type": "null",
+                  "title": "The Value Schema",
+                  "default": null,
+                  "examples": [
+                    null
+                  ]
+                },
+                "unitConceptId": {
+                  "$id": "#/properties/drug/items/properties/strength/items/properties/unitConceptId",
+                  "type": "null",
+                  "title": "The Unitconceptid Schema",
+                  "default": null,
+                  "examples": [
+                    null
+                  ]
+                },
+                "ingredientConceptId": {
+                  "$id": "#/properties/drug/items/properties/strength/items/properties/ingredientConceptId",
+                  "type": "string",
+                  "title": "The Ingredientconceptid Schema",
+                  "default": "",
+                  "examples": [
+                    "a4727b8b-e7cb-51fe-aa8c-679402c97a2b"
+                  ],
+                  "pattern": "^(.*)$"
+                }
+              }
+            }
+          },
+          "doseFormConceptId": {
+            "$id": "#/properties/drug/items/properties/doseFormConceptId",
+            "type": "string",
+            "title": "The Doseformconceptid Schema",
+            "default": "",
+            "examples": [
+              ""
+            ],
+            "pattern": "^(.*)$"
+          },
+          "typeConceptId": {
+            "$id": "#/properties/drug/items/properties/typeConceptId",
+            "type": "string",
+            "title": "The Typeconceptid Schema",
+            "default": "",
+            "examples": [
+              "a1f9aa3d-7c59-53ea-8131-a77503a16c5e"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "recordId": {
+            "$id": "#/properties/drug/items/properties/recordId",
+            "type": "string",
+            "title": "The Recordid Schema",
+            "default": "",
+            "examples": [
+              "d91e2161-6b7a-4e4b-972d-1c08238a3bc2"
+            ],
+            "pattern": "^(.*)$"
+          }
+        }
+      }
+    },
+    "drugReadable": {
+      "$id": "#/properties/drugReadable",
+      "type": "array",
+      "title": "The Drugreadable Schema",
+      "items": {
+        "$id": "#/properties/drugReadable/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "drugId",
+          "personId",
+          "visitId",
+          "conceptName",
+          "startDate",
+          "startDatePrecision",
+          "endDate",
+          "endDatePrecision",
+          "strength",
+          "doseFormConceptName",
+          "typeConceptName"
+        ],
+        "properties": {
+          "drugId": {
+            "$id": "#/properties/drugReadable/items/properties/drugId",
+            "type": "string",
+            "title": "The Drugid Schema",
+            "default": "",
+            "examples": [
+              "cb60fe5e-556f-43cf-9b59-ed6e98a26d0c"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "personId": {
+            "$id": "#/properties/drugReadable/items/properties/personId",
+            "type": "string",
+            "title": "The Personid Schema",
+            "default": "",
+            "examples": [
+              "6443e49a-5a7f-4fa3-a9c1-e9b809456810"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "visitId": {
+            "$id": "#/properties/drugReadable/items/properties/visitId",
+            "type": "string",
+            "title": "The Visitid Schema",
+            "default": "",
+            "examples": [
+              "24ccd988-45f1-480e-911d-9cd26f8efa90"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "conceptName": {
+            "$id": "#/properties/drugReadable/items/properties/conceptName",
+            "type": "string",
+            "title": "The Conceptname Schema",
+            "default": "",
+            "examples": [
+              "levothyroxine"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "startDate": {
+            "$id": "#/properties/drugReadable/items/properties/startDate",
+            "type": "string",
+            "title": "The Startdate Schema",
+            "default": "",
+            "examples": [
+              ""
+            ],
+            "pattern": "^(.*)$"
+          },
+          "startDatePrecision": {
+            "$id": "#/properties/drugReadable/items/properties/startDatePrecision",
+            "type": "string",
+            "title": "The Startdateprecision Schema",
+            "default": "",
+            "examples": [
+              ""
+            ],
+            "pattern": "^(.*)$"
+          },
+          "endDate": {
+            "$id": "#/properties/drugReadable/items/properties/endDate",
+            "type": "string",
+            "title": "The Enddate Schema",
+            "default": "",
+            "examples": [
+              ""
+            ],
+            "pattern": "^(.*)$"
+          },
+          "endDatePrecision": {
+            "$id": "#/properties/drugReadable/items/properties/endDatePrecision",
+            "type": "string",
+            "title": "The Enddateprecision Schema",
+            "default": "",
+            "examples": [
+              ""
+            ],
+            "pattern": "^(.*)$"
+          },
+          "strength": {
+            "$id": "#/properties/drugReadable/items/properties/strength",
+            "type": "string",
+            "title": "The Strength Schema",
+            "default": "",
+            "examples": [
+              ""
+            ],
+            "pattern": "^(.*)$"
+          },
+          "doseFormConceptName": {
+            "$id": "#/properties/drugReadable/items/properties/doseFormConceptName",
+            "type": "string",
+            "title": "The Doseformconceptname Schema",
+            "default": "",
+            "examples": [
+              ""
+            ],
+            "pattern": "^(.*)$"
+          },
+          "typeConceptName": {
+            "$id": "#/properties/drugReadable/items/properties/typeConceptName",
+            "type": "string",
+            "title": "The Typeconceptname Schema",
+            "default": "",
+            "examples": [
+              "Medication list entry"
+            ],
+            "pattern": "^(.*)$"
+          }
+        }
+      }
+    },
+    "record": {
+      "$id": "#/properties/record",
+      "type": "array",
+      "title": "The Record Schema",
+      "items": {
+        "$id": "#/properties/record/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "recordId",
+          "personId",
+          "fileType"
+        ],
+        "properties": {
+          "recordId": {
+            "$id": "#/properties/record/items/properties/recordId",
+            "type": "string",
+            "title": "The Recordid Schema",
+            "default": "",
+            "examples": [
+              "68d22a68-da4c-4c4c-8cbe-a9378568601e"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "personId": {
+            "$id": "#/properties/record/items/properties/personId",
+            "type": "string",
+            "title": "The Personid Schema",
+            "default": "",
+            "examples": [
+              "6443e49a-5a7f-4fa3-a9c1-e9b809456810"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "fileType": {
+            "$id": "#/properties/record/items/properties/fileType",
+            "type": "string",
+            "title": "The Filetype Schema",
+            "default": "",
+            "examples": [
+              "pdf_files"
+            ],
+            "pattern": "^(.*)$"
+          }
+        }
+      }
+    },
+    "visit": {
+      "$id": "#/properties/visit",
+      "type": "array",
+      "title": "The Visit Schema",
+      "items": {
+        "$id": "#/properties/visit/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "visitId",
+          "personId",
+          "conceptId",
+          "startDate",
+          "startDatePrecision",
+          "endDate",
+          "endDatePrecision",
+          "title",
+          "subtitle",
+          "careSiteId",
+          "performingProviderId",
+          "referringProviderId"
+        ],
+        "properties": {
+          "visitId": {
+            "$id": "#/properties/visit/items/properties/visitId",
+            "type": "string",
+            "title": "The Visitid Schema",
+            "default": "",
+            "examples": [
+              "0d77dfe0-bb1e-4ad0-a060-63fdcd417a62"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "personId": {
+            "$id": "#/properties/visit/items/properties/personId",
+            "type": "string",
+            "title": "The Personid Schema",
+            "default": "",
+            "examples": [
+              "6443e49a-5a7f-4fa3-a9c1-e9b809456810"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "conceptId": {
+            "$id": "#/properties/visit/items/properties/conceptId",
+            "type": "string",
+            "title": "The Conceptid Schema",
+            "default": "",
+            "examples": [
+              "041b3c2a-0392-5274-a51a-6e66fcfa06d3"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "startDate": {
+            "$id": "#/properties/visit/items/properties/startDate",
+            "type": "string",
+            "title": "The Startdate Schema",
+            "default": "",
+            "examples": [
+              "2015-07-21T12:00:00"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "startDatePrecision": {
+            "$id": "#/properties/visit/items/properties/startDatePrecision",
+            "type": "string",
+            "title": "The Startdateprecision Schema",
+            "default": "",
+            "examples": [
+              "DAY"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "endDate": {
+            "$id": "#/properties/visit/items/properties/endDate",
+            "type": "string",
+            "title": "The Enddate Schema",
+            "default": "",
+            "examples": [
+              ""
+            ],
+            "pattern": "^(.*)$"
+          },
+          "endDatePrecision": {
+            "$id": "#/properties/visit/items/properties/endDatePrecision",
+            "type": "string",
+            "title": "The Enddateprecision Schema",
+            "default": "",
+            "examples": [
+              ""
+            ],
+            "pattern": "^(.*)$"
+          },
+          "title": {
+            "$id": "#/properties/visit/items/properties/title",
+            "type": "string",
+            "title": "The Title Schema",
+            "default": "",
+            "examples": [
+              "Office Visit"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "subtitle": {
+            "$id": "#/properties/visit/items/properties/subtitle",
+            "type": "string",
+            "title": "The Subtitle Schema",
+            "default": "",
+            "examples": [
+              "Urology"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "careSiteId": {
+            "$id": "#/properties/visit/items/properties/careSiteId",
+            "type": "string",
+            "title": "The Caresiteid Schema",
+            "default": "",
+            "examples": [
+              "a2022ee3-a5b8-4408-891e-b6decc5068d0"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "performingProviderId": {
+            "$id": "#/properties/visit/items/properties/performingProviderId",
+            "type": "string",
+            "title": "The Performingproviderid Schema",
+            "default": "",
+            "examples": [
+              "cec64e94-fdfa-4858-a903-978c0aa95f19"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "referringProviderId": {
+            "$id": "#/properties/visit/items/properties/referringProviderId",
+            "type": "string",
+            "title": "The Referringproviderid Schema",
+            "default": "",
+            "examples": [
+              ""
+            ],
+            "pattern": "^(.*)$"
+          }
+        }
+      }
+    },
+    "note": {
+      "$id": "#/properties/note",
+      "type": "array",
+      "title": "The Note Schema",
+      "items": {
+        "$id": "#/properties/note/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "noteId",
+          "personId",
+          "visitId",
+          "typeConceptId",
+          "title",
+          "text",
+          "recordId"
+        ],
+        "properties": {
+          "noteId": {
+            "$id": "#/properties/note/items/properties/noteId",
+            "type": "string",
+            "title": "The Noteid Schema",
+            "default": "",
+            "examples": [
+              "4b91b5cf-5049-45f8-a9ec-b1d198a4d4f2"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "personId": {
+            "$id": "#/properties/note/items/properties/personId",
+            "type": "string",
+            "title": "The Personid Schema",
+            "default": "",
+            "examples": [
+              "6443e49a-5a7f-4fa3-a9c1-e9b809456810"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "visitId": {
+            "$id": "#/properties/note/items/properties/visitId",
+            "type": "string",
+            "title": "The Visitid Schema",
+            "default": "",
+            "examples": [
+              "0d77dfe0-bb1e-4ad0-a060-63fdcd417a62"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "typeConceptId": {
+            "$id": "#/properties/note/items/properties/typeConceptId",
+            "type": "string",
+            "title": "The Typeconceptid Schema",
+            "default": "",
+            "examples": [
+              "fc60c4d4-8e89-5dec-a593-0ccd135c0a53"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "title": {
+            "$id": "#/properties/note/items/properties/title",
+            "type": "string",
+            "title": "The Title Schema",
+            "default": "",
+            "examples": [
+              "Impression/Plan"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "text": {
+            "$id": "#/properties/note/items/properties/text",
+            "type": "string",
+            "title": "The Text Schema",
+            "default": "",
+            "examples": [
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tortor sapien, pharetra id dolor sed, convallis aliquam urna. Phasellus vitae lacus vitae nisl vulputate efficitur eget eu magna. Aliquam sed convallis ante, id sollicitudin mauris. Fusce gravida diam sit amet ultricies elementum. Vivamus non arcu sem. Ut vitae sagittis eros, a porta diam. In tristique nibh sem, nec luctus ex iaculis et. Ut fringilla in massa in pharetra. Maecenas at nulla vitae ex finibus ultricies. Sed suscipit aliquet risus at faucibus. Nulla facilisi."
+            ],
+            "pattern": "^(.*)$"
+          },
+          "recordId": {
+            "$id": "#/properties/note/items/properties/recordId",
+            "type": "string",
+            "title": "The Recordid Schema",
+            "default": "",
+            "examples": [
+              "d91e2161-6b7a-4e4b-972d-1c08238a3bc2"
+            ],
+            "pattern": "^(.*)$"
+          }
+        }
+      }
+    },
+    "careSite": {
+      "$id": "#/properties/careSite",
+      "type": "array",
+      "title": "The Caresite Schema",
+      "items": {
+        "$id": "#/properties/careSite/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "careSiteId",
+          "locationId"
+        ],
+        "properties": {
+          "careSiteId": {
+            "$id": "#/properties/careSite/items/properties/careSiteId",
+            "type": "string",
+            "title": "The Caresiteid Schema",
+            "default": "",
+            "examples": [
+              "a2022ee3-a5b8-4408-891e-b6decc5068d0"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "locationId": {
+            "$id": "#/properties/careSite/items/properties/locationId",
+            "type": "string",
+            "title": "The Locationid Schema",
+            "default": "",
+            "examples": [
+              "ed929ff9-4bf6-43cf-8e5c-f9162eb86c17"
+            ],
+            "pattern": "^(.*)$"
+          }
+        }
+      }
+    },
+    "provider": {
+      "$id": "#/properties/provider",
+      "type": "array",
+      "title": "The Provider Schema",
+      "items": {
+        "$id": "#/properties/provider/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "providerId",
+          "credentials",
+          "specialty"
+        ],
+        "properties": {
+          "providerId": {
+            "$id": "#/properties/provider/items/properties/providerId",
+            "type": "string",
+            "title": "The Providerid Schema",
+            "default": "",
+            "examples": [
+              "cec64e94-fdfa-4858-a903-978c0aa95f19"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "credentials": {
+            "$id": "#/properties/provider/items/properties/credentials",
+            "type": "string",
+            "title": "The Credentials Schema",
+            "default": "",
+            "examples": [
+              "MD"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "specialty": {
+            "$id": "#/properties/provider/items/properties/specialty",
+            "type": "string",
+            "title": "The Specialty Schema",
+            "default": "",
+            "examples": [
+              "Urology"
+            ],
+            "pattern": "^(.*)$"
+          }
+        }
+      }
+    },
+    "location": {
+      "$id": "#/properties/location",
+      "type": "array",
+      "title": "The Location Schema",
+      "items": {
+        "$id": "#/properties/location/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "locationId",
+          "zipCode",
+          "state"
+        ],
+        "properties": {
+          "locationId": {
+            "$id": "#/properties/location/items/properties/locationId",
+            "type": "string",
+            "title": "The Locationid Schema",
+            "default": "",
+            "examples": [
+              "ed929ff9-4bf6-43cf-8e5c-f9162eb86c17"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "zipCode": {
+            "$id": "#/properties/location/items/properties/zipCode",
+            "type": "integer",
+            "title": "The Zipcode Schema",
+            "default": 0,
+            "examples": [
+              10065
+            ]
+          },
+          "state": {
+            "$id": "#/properties/location/items/properties/state",
+            "type": "string",
+            "title": "The State Schema",
+            "default": "",
+            "examples": [
+              "NY"
+            ],
+            "pattern": "^(.*)$"
+          }
+        }
+      }
+    },
+    "concept": {
+      "$id": "#/properties/concept",
+      "type": "array",
+      "title": "The Concept Schema",
+      "items": {
+        "$id": "#/properties/concept/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "conceptId",
+          "omopConceptId",
+          "code",
+          "name",
+          "vocabularyId",
+          "isStandard"
+        ],
+        "properties": {
+          "conceptId": {
+            "$id": "#/properties/concept/items/properties/conceptId",
+            "type": "string",
+            "title": "The Conceptid Schema",
+            "default": "",
+            "examples": [
+              "fc60c4d4-8e89-5dec-a593-0ccd135c0a53"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "omopConceptId": {
+            "$id": "#/properties/concept/items/properties/omopConceptId",
+            "type": "integer",
+            "title": "The Omopconceptid Schema",
+            "default": 0,
+            "examples": [
+              44814640
+            ]
+          },
+          "code": {
+            "$id": "#/properties/concept/items/properties/code",
+            "type": "string",
+            "title": "The Code Schema",
+            "default": "",
+            "examples": [
+              "OMOP generated"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "name": {
+            "$id": "#/properties/concept/items/properties/name",
+            "type": "string",
+            "title": "The Name Schema",
+            "default": "",
+            "examples": [
+              "Outpatient note"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "vocabularyId": {
+            "$id": "#/properties/concept/items/properties/vocabularyId",
+            "type": "string",
+            "title": "The Vocabularyid Schema",
+            "default": "",
+            "examples": [
+              "ec2a77f1-5696-5d53-bca0-ddbc871e8de2"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "isStandard": {
+            "$id": "#/properties/concept/items/properties/isStandard",
+            "type": "boolean",
+            "title": "The Isstandard Schema",
+            "default": false,
+            "examples": [
+              true
+            ]
+          }
+        }
+      }
+    },
+    "vocabulary": {
+      "$id": "#/properties/vocabulary",
+      "type": "array",
+      "title": "The Vocabulary Schema",
+      "items": {
+        "$id": "#/properties/vocabulary/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "vocabularyId",
+          "name",
+          "version"
+        ],
+        "properties": {
+          "vocabularyId": {
+            "$id": "#/properties/vocabulary/items/properties/vocabularyId",
+            "type": "string",
+            "title": "The Vocabularyid Schema",
+            "default": "",
+            "examples": [
+              "673b49d2-73de-5b8e-9e3d-cda337fddce7"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "name": {
+            "$id": "#/properties/vocabulary/items/properties/name",
+            "type": "string",
+            "title": "The Name Schema",
+            "default": "",
+            "examples": [
+              "OMOP Condition Occurrence Type"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "version": {
+            "$id": "#/properties/vocabulary/items/properties/version",
+            "type": "string",
+            "title": "The Version Schema",
+            "default": "",
+            "examples": [
+              ""
+            ],
+            "pattern": "^(.*)$"
+          }
+        }
+      }
+    }
+  }
+}
